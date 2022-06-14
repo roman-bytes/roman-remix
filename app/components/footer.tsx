@@ -8,7 +8,7 @@ const Footer: FunctionComponent = (): ReactElement => (
             Made with love from Michigan.
         </div>
         <div className="absolute xl:right-5 lg:right-2.5 text-sm origin-center transform rotate-90 translate-x-1/2">
-            <a href="https://github.com/roman-bytes/roman-bytes-dev">
+            <a href="https://github.com/roman-bytes/roman-remix">
                 Source Code
             </a>
         </div>
