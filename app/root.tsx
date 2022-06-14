@@ -12,18 +12,11 @@ import Layout from './components/layout';
 import type { LinksFunction } from "@remix-run/node";
 
 import tailwindUrl from "./styles/tailwind.css";
-import main from './styles/main.css';
-// import globalStylesUrl from "~/styles/global.css";
-// import darkStylesUrl from "~/styles/dark.css";
 
 // https://remix.run/api/app#links
 export let links: LinksFunction = () => {
   return [
-    { rel: "stylesheet", href: tailwindUrl },
-    {
-      rel: "stylesheet",
-      href: main,
-    }
+    { rel: "stylesheet", href: tailwindUrl }
   ];
 };
 

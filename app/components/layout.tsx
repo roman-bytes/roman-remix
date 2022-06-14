@@ -11,7 +11,6 @@ import Footer from './footer';
 import Social from './social';
 import Nav from './nav';
 import Logo from './logo';
-import '../styles/main.css';
 
 interface LayoutProps {
     children: ReactNode;
