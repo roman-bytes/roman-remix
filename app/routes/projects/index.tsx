@@ -10,15 +10,15 @@ type RepoData = {
 };
 
 export const loader = async () => {
-    const fusilierRepos = fetch('https://api.github.com/orgs/fusilier-farms/repos').then(res => {
-        console.log('res', res)
-        return res.json();
-    });
+    // const fusilierRepos = fetch('https://api.github.com/orgs/fusilier-farms/repos').then(res => {
+    //     console.log('res', res)
+    //     return res.json();
+    // });
     const bytesRepos = await fetch('https://api.github.com/users/roman-bytes/repos').then(response => response.json());
     // const data = [...bytesRepos, ...fusilierRepos];
-    // const portfolio = data.filter((repo: RepoData) => repo.topics.includes('portfolio'))
-    // return portfolio;
-    return fusilierRepos;
+    const portfolio = bytesRepos.filter((repo: RepoData) => repo.topics.includes('portfolio'))
+    return portfolio;
+    // return fusilierRepos;
 };
 
 export default function Projects() {
