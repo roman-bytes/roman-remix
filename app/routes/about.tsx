@@ -9,9 +9,11 @@ export let meta: MetaFunction = () => {
 
 export default function Index() {
     return (
-        <div className="grid grid-cols-2 grid-rows-1 mt-96 min-h-screen mb-20 lg:mb-0 xl:w-full lg:w-3/4 text-md leading-8 font-sans text-white lg:border border-white bg-romanBlack">
-            <div><img src={pic} alt="Picture of Jacob Roman"/></div>
-            <div className="pr-12">
+        <div className="grid xl:gap-11 grid-cols-1 xl:grid-cols-2 grid-rows-1 lg:mt-96 mt-10 mb-40 pb-10 min-h-screen xl:w-full lg:w-3/4 text-md leading-8 font-sans text-white border border-white bg-romanBlack">
+            <div className="relative h-40 xl:overflow-visible overflow-hidden">
+                <img className="w-full xl:relative absolute xl:top-0 -top-36" src={pic} alt="Picture of Jacob Roman"/>
+            </div>
+            <div className="xl:pl-0 pl-12 pr-12">
                 <h1 className="text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading">Hello!</h1>
                 <div className="text-lg text-stone-500 mt-4 mb-16 font-normal">husband  -  father  -  coder  -  jedi</div>
                 <div className="text-md">

@@ -184,7 +184,7 @@ var Layout = ({
   }, /* @__PURE__ */ import_react6.default.createElement(logo_default, null)), /* @__PURE__ */ import_react6.default.createElement("div", {
     className: "flex items-center justify-center h-full w-full"
   }, /* @__PURE__ */ import_react6.default.createElement("main", {
-    className: "container overflow-hidden lg:mx-32 h-full lg:flex items-center justify-center"
+    className: "container xl:overflow-hidden lg:mx-40 h-full lg:flex items-center justify-center"
   }, children)), /* @__PURE__ */ import_react6.default.createElement("div", {
     className: "hidden lg:flex w-full fixed text-romanText xl:p-20 lg:p-10 justify-between items-end bottom-0 left-0 right-0"
   }, /* @__PURE__ */ import_react6.default.createElement(social_default, null), /* @__PURE__ */ import_react6.default.createElement(nav_default, null)), /* @__PURE__ */ import_react6.default.createElement("div", {
@@ -221,7 +221,7 @@ var Layout = ({
 var layout_default = Layout;
 
 // app/styles/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-J6LNFOXX.css";
+var tailwind_default = "/build/_assets/tailwind-P6ARXZUJ.css";
 
 // route:/workspaces/roman-remix/app/root.tsx
 var links = () => {
@@ -348,12 +348,15 @@ var meta = () => {
 };
 function Index() {
   return /* @__PURE__ */ React.createElement("div", {
-    className: "grid grid-cols-2 grid-rows-1 mt-96 min-h-screen mb-20 lg:mb-0 xl:w-full lg:w-3/4 text-md leading-8 font-sans text-white lg:border border-white bg-romanBlack"
-  }, /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("img", {
+    className: "grid xl:gap-11 grid-cols-1 xl:grid-cols-2 grid-rows-1 lg:mt-96 mt-10 mb-40 pb-10 min-h-screen xl:w-full lg:w-3/4 text-md leading-8 font-sans text-white border border-white bg-romanBlack"
+  }, /* @__PURE__ */ React.createElement("div", {
+    className: "relative h-40 xl:overflow-visible overflow-hidden"
+  }, /* @__PURE__ */ React.createElement("img", {
+    className: "w-full xl:relative absolute xl:top-0 -top-36",
     src: profile_pic_default,
     alt: "Picture of Jacob Roman"
   })), /* @__PURE__ */ React.createElement("div", {
-    className: "pr-12"
+    className: "xl:pl-0 pl-12 pr-12"
   }, /* @__PURE__ */ React.createElement("h1", {
     className: "text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading"
   }, "Hello!"), /* @__PURE__ */ React.createElement("div", {
@@ -468,7 +471,7 @@ function Index2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { "version": "a140e9e7", "entry": { "module": "/build/entry.client-H3RIRK37.js", "imports": ["/build/_shared/chunk-EFIEF3NY.js", "/build/_shared/chunk-6BO74FWO.js"] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "module": "/build/root-5UCFXOJZ.js", "imports": ["/build/_shared/chunk-6ULDDS6J.js"], "hasAction": false, "hasLoader": false, "hasCatchBoundary": true, "hasErrorBoundary": true }, "routes/about": { "id": "routes/about", "parentId": "root", "path": "about", "index": void 0, "caseSensitive": void 0, "module": "/build/routes/about-YMVZ2PV4.js", "imports": void 0, "hasAction": false, "hasLoader": false, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/index": { "id": "routes/index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "module": "/build/routes/index-N2SE46TQ.js", "imports": void 0, "hasAction": false, "hasLoader": true, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/projects/index": { "id": "routes/projects/index", "parentId": "root", "path": "projects", "index": true, "caseSensitive": void 0, "module": "/build/routes/projects/index-OCBA34Z2.js", "imports": void 0, "hasAction": false, "hasLoader": true, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/projects/project": { "id": "routes/projects/project", "parentId": "root", "path": "projects/project", "index": void 0, "caseSensitive": void 0, "module": "/build/routes/projects/project-BP4EEYKS.js", "imports": void 0, "hasAction": false, "hasLoader": false, "hasCatchBoundary": false, "hasErrorBoundary": false } }, "url": "/build/manifest-A140E9E7.js" };
+var assets_manifest_default = { "version": "527be576", "entry": { "module": "/build/entry.client-H3RIRK37.js", "imports": ["/build/_shared/chunk-EFIEF3NY.js", "/build/_shared/chunk-6BO74FWO.js"] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "module": "/build/root-2F4R5CXH.js", "imports": ["/build/_shared/chunk-6ULDDS6J.js"], "hasAction": false, "hasLoader": false, "hasCatchBoundary": true, "hasErrorBoundary": true }, "routes/about": { "id": "routes/about", "parentId": "root", "path": "about", "index": void 0, "caseSensitive": void 0, "module": "/build/routes/about-HTAKUOQV.js", "imports": void 0, "hasAction": false, "hasLoader": false, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/index": { "id": "routes/index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "module": "/build/routes/index-N2SE46TQ.js", "imports": void 0, "hasAction": false, "hasLoader": true, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/projects/index": { "id": "routes/projects/index", "parentId": "root", "path": "projects", "index": true, "caseSensitive": void 0, "module": "/build/routes/projects/index-OCBA34Z2.js", "imports": void 0, "hasAction": false, "hasLoader": true, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/projects/project": { "id": "routes/projects/project", "parentId": "root", "path": "projects/project", "index": void 0, "caseSensitive": void 0, "module": "/build/routes/projects/project-BP4EEYKS.js", "imports": void 0, "hasAction": false, "hasLoader": false, "hasCatchBoundary": false, "hasErrorBoundary": false } }, "url": "/build/manifest-527BE576.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var entry = { module: entry_server_exports };
