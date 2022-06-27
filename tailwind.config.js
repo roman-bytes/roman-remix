@@ -56,6 +56,12 @@ module.exports = {
             fontSize: {
                 xlxlxl: '6rem',
             },
+            letterSpacing: {
+                heading: '-0.07em'
+            },
+            lineHeight: {
+                heading: '80.4%'
+            },
         },
         screens: {
             sm: '640px',

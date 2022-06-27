@@ -184,7 +184,7 @@ var Layout = ({
   }, /* @__PURE__ */ import_react6.default.createElement(logo_default, null)), /* @__PURE__ */ import_react6.default.createElement("div", {
     className: "flex items-center justify-center h-full w-full"
   }, /* @__PURE__ */ import_react6.default.createElement("main", {
-    className: "container lg:mx-32 h-full lg:flex items-center justify-center"
+    className: "container overflow-hidden lg:mx-32 h-full lg:flex items-center justify-center"
   }, children)), /* @__PURE__ */ import_react6.default.createElement("div", {
     className: "hidden lg:flex w-full fixed text-romanText xl:p-20 lg:p-10 justify-between items-end bottom-0 left-0 right-0"
   }, /* @__PURE__ */ import_react6.default.createElement(social_default, null), /* @__PURE__ */ import_react6.default.createElement(nav_default, null)), /* @__PURE__ */ import_react6.default.createElement("div", {
@@ -221,7 +221,7 @@ var Layout = ({
 var layout_default = Layout;
 
 // app/styles/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-PF6D4IZR.css";
+var tailwind_default = "/build/_assets/tailwind-J6LNFOXX.css";
 
 // route:/workspaces/roman-remix/app/root.tsx
 var links = () => {
@@ -336,6 +336,11 @@ __export(about_exports, {
   default: () => Index,
   meta: () => meta
 });
+
+// public/profile-pic.jpg
+var profile_pic_default = "/build/_assets/profile-pic-KXDOVQF5.jpg";
+
+// route:/workspaces/roman-remix/app/routes/about.tsx
 var meta = () => {
   return {
     title: "Roman Bytes - Full Stack Developer"
@@ -343,10 +348,19 @@ var meta = () => {
 };
 function Index() {
   return /* @__PURE__ */ React.createElement("div", {
-    className: "mb-20 lg:mb-0 xl:w-full lg:w-3/4 text-md leading-8 font-sans p-8 text-white lg:border border-white bg-romanBlack"
+    className: "grid grid-cols-2 grid-rows-1 mt-96 min-h-screen mb-20 lg:mb-0 xl:w-full lg:w-3/4 text-md leading-8 font-sans text-white lg:border border-white bg-romanBlack"
+  }, /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("img", {
+    src: profile_pic_default,
+    alt: "Picture of Jacob Roman"
+  })), /* @__PURE__ */ React.createElement("div", {
+    className: "pr-12"
   }, /* @__PURE__ */ React.createElement("h1", {
-    className: "font-mono text-2xl mb-3"
-  }, "Hi! I'm Jacob Roman"), /* @__PURE__ */ React.createElement("p", null, "I am full-stack developer who has a strong background with the front-end and is improving my back-end knowledge every day. I was born in 1988 and grew up in Michigan. Once I graduated High School I knew that I wanted to do something with computers. I ended up taking a Graphic Design class and loved it, so I went to Spring Arbor University and got a Bachelor of Fine Arts with a focus on Graphic Design. During my time in college I fell in love with coding and realized that stuff I designed, I could also build in code. Thus began my journey to learn everything I I know about coding to this day."), /* @__PURE__ */ React.createElement("p", null, "I have written code for Steel Fish Design, Traffic Digital Agency, and Deque. I also help out maintain a few open source projects when I have the free time. I currently work at Nexient as a Developer II. In my current position I lead a team of developers for the front end on different websites. We use React and a number of other front-end frameworks."), /* @__PURE__ */ React.createElement("p", null, "I met my wife while attending SAU. We live in a small town of town of Michigan with our five year old son and eight month old daughter, dog, and grandma."));
+    className: "text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading"
+  }, "Hello!"), /* @__PURE__ */ React.createElement("div", {
+    className: "text-lg text-stone-500 mt-4 mb-16 font-normal"
+  }, "husband  -  father  -  coder  -  jedi"), /* @__PURE__ */ React.createElement("div", {
+    className: "text-md"
+  }, /* @__PURE__ */ React.createElement("p", null, "I am full-stack developer who has a strong background with the front-end and is improving my back-end knowledge every day. I was born in 1988 and grew up in Michigan. Once I graduated High School I knew that I wanted to do something with computers. I ended up taking a Graphic Design class and loved it, so I went to Spring Arbor University and got a Bachelor of Fine Arts with a focus on Graphic Design. During my time in college I fell in love with coding and realized that stuff I designed, I could also build in code. Thus began my journey to learn everything I know about coding to this day."), /* @__PURE__ */ React.createElement("p", null, "I have written code for Steel Fish Design, Traffic Digital Agency, and Deque. I also help out maintain a few open source projects when I have the free time. I currently work at Nexient as a Senior Developer I. In my current position I lead a team of front end developers for a client. In our day to day we use React, GQL, and Sass."), /* @__PURE__ */ React.createElement("p", null, "I met my wife while attending SAU. We live in a small town in Michigan with our five year old son and 1 year old daughter, and Australian Sheapard / Great Pyrenees dog."))));
 }
 
 // route:/workspaces/roman-remix/app/routes/index.tsx
@@ -454,7 +468,7 @@ function Index2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { "version": "e63293ab", "entry": { "module": "/build/entry.client-H3RIRK37.js", "imports": ["/build/_shared/chunk-EFIEF3NY.js", "/build/_shared/chunk-6BO74FWO.js"] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "module": "/build/root-LLGGBSJM.js", "imports": ["/build/_shared/chunk-6ULDDS6J.js"], "hasAction": false, "hasLoader": false, "hasCatchBoundary": true, "hasErrorBoundary": true }, "routes/about": { "id": "routes/about", "parentId": "root", "path": "about", "index": void 0, "caseSensitive": void 0, "module": "/build/routes/about-MD6KYMUO.js", "imports": void 0, "hasAction": false, "hasLoader": false, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/index": { "id": "routes/index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "module": "/build/routes/index-N2SE46TQ.js", "imports": void 0, "hasAction": false, "hasLoader": true, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/projects/index": { "id": "routes/projects/index", "parentId": "root", "path": "projects", "index": true, "caseSensitive": void 0, "module": "/build/routes/projects/index-OCBA34Z2.js", "imports": void 0, "hasAction": false, "hasLoader": true, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/projects/project": { "id": "routes/projects/project", "parentId": "root", "path": "projects/project", "index": void 0, "caseSensitive": void 0, "module": "/build/routes/projects/project-BP4EEYKS.js", "imports": void 0, "hasAction": false, "hasLoader": false, "hasCatchBoundary": false, "hasErrorBoundary": false } }, "url": "/build/manifest-E63293AB.js" };
+var assets_manifest_default = { "version": "a140e9e7", "entry": { "module": "/build/entry.client-H3RIRK37.js", "imports": ["/build/_shared/chunk-EFIEF3NY.js", "/build/_shared/chunk-6BO74FWO.js"] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "module": "/build/root-5UCFXOJZ.js", "imports": ["/build/_shared/chunk-6ULDDS6J.js"], "hasAction": false, "hasLoader": false, "hasCatchBoundary": true, "hasErrorBoundary": true }, "routes/about": { "id": "routes/about", "parentId": "root", "path": "about", "index": void 0, "caseSensitive": void 0, "module": "/build/routes/about-YMVZ2PV4.js", "imports": void 0, "hasAction": false, "hasLoader": false, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/index": { "id": "routes/index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "module": "/build/routes/index-N2SE46TQ.js", "imports": void 0, "hasAction": false, "hasLoader": true, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/projects/index": { "id": "routes/projects/index", "parentId": "root", "path": "projects", "index": true, "caseSensitive": void 0, "module": "/build/routes/projects/index-OCBA34Z2.js", "imports": void 0, "hasAction": false, "hasLoader": true, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/projects/project": { "id": "routes/projects/project", "parentId": "root", "path": "projects/project", "index": void 0, "caseSensitive": void 0, "module": "/build/routes/projects/project-BP4EEYKS.js", "imports": void 0, "hasAction": false, "hasLoader": false, "hasCatchBoundary": false, "hasErrorBoundary": false } }, "url": "/build/manifest-A140E9E7.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var entry = { module: entry_server_exports };

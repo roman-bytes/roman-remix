@@ -42,7 +42,7 @@ const Layout: FunctionComponent<LayoutProps> = ({
                     <Logo />
                 </div>
                 <div className="flex items-center justify-center h-full w-full">
-                    <main className="container lg:mx-32 h-full lg:flex items-center justify-center">
+                    <main className="container overflow-hidden lg:mx-32 h-full lg:flex items-center justify-center">
                         {children}
                     </main>
                 </div>

@@ -642,16 +642,32 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mt-96{
+  margin-top: 24rem;
+}
+
 .mb-20{
   margin-bottom: 5rem;
 }
 
-.mb-3{
-  margin-bottom: 0.75rem;
+.mt-16{
+  margin-top: 4rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
 }
 
 .flex{
   display: flex;
+}
+
+.grid{
+  display: grid;
 }
 
 .hidden{
@@ -672,6 +688,10 @@ video {
 
 .h-460{
   height: 28.75rem;
+}
+
+.min-h-screen{
+  min-height: 100vh;
 }
 
 .w-full{
@@ -721,6 +741,14 @@ video {
 
 .cursor-pointer{
   cursor: pointer;
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-1{
+  grid-template-rows: repeat(1, minmax(0, 1fr));
 }
 
 .flex-row{
@@ -785,10 +813,6 @@ video {
   padding: 1.25rem;
 }
 
-.p-8{
-  padding: 2rem;
-}
-
 .p-4{
   padding: 1rem;
 }
@@ -796,6 +820,10 @@ video {
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.pr-12{
+  padding-right: 3rem;
 }
 
 .text-left{
@@ -814,9 +842,23 @@ video {
   font-family: Didact\ Gothic, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
+.font-ubuntu{
+  font-family: Ubuntu;
+}
+
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-8xl{
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-2xl{
@@ -829,8 +871,24 @@ video {
   line-height: 2.5rem;
 }
 
+.font-bold{
+  font-weight: 700;
+}
+
+.font-normal{
+  font-weight: 400;
+}
+
 .leading-8{
   line-height: 2rem;
+}
+
+.leading-heading{
+  line-height: 80.4%;
+}
+
+.tracking-heading{
+  letter-spacing: -0.07em;
 }
 
 .text-romanText{
@@ -846,6 +904,11 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-stone-500{
+  --tw-text-opacity: 1;
+  color: rgb(120 113 108 / var(--tw-text-opacity));
 }
 
 .text-romanYellow{
