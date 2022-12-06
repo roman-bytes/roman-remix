@@ -2,7 +2,7 @@ import { useLoaderData, Link } from "@remix-run/react";
 
 type RepoData = {
     topics: Array<string>;
-    url: string;
+    html_url: string;
     id: string;
     private: boolean;
     name: string;
@@ -23,12 +23,11 @@ export const loader = async () => {
 
 export default function Projects() {
     const repos = useLoaderData();
-    console.log('repos', repos);
-
     const repoTiles = repos.map((repo: RepoData) => {
+        
         return (
-            <Link
-                to={repo.private ? '' : repo.url}
+            <a
+                href={repo.private ? '' : repo.html_url}
                 key={repo.id}
                 target="_blank"
                 className="w-full overflow-hidden my-2 px-2 xl:w-1/3"
@@ -65,7 +64,7 @@ export default function Projects() {
                         </svg>
                     )}
                 </div>
-            </Link>
+            </a>
         );
     });
 
