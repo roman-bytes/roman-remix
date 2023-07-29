@@ -33,7 +33,7 @@ geometry.setAttribute('scale', new THREE.BufferAttribute(scales, 1))
 
 const material = new THREE.ShaderMaterial({
     uniforms: {
-        color: { value: new THREE.Color(0xbf860f) }
+        color: { value: new THREE.Color(0xffffff) }
     },
     vertexShader: /* glsl */ `
     attribute float scale;
