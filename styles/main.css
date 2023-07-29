@@ -6,9 +6,8 @@
 
 @tailwind utilities;
 
-#___gatsby,
-#gatsby-focus-wrapper {
-    height: 100%;
+div[data-testid="terminal"] {
+    width: 100%;
 }
 
 #index_terminalContainer__3q4m3 {

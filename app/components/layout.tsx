@@ -1,16 +1,20 @@
-import React, {
-    useState,
+// @ts-nocheck
+import type {
     FunctionComponent,
     ReactElement,
-    ReactNode,
+    ReactNode} from 'react';
+import React, {
+    useState,
 } from 'react';
 import classNames from 'classnames';
 import { TerminalContextProvider } from 'react-terminal';
+import { ClientOnly } from "remix-utils";
 
 import Footer from './footer';
 import Social from './social';
 import Nav from './nav';
 import Logo from './logo';
+import Particles from "~/components/particles";
 
 interface LayoutProps {
     children: ReactNode;
@@ -87,6 +91,9 @@ const Layout: FunctionComponent<LayoutProps> = ({
                 </div>
                 <Footer />
             </main>
+            <ClientOnly fallback={<div/>}>
+                {() => <Particles />}
+            </ClientOnly>
         </TerminalContextProvider>
     );
 };

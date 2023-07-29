@@ -104,7 +104,7 @@ function Document({
         <Meta />
         <Links />
       </head>
-      <body className="bg-romanBlack w-full h-full" style={{backgroundImage: "url(/dots.png)"}}>
+      <body className="bg-romanBlack w-full h-full">
         {children}
         <ScrollRestoration />
         <Scripts />

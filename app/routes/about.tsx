@@ -36,8 +36,8 @@ export default function Index() {
                         front end developers for a client. In our day to day we use React, GQL, and Sass.
                     </p>
                     <p>
-                        I met my wife while attending SAU. We live in a small town in Michigan with our five year old son and 1 year old
-                    daughter, and Australian Sheapard / Great Pyrenees dog.
+                        I met my wife while attending SAU. We live in a small town in Michigan with our six year old son and two year old
+                    daughter.
                     </p>
                 </div>
             </div> 

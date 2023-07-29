@@ -3,7 +3,6 @@ import { useLoaderData } from "@remix-run/react";
 import { json } from "@remix-run/node";
 import React, { FunctionComponent, ReactElement } from 'react';
 import RomanTerminal from '../components/terminal';
-import { ClientOnly } from "remix-utils";
 
 type IndexData = {
   resources: Array<{ name: string; url: string }>;
@@ -67,7 +66,7 @@ export default function Index() {
         <h1 className="font-sans text-white left-2.5 lg:right-2.5 xl:right-5 absolute top-2.5 xl:top-5 text-2xl text-left lg:text-right">
           Hello, I am Jacob Roman, a{' '}
           <span className="text-romanYellow line-through"> designer </span>
-          <br /> full stack developer based in Michigan.
+          <br /> Senior Digital Engineer based in Michigan.
         </h1>
         <RomanTerminal />
       </>
