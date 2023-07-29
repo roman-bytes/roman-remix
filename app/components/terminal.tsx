@@ -80,7 +80,7 @@ const RomanTerminal: FunctionComponent = (): ReactElement => {
     );
 
     return (
-        <div className="lg:flex justify-center fixed top-1/2 w-800 h-460 transform -translate-y-1/2">
+        <div className="hidden lg:flex justify-center fixed top-1/2 w-800 h-460 transform -translate-y-1/2">
             <ReactTerminal
                 commands={commands}
                 theme="dark"
