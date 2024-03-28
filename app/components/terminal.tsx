@@ -1,6 +1,5 @@
+import type { FunctionComponent, ReactElement } from 'react';
 import React from 'react';
-import { FunctionComponent } from 'react';
-import { ReactElement } from 'react';
 import { ReactTerminal } from 'react-terminal';
 
 const RomanTerminal: FunctionComponent = (): ReactElement => {
@@ -41,11 +40,8 @@ const RomanTerminal: FunctionComponent = (): ReactElement => {
                 <br />
             </span>
         ),
-        contact: (
-            <span>follow me on twitter or send me an email</span>
-        ),
-        about:
-            'Javascript Developer, Accessibility Advocate, and Team player. I am always seeking opportunities to learn and grow. I am a simple guy who loves all things tech and a good cup of coffee. Nice to meet you.',
+        contact: <span>follow me on twitter or send me an email</span>,
+        about: 'Javascript Developer, Accessibility Advocate, and Team player. I am always seeking opportunities to learn and grow. I am a simple guy who loves all things tech and a good cup of coffee. Nice to meet you.',
         resume: (
             <span>
                 You can{' '}
@@ -62,7 +58,8 @@ const RomanTerminal: FunctionComponent = (): ReactElement => {
         ),
         'experience()': () => {
             const difDate = new Date() - new Date('2010-10-01');
-            const experience: string = (difDate /
+            const experience: string = (
+                difDate /
                 1000 /
                 60 /
                 60 /
@@ -80,7 +77,7 @@ const RomanTerminal: FunctionComponent = (): ReactElement => {
     );
 
     return (
-        <div className="hidden lg:flex justify-center fixed top-1/2 w-800 h-460 transform -translate-y-1/2">
+        <div className="hidden lg:flex w-800 h-460">
             <ReactTerminal
                 commands={commands}
                 theme="dark"

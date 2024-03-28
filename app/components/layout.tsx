@@ -1,20 +1,15 @@
 // @ts-nocheck
-import type {
-    FunctionComponent,
-    ReactElement,
-    ReactNode} from 'react';
-import React, {
-    useState,
-} from 'react';
+import type { FunctionComponent, ReactElement, ReactNode } from 'react';
+import React, { useState } from 'react';
 import classNames from 'classnames';
 import { TerminalContextProvider } from 'react-terminal';
-import { ClientOnly } from "remix-utils";
+import { ClientOnly } from 'remix-utils';
 
 import Footer from './footer';
 import Social from './social';
 import Nav from './nav';
 import Logo from './logo';
-import Particles from "~/components/particles";
+import Particles from '~/components/particles';
 
 interface LayoutProps {
     children: ReactNode;
@@ -45,8 +40,8 @@ const Layout: FunctionComponent<LayoutProps> = ({
                 <div className="hidden lg:block absolute xl:top-5 xl:left-5 lg:top-2.5 lg:left-2.5 h-">
                     <Logo />
                 </div>
-                <div className="flex items-center justify-center h-full w-full">
-                    <main className="container xl:overflow-hidden lg:mx-40 h-full lg:flex items-center justify-center">
+                <div className="flex h-full w-full">
+                    <main className="container lg:mx-40 h-max min-h-full lg:flex">
                         {children}
                     </main>
                 </div>
@@ -81,7 +76,9 @@ const Layout: FunctionComponent<LayoutProps> = ({
                         <Nav />
                     </div>
                     <footer className={footerMobileClass}>
-                        <div className="text-sm">Made with love from Michigan.</div>
+                        <div className="text-sm">
+                            Made with love from Michigan.
+                        </div>
                         <div className="text-sm">
                             <a href="https://github.com/roman-bytes/roman-bytes-dev">
                                 Source Code{' '}
@@ -91,9 +88,7 @@ const Layout: FunctionComponent<LayoutProps> = ({
                 </div>
                 <Footer />
             </main>
-            <ClientOnly fallback={<div/>}>
-                {() => <Particles />}
-            </ClientOnly>
+            <ClientOnly fallback={<div />}>{() => <Particles />}</ClientOnly>
         </TerminalContextProvider>
     );
 };

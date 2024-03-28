@@ -1,4 +1,4 @@
-import { useLoaderData, Link } from "@remix-run/react";
+import { useLoaderData, Link } from '@remix-run/react';
 
 type RepoData = {
     topics: Array<string>;
@@ -6,7 +6,6 @@ type RepoData = {
     id: string;
     private: boolean;
     name: string;
-
 };
 
 export const loader = async () => {
@@ -14,9 +13,13 @@ export const loader = async () => {
     //     console.log('res', res)
     //     return res.json();
     // });
-    const bytesRepos = await fetch('https://api.github.com/users/roman-bytes/repos').then(response => response.json());
+    const bytesRepos = await fetch(
+        'https://api.github.com/users/roman-bytes/repos'
+    ).then((response) => response.json());
     // const data = [...bytesRepos, ...fusilierRepos];
-    const portfolio = bytesRepos.filter((repo: RepoData) => repo.topics.includes('portfolio'))
+    const portfolio = bytesRepos.filter((repo: RepoData) =>
+        repo.topics.includes('portfolio')
+    );
     return portfolio;
     // return fusilierRepos;
 };
@@ -24,13 +27,13 @@ export const loader = async () => {
 export default function Projects() {
     const repos = useLoaderData();
     const repoTiles = repos.map((repo: RepoData) => {
-        
         return (
             <a
                 href={repo.private ? '' : repo.html_url}
                 key={repo.id}
                 target="_blank"
                 className="w-full overflow-hidden my-2 px-2 xl:w-1/3"
+                rel="noreferrer"
             >
                 <div className="border border-white bg-romanBlack p-4 flex justify-between items-center cursor-pointer hover:border-romanYellow hover:bg-romanYellow hover:text-romanBlack">
                     <div>{repo.name}</div>
@@ -69,7 +72,7 @@ export default function Projects() {
     });
 
     return (
-        <div className="container flex flex-col">
+        <div className="container flex flex-col items-center justify-center">
             <h1 className="text-4xl text-white p-4 border-b border-white">
                 Projects
             </h1>
@@ -79,3 +82,4 @@ export default function Projects() {
         </div>
     );
 }
+
