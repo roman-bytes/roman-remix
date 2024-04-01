@@ -43,10 +43,10 @@ export default function Index() {
                         I have written code for Steel Fish Design, Traffic
                         Digital Agency, and Deque. I also help out maintain a
                         few open source projects when I have the free time. I
-                        currently work at Nexient as a Senior Developer I. In my
-                        current position I lead a team of front end developers
-                        for a client. In our day to day we use React, GQL, and
-                        Sass.
+                        currently work at Launch by NTT Data as a Senior Digital
+                        Engineer. In my current position I lead a team of front
+                        end developers for a client. In our day to day we use
+                        React, GQL, and Sass.
                     </p>
                     <p>
                         I met my wife while attending SAU. We live in a small
