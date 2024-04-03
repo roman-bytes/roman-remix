@@ -235,113 +235,28 @@ var import_jsx_dev_runtime4 = require("react/jsx-dev-runtime"), Nav = () => /* @
 
 // app/components/logo.tsx
 var import_jsx_dev_runtime5 = require("react/jsx-dev-runtime"), Logo = () => /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("a", { href: "/", "aria-label": "Go back to home page", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
-  "svg",
+  "img",
   {
-    width: 57,
-    height: 46,
-    viewBox: "0 0 57 46",
-    fill: "none",
-    xmlns: "http://www.w3.org/2000/svg",
-    children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
-        "path",
-        {
-          fillRule: "evenodd",
-          clipRule: "evenodd",
-          d: "M25.704 7.33914H30.6735L29.6507 11.269H26.7544L25.704 7.33914Z",
-          fill: "#BF860F"
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/components/logo.tsx",
-          lineNumber: 14,
-          columnNumber: 13
-        },
-        this
-      ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
-        "path",
-        {
-          fillRule: "evenodd",
-          clipRule: "evenodd",
-          d: "M26.8124 11.7816H29.6484L29.2722 13.3962C29.2722 13.3962 37.0573 14.8024 37.8271 22.3005C38.0262 23.4077 37.5026 23.3054 37.0546 22.679C34.8235 20.2162 33.0018 17.7109 28.1796 16.4846C23.4189 17.6127 19.2312 22.679 19.2312 22.679C19.2312 22.679 18.5069 23.5273 18.5069 22.1519C18.5069 20.7765 19.8931 14.3145 27.036 13.3962C26.9162 12.2576 26.8124 11.7816 26.8124 11.7816Z",
-          fill: "#BF860F"
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/components/logo.tsx",
-          lineNumber: 20,
-          columnNumber: 13
-        },
-        this
-      ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
-        "path",
-        {
-          fillRule: "evenodd",
-          clipRule: "evenodd",
-          d: "M28.1907 17.6764C31.6677 19.0311 34.4076 20.0679 37.8824 25.5682C38.0302 26.1637 37.8824 26.4111 37.8824 26.4111C37.8824 26.4111 36.4639 28.429 36.4639 29.5038C36.4639 30.5785 37.4165 31.9252 37.4165 31.9252C37.4165 31.9252 37.5232 32.3224 37.4028 32.873C35.9895 35.2466 34.2588 36.8131 34.2588 36.8131C34.2588 36.8131 34.6191 32.8374 33.6813 27.5965C34.927 27.222 35.1255 26.8131 35.1255 26.8131L33.4441 23.9644L29.2257 25.2306H27.1516L22.8403 23.9644L21.1404 26.8131C21.1404 26.8131 21.2292 27.2594 22.8403 27.6086C21.8271 34.0021 21.9323 36.8131 21.9323 36.8131C21.9323 36.8131 20.2128 35.4297 18.9699 32.873C18.8195 32.479 18.9699 31.9252 18.9699 31.9252C18.9699 31.9252 19.7965 30.4659 19.7965 29.5038C19.8845 28.2875 18.499 26.4111 18.499 26.4111C18.499 26.4111 18.1721 26.0358 18.499 25.5682C20.2398 22.1153 24.5225 18.4014 28.1907 17.6764Z",
-          fill: "#BF860F"
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/components/logo.tsx",
-          lineNumber: 26,
-          columnNumber: 13
-        },
-        this
-      ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
-        "path",
-        {
-          d: "M4.05064 23.0387C4.53611 23.3119 4.97606 23.6458 5.37051 24.0405C5.76495 24.4048 6.09871 24.8753 6.37179 25.4521C6.64487 26.0289 6.84209 26.7272 6.96346 27.5468C7.11517 28.3665 7.19102 29.3379 7.19102 30.4612V35.3336C7.19102 36.7605 7.22136 37.9444 7.28205 38.8855C7.34273 39.857 7.52478 40.6311 7.8282 41.2079C8.16196 41.8151 8.6626 42.2401 9.33012 42.4829C9.99764 42.7258 10.9534 42.8472 12.1974 42.8472V45.1241H11.8333C10.3769 45.1241 9.16324 44.9571 8.1923 44.6232C7.22136 44.2892 6.44765 43.8035 5.87115 43.166C5.325 42.5285 4.93055 41.7392 4.68782 40.7981C4.47542 39.857 4.36923 38.7641 4.36923 37.5194V28.6852C4.36923 28.1388 4.27821 27.6075 4.09616 27.0915C3.94445 26.545 3.68654 26.0593 3.32244 25.6343C2.95834 25.2093 2.50321 24.8602 1.95705 24.5869C1.4109 24.3137 0.758546 24.1771 0 24.1771V21.9458C0.758546 21.9458 1.4109 21.8092 1.95705 21.536C2.50321 21.2627 2.95834 20.9136 3.32244 20.4886C3.68654 20.0636 3.94445 19.593 4.09616 19.077C4.27821 18.5305 4.36923 17.9841 4.36923 17.4376V8.60347C4.36923 7.38916 4.47542 6.31145 4.68782 5.37035C4.93055 4.3989 5.325 3.59442 5.87115 2.9569C6.44765 2.31938 7.22136 1.83366 8.1923 1.49972C9.16324 1.16578 10.3769 0.99881 11.8333 0.99881H12.1974V3.27566C10.9534 3.27566 9.99764 3.39709 9.33012 3.63996C8.6626 3.88282 8.16196 4.30783 7.8282 4.91498C7.52478 5.49179 7.34273 6.26591 7.28205 7.23736C7.22136 8.17846 7.19102 9.36243 7.19102 10.7893V15.6617C7.19102 16.7849 7.11517 17.7564 6.96346 18.5761C6.84209 19.3654 6.64487 20.0484 6.37179 20.6252C6.09871 21.202 5.76495 21.6877 5.37051 22.0824C4.97606 22.4467 4.53611 22.7655 4.05064 23.0387Z",
-          fill: "#BF860F"
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/components/logo.tsx",
-          lineNumber: 32,
-          columnNumber: 13
-        },
-        this
-      ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
-        "path",
-        {
-          d: "M52.1555 23.0387C51.67 22.7655 51.2301 22.4467 50.8356 22.0824C50.4412 21.6877 50.1074 21.202 49.8344 20.6252C49.5613 20.0484 49.3489 19.3654 49.1972 18.5761C49.0758 17.7564 49.0151 16.7849 49.0151 15.6617V10.7893C49.0151 9.36243 48.9848 8.17846 48.9241 7.23736C48.8634 6.26591 48.6662 5.49179 48.3324 4.91498C48.029 4.30783 47.5435 3.88282 46.876 3.63996C46.2085 3.39709 45.2527 3.27566 44.0087 3.27566V0.99881H44.3728C45.8292 0.99881 47.0429 1.16578 48.0138 1.49972C48.9848 1.83366 49.7433 2.31938 50.2895 2.9569C50.866 3.59442 51.2604 4.3989 51.4728 5.37035C51.7155 6.31145 51.8369 7.38916 51.8369 8.60347V17.4376C51.8369 17.9841 51.9128 18.5305 52.0645 19.077C52.2465 19.593 52.5196 20.0636 52.8837 20.4886C53.2478 20.9136 53.7029 21.2627 54.2491 21.536C54.7952 21.8092 55.4476 21.9458 56.2061 21.9458V24.1771C55.4476 24.1771 54.7952 24.3137 54.2491 24.5869C53.7029 24.8602 53.2478 25.2093 52.8837 25.6343C52.5196 26.0593 52.2465 26.545 52.0645 27.0915C51.9128 27.6075 51.8369 28.1388 51.8369 28.6852V37.5194C51.8369 38.7641 51.7155 39.857 51.4728 40.7981C51.2604 41.7392 50.866 42.5285 50.2895 43.166C49.7433 43.8035 48.9848 44.2892 48.0138 44.6232C47.0429 44.9571 45.8292 45.1241 44.3728 45.1241H44.0087V42.8472C45.2527 42.8472 46.2085 42.7258 46.876 42.4829C47.5435 42.2401 48.029 41.8151 48.3324 41.2079C48.6662 40.6311 48.8634 39.857 48.9241 38.8855C48.9848 37.9444 49.0151 36.7605 49.0151 35.3336V30.4612C49.0151 29.3379 49.0758 28.3665 49.1972 27.5468C49.3489 26.7272 49.5613 26.0289 49.8344 25.4521C50.1074 24.8753 50.4412 24.4048 50.8356 24.0405C51.2301 23.6458 51.67 23.3119 52.1555 23.0387Z",
-          fill: "#BF860F"
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/components/logo.tsx",
-          lineNumber: 36,
-          columnNumber: 13
-        },
-        this
-      )
-    ]
+    className: "w-16",
+    src: "/roman-bytes-mark.svg",
+    alt: "Roman Bytes Logo Mark"
   },
   void 0,
-  !0,
+  !1,
   {
     fileName: "app/components/logo.tsx",
-    lineNumber: 7,
+    lineNumber: 6,
     columnNumber: 9
   },
   this
 ) }, void 0, !1, {
   fileName: "app/components/logo.tsx",
-  lineNumber: 6,
+  lineNumber: 5,
   columnNumber: 5
 }, this), logo_default = Logo;
 
 // app/components/particles.tsx
-var THREE = __toESM(require("three")), import_fiber = require("@react-three/fiber"), import_drei = require("@react-three/drei"), import_jsx_dev_runtime6 = require("react/jsx-dev-runtime"), SEPARATION = 100, AMOUNTX = 100, AMOUNTY = 70, numParticles = AMOUNTX * AMOUNTY, positions = new Float32Array(numParticles * 3), scales = new Float32Array(numParticles), i = 0, j = 0;
+var THREE = __toESM(require("three")), import_fiber = require("@react-three/fiber"), import_jsx_dev_runtime6 = require("react/jsx-dev-runtime"), SEPARATION = 100, AMOUNTX = 100, AMOUNTY = 70, numParticles = AMOUNTX * AMOUNTY, positions = new Float32Array(numParticles * 3), scales = new Float32Array(numParticles), i = 0, j = 0;
 for (let ix = 0; ix < AMOUNTX; ix++)
   for (let iy = 0; iy < AMOUNTY; iy++)
     positions[i] = ix * SEPARATION - AMOUNTX * SEPARATION / 2, positions[i + 1] = 0, positions[i + 2] = iy * SEPARATION - AMOUNTY * SEPARATION / 2, scales[j] = 1, i += 3, j++;
@@ -383,12 +298,12 @@ var material = new THREE.ShaderMaterial({
   geometry.attributes.position.needsUpdate = !0, geometry.attributes.scale.needsUpdate = !0;
 }), /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("points", { geometry, material }, void 0, !1, {
   fileName: "app/components/particles.tsx",
-  lineNumber: 84,
+  lineNumber: 83,
   columnNumber: 12
 }, this)), Particles = () => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
   import_fiber.Canvas,
   {
-    className: "!fixed top-0 left-0 -z-10",
+    className: "!fixed top-0 left-0 -z-50",
     camera: {
       fov: 120,
       near: 1,
@@ -398,27 +313,22 @@ var material = new THREE.ShaderMaterial({
     children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("ambientLight", { intensity: 0.5 }, void 0, !1, {
         fileName: "app/components/particles.tsx",
-        lineNumber: 98,
+        lineNumber: 97,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("spotLight", { position: [10, 10, 10], angle: 0.15, penumbra: 1 }, void 0, !1, {
         fileName: "app/components/particles.tsx",
-        lineNumber: 99,
+        lineNumber: 98,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("pointLight", { position: [-10, -10, -10] }, void 0, !1, {
         fileName: "app/components/particles.tsx",
-        lineNumber: 100,
+        lineNumber: 99,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Particle, {}, void 0, !1, {
         fileName: "app/components/particles.tsx",
-        lineNumber: 101,
-        columnNumber: 13
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(import_drei.OrbitControls, {}, void 0, !1, {
-        fileName: "app/components/particles.tsx",
-        lineNumber: 102,
+        lineNumber: 100,
         columnNumber: 13
       }, this)
     ]
@@ -427,7 +337,7 @@ var material = new THREE.ShaderMaterial({
   !0,
   {
     fileName: "app/components/particles.tsx",
-    lineNumber: 89,
+    lineNumber: 88,
     columnNumber: 9
   },
   this
@@ -457,7 +367,7 @@ var import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), Layout = ({
         lineNumber: 40,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "flex h-full w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("main", { className: "container lg:mx-40 h-max min-h-full lg:flex", children }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "flex h-full w-full justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("main", { className: "container lg:mx-40 h-max min-h-full lg:flex", children }, void 0, !1, {
         fileName: "app/components/layout.tsx",
         lineNumber: 44,
         columnNumber: 21
@@ -610,7 +520,7 @@ var import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), Layout = ({
 }, layout_default = Layout;
 
 // app/styles/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-P5FYEFEI.css";
+var tailwind_default = "/build/_assets/tailwind-B6TZDZKZ.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), links = () => [{ rel: "stylesheet", href: tailwind_default }];
@@ -909,6 +819,958 @@ function Projects() {
   }, this);
 }
 
+// app/routes/tailwind-labs.tsx
+var tailwind_labs_exports = {};
+__export(tailwind_labs_exports, {
+  default: () => tailwindLabs
+});
+var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime");
+function tailwindLabs() {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "mt-20 mb-40 text-md font-sans text-white border border-romanYellow border-double bg-romanBlack", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("header", { className: "flex flex-row flex-nowrap justify-center items-center px-16 py-24", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+        "img",
+        {
+          className: "w-36",
+          src: "/roman-bytes-mark.svg",
+          alt: "Roman Bytes Logo"
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 5,
+          columnNumber: 17
+        },
+        this
+      ),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+        "img",
+        {
+          src: "/crossover.svg",
+          alt: "Crossover icon",
+          className: "mx-12"
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 10,
+          columnNumber: 17
+        },
+        this
+      ),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+        "img",
+        {
+          className: "w-36",
+          src: "/tailwindcss-mark.svg",
+          alt: "Tailind CSS Logo"
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 15,
+          columnNumber: 17
+        },
+        this
+      )
+    ] }, void 0, !0, {
+      fileName: "app/routes/tailwind-labs.tsx",
+      lineNumber: 4,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("main", { className: "container px-44", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { className: "text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: "#" }, void 0, !1, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 23,
+          columnNumber: 21
+        }, this),
+        " Tailwind labs application"
+      ] }, void 0, !0, {
+        fileName: "app/routes/tailwind-labs.tsx",
+        lineNumber: 22,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "text-lg text-stone-500 mt-4 mb-16 font-normal", children: "for Jacob Roman: husband - father - coder - jedi" }, void 0, !1, {
+        fileName: "app/routes/tailwind-labs.tsx",
+        lineNumber: 26,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "container text-lg", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: [
+          "Hello Tailwind friends, this is my application for the open position of",
+          " ",
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+            "a",
+            {
+              className: "underline text-romanYellow font-bold",
+              href: "https://apply.workable.com/tailwind-labs/j/05F13A34EF/",
+              children: [
+                "Design Engineer.",
+                " "
+              ]
+            },
+            void 0,
+            !0,
+            {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 34,
+              columnNumber: 29
+            },
+            this
+          ),
+          "You might say the crossover of roman-bytes (me) and Tailwind. My name is Jacob Roman also known as roman-bytes. I have been working in the web industry for just over 10 years now, I started out as a designer and was learning code everyday. I learned a ton about Wordpress as that was the most commonly used CMS at the time. I then switched gears to learning Javascript, eventually React, and everything else that goes along with that ecosystem. I currently work at Launch by NTT Data and am looking for some new challenges. I am currently leading a team that is focused on growing and become a full stack team, we are focused in the payment area of an enterprise company that is well known for video games. We currently take care of the client work which is done in NextJS, GraphQL, SCSS, and GraphQL. I would like something that is more of a creative roll and still involved with coding on a day to day. I can not express how excited I am that I have the chance to apply for this position. Below you will find multiple examples and reasons why I would be a good fit for this role."
+        ] }, void 0, !0, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 31,
+          columnNumber: 25
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 30,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { className: "text-bold font-ubuntu text-4xl mb-4 mt-6", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: "##" }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 67,
+              columnNumber: 29
+            }, this),
+            " Projects that I am proud of,"
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 66,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("ul", { className: "ml-6 mb-10 list-disc", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "NHL Playoff Bracket" }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 71,
+              columnNumber: 29
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "Bloctics" }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 72,
+              columnNumber: 29
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "Tarkov Tracker" }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 73,
+              columnNumber: 29
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "Fusilier Family Farms" }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 74,
+              columnNumber: 29
+            }, this)
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 70,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "It always seems like there is never enough time to work on side projects or projects that I am passionate about. Having two kids under the age of 7 might have something to do with that. Now that we are past the potty training stage as a parent, I feel like I will have more time to spend on actually creating more of these side projects." }, void 0, !1, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 76,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h4", { className: "text-bold font-ubuntu text-2xl mb-8", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: "####" }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 86,
+              columnNumber: 29
+            }, this),
+            " NHL Playoff Bracket"
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 85,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("ul", { className: "list-disc ml-4 mb-10", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("strong", { children: "Github: " }, void 0, !1, {
+                fileName: "app/routes/tailwind-labs.tsx",
+                lineNumber: 91,
+                columnNumber: 33
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+                "a",
+                {
+                  className: "underline text-romanYellow font-bold",
+                  href: "https://github.com/roman-bytes/nhl-stats",
+                  target: "_blank",
+                  rel: "noreferrer",
+                  children: "NHL Playoff Bracket"
+                },
+                void 0,
+                !1,
+                {
+                  fileName: "app/routes/tailwind-labs.tsx",
+                  lineNumber: 92,
+                  columnNumber: 33
+                },
+                this
+              )
+            ] }, void 0, !0, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 90,
+              columnNumber: 29
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("strong", { children: "Figma Link: " }, void 0, !1, {
+                fileName: "app/routes/tailwind-labs.tsx",
+                lineNumber: 102,
+                columnNumber: 33
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+                "a",
+                {
+                  className: "underline text-romanYellow font-bold",
+                  rel: "noreferrer",
+                  target: "_blank",
+                  href: "https://www.figma.com/file/iSnjc0uXCUkQQe03I2I6Kb/NHL-Playoff-Bracket?type=design&node-id=0%3A1&mode=dev&t=4VvRAX8i4o4Q3VLd-1",
+                  children: "Figma Dev Mode Link"
+                },
+                void 0,
+                !1,
+                {
+                  fileName: "app/routes/tailwind-labs.tsx",
+                  lineNumber: 103,
+                  columnNumber: 33
+                },
+                this
+              )
+            ] }, void 0, !0, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 101,
+              columnNumber: 29
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("strong", { children: "Live Link: " }, void 0, !1, {
+                fileName: "app/routes/tailwind-labs.tsx",
+                lineNumber: 113,
+                columnNumber: 33
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+                "a",
+                {
+                  className: "underline text-romanYellow font-bold",
+                  rel: "noreferrer",
+                  target: "_blank",
+                  href: "https://main--nhlplayoffbracket.netlify.app/",
+                  children: "NHL Playoff Bracket Demo"
+                },
+                void 0,
+                !1,
+                {
+                  fileName: "app/routes/tailwind-labs.tsx",
+                  lineNumber: 114,
+                  columnNumber: 33
+                },
+                this
+              )
+            ] }, void 0, !0, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 112,
+              columnNumber: 29
+            }, this)
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 89,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "This is my most current project that I am working on since the NHL Playoffs will be starting soon. I have tried to start this project in the past but never started soon enough, to be prepared for the playoff season. I wanted to start this project because the default NHL playoff bracket is:" }, void 0, !1, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 124,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("ul", { className: "ml-4 list-item mb-10", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "1. Always hard to find." }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 133,
+              columnNumber: 29
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "2. Brackets all looked the same and boring." }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 134,
+              columnNumber: 29
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "3. Games for the current day where annoying to find." }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 135,
+              columnNumber: 29
+            }, this)
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 132,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "A few features I plan to add to this bracket that I normally do not see on other brackets is interactivity. This will be synced with the live game APIs that exist today and I plan to make the bracket more interactive and clear that a game was going on. I also plan to make this bracket more round focused, brackets typically are static and keep the bracket layout. I want to push this further with animations, as you can sort of see from the linked figma design. Each round is going to be brought forward and in focus, to go even further with that idea. I plan on having much more stats showing when a game is live, and links to the live broadcast." }, void 0, !1, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 140,
+            columnNumber: 25
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 65,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+          "iframe",
+          {
+            title: "Roman Bytes Figma Doc for NHL Playoff Bracket",
+            width: "100%",
+            height: "550",
+            src: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FiSnjc0uXCUkQQe03I2I6Kb%2FNHL-Playoff-Bracket%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3D4VvRAX8i4o4Q3VLd-1",
+            allowFullScreen: !0
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 157,
+            columnNumber: 21
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h4", { className: "text-bold font-ubuntu text-2xl mb-8", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: "####" }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 166,
+              columnNumber: 29
+            }, this),
+            " ",
+            "Bloctics"
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 165,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("ul", { className: "list-disc ml-4 mb-10", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("strong", { children: "Github: " }, void 0, !1, {
+                fileName: "app/routes/tailwind-labs.tsx",
+                lineNumber: 171,
+                columnNumber: 33
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+                "a",
+                {
+                  className: "underline text-romanYellow font-bold",
+                  href: "https://github.com/roman-bytes/bloctics",
+                  target: "_blank",
+                  rel: "noreferrer",
+                  children: "Bloctics"
+                },
+                void 0,
+                !1,
+                {
+                  fileName: "app/routes/tailwind-labs.tsx",
+                  lineNumber: 172,
+                  columnNumber: 33
+                },
+                this
+              )
+            ] }, void 0, !0, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 170,
+              columnNumber: 29
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("strong", { children: "Live Link: " }, void 0, !1, {
+                fileName: "app/routes/tailwind-labs.tsx",
+                lineNumber: 183,
+                columnNumber: 33
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+                "a",
+                {
+                  className: "underline text-romanYellow font-bold",
+                  rel: "noreferrer",
+                  target: "_blank",
+                  href: "https://bloctics-f495.fly.dev/",
+                  children: "Bloctics Demo"
+                },
+                void 0,
+                !1,
+                {
+                  fileName: "app/routes/tailwind-labs.tsx",
+                  lineNumber: 184,
+                  columnNumber: 33
+                },
+                this
+              )
+            ] }, void 0, !0, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 182,
+              columnNumber: 29
+            }, this)
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 169,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "Next up, Bloctics. This one I am very excited about but as I have learned will take me some time. Growing up I played a game called Tactics Arena with one of my best friends. Its basically a chess like game but your pieces come to life, for example you had a knight that would move in any direction for 4 tiles and only attacked in any direction for one square. But an archer could move 5 tiles in all directions and attack in all directions for 8 tiles. This game has come and gone, and died out, was built in flash and I have always wanted to find a way to move it to mobile. So I just started from what I knew best, HTML, JS, and CSS. The projects current state is everything you are seeing is running in HTML, CSS, and JS. I am using xState for the game state and Remix as the framework, I plan on adding multiplayer and a lobby type system. Not 100% sure how that will work currently but did plan on taking a peek at PartyKit as I have heard lots of good things about that library." }, void 0, !1, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 195,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "As mentioned I used xState to help keep track of game state. You can view the machines below if you are interested in seeing how the machines work together. Below that you can find some screenshots of the actual game, I do not have designs for this as I wanted to see if something like this was even possible to do. If I pick this project back up I plan on designing and fine tuning the UI, I also plan on having animated attacks and walking." }, void 0, !1, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 217,
+            columnNumber: 25
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 164,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+          "iframe",
+          {
+            title: "Stately Bloctics",
+            width: "100%",
+            height: "550px",
+            src: "https://stately.ai/registry/editor/embed/e5ddcec4-8767-4b5a-b256-a5f090f8a62f?machineId=1a4c38d0-ea1a-4dfa-a6f4-a17b237c987e",
+            allowFullScreen: !0
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 229,
+            columnNumber: 21
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+          "img",
+          {
+            src: "/bloctics-title.png",
+            className: "w-full my-10",
+            alt: "Bloctics Game Title Screen"
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 236,
+            columnNumber: 21
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+          "img",
+          {
+            src: "/bloctics-game.png",
+            className: "w-full my-10",
+            alt: "Bloctics Game Board Screen"
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 241,
+            columnNumber: 21
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20" }, void 0, !1, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 246,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h4", { className: "text-bold font-ubuntu text-2xl mb-8", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: " ####" }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 249,
+              columnNumber: 29
+            }, this),
+            " ",
+            "Fusilier Family Farms"
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 248,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("ul", { className: "list-disc ml-4 mb-10", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("strong", { children: "Github: " }, void 0, !1, {
+                fileName: "app/routes/tailwind-labs.tsx",
+                lineNumber: 255,
+                columnNumber: 33
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+                "a",
+                {
+                  className: "underline text-romanYellow font-bold",
+                  href: "https://github.com/fusilier-farms",
+                  target: "_blank",
+                  rel: "noreferrer",
+                  children: "Fusilier Family Farms Github"
+                },
+                void 0,
+                !1,
+                {
+                  fileName: "app/routes/tailwind-labs.tsx",
+                  lineNumber: 256,
+                  columnNumber: 33
+                },
+                this
+              )
+            ] }, void 0, !0, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 254,
+              columnNumber: 29
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("strong", { children: "Figma Link: " }, void 0, !1, {
+                fileName: "app/routes/tailwind-labs.tsx",
+                lineNumber: 267,
+                columnNumber: 33
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+                "a",
+                {
+                  className: "underline text-romanYellow font-bold",
+                  rel: "noreferrer",
+                  target: "_blank",
+                  href: "https://www.figma.com/file/LDCaiJPvwzmRfBwDp1tFQO/Fuslier-Family-Farm?type=design&node-id=11%3A5&mode=design&t=onzHolvJQT9D9WLt-1",
+                  children: "Fusilier Family Farms Designs"
+                },
+                void 0,
+                !1,
+                {
+                  fileName: "app/routes/tailwind-labs.tsx",
+                  lineNumber: 268,
+                  columnNumber: 33
+                },
+                this
+              )
+            ] }, void 0, !0, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 266,
+              columnNumber: 29
+            }, this)
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 253,
+            columnNumber: 25
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 247,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+          "img",
+          {
+            src: "/fusilier-farms-logo.jpg",
+            alt: "Fusilier Family Farms logo",
+            className: "w-full"
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 279,
+            columnNumber: 21
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-yellow mx-20", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "Fusilier Family Farms has a special place in my heart, this is a close friends family business and they had been running a yearly thing where you could order farm fresh produce to your door. It was getting out of hand with some things they were doing, so they reached out for some help. We had meetings and narrowed down what they wanted and needed to make sure that things run smoother for them. The project broke down because I just did not have the bandwith to work on such a project. They found a local business that specialized in this type of thing and it seems like they got things up and running. Regardless I got to do a lot of work for them and am glad I had that experience. I really hope to see this come alive some day." }, void 0, !1, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 285,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: [
+            "To start off they needed a lot of work. They needed everything from a new logo, to a new ecommerce website. You can see the",
+            " ",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("a", { href: "https://web.archive.org/web.archive.org/web/20220111152327/https://fusilierfamilyfarms.com/", children: "old website here" }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 306,
+              columnNumber: 29
+            }, this),
+            " ",
+            "and notice how much work needed to be done."
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 302,
+            columnNumber: 25
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 284,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h4", { className: "text-bold font-ubuntu text-2xl mb-8", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: " #### " }, void 0, !1, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 314,
+            columnNumber: 25
+          }, this),
+          "Website Design"
+        ] }, void 0, !0, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 313,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+          "iframe",
+          {
+            title: "Fusilier Family Farms Website Design",
+            width: "100%",
+            height: "450",
+            src: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FLDCaiJPvwzmRfBwDp1tFQO%2FFuslier-Family-Farm%3Ftype%3Ddesign%26node-id%3D41%253A0%26mode%3Ddesign%26t%3DonzHolvJQT9D9WLt-1",
+            allowFullScreen: !0
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 317,
+            columnNumber: 21
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h4", { className: "text-bold font-ubuntu text-2xl my-8", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: " ####" }, void 0, !1, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 325,
+            columnNumber: 25
+          }, this),
+          " Fusilier Ecommerce Dashboard"
+        ] }, void 0, !0, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 324,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "One thing they also needed was an ecommerce backend dashboard, they wanted to have some custom features and dealing with farm produce is always all over the place. I landed on Medusa to handle this and it is a great open source option to get a store up and running. I designed and built out the dashboard with the custom features in mind." }, void 0, !1, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 329,
+          columnNumber: 25
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 328,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+          "iframe",
+          {
+            title: "Fusilier Family Farms Ecommerce Dashboard",
+            width: "100%",
+            height: "550",
+            src: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FLDCaiJPvwzmRfBwDp1tFQO%2FFuslier-Family-Farm%3Ftype%3Ddesign%26node-id%3D45%253A0%26mode%3Ddesign%26t%3DonzHolvJQT9D9WLt-1",
+            allowFullScreen: !0
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 339,
+            columnNumber: 21
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { className: "text-bold font-ubuntu text-4xl mb-4 mt-6", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: "##" }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 348,
+              columnNumber: 29
+            }, this),
+            " What you\u2019re excited about,",
+            " "
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 347,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "This opportunity is something that I am very excited about, ever since I realized that stuff you design for the web can be created. I have always had a passion for building things on the web, I figured it was a good idea to finish out my college degree with the focus in Graphic Design and then learning coding on my own. It was an age where the web was brand new and everyone started using it, so I figured it was the right move for me. The position of Design Engineer seems like the perfect fit for me, I have experience of designing all sorts of different digital things. I also have the ability to figure things out when it comes to coding. Reading through the list of things that this position will be responsible for has me very excited." }, void 0, !1, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 351,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "One of the things I would be most excited to work on would be the color pallete tool. Having a background in design and working at a web accesibility company for a few years. I feel confident that this is something that I could make work really well, especially if we have accesibility approved colors built in. Secondly, being able to create new templates is something that I have always wanted the chance to do, both the micro-sites and creating or updating existing tailwind templates would be something that I would enjoy." }, void 0, !1, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 368,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb=6", children: "Lastly, I would enjoy working on any one of the small utils/tools that would help improve tailwind labs developer performance. Interal tools are always useful and can be a big benefit to increase speed and productivity. Solving issues by creating an internal tool or researching a way to support a certain feature in the future is something that I always like digging into and learning more about." }, void 0, !1, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 381,
+            columnNumber: 25
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 346,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { className: "text-bold font-ubuntu text-4xl mb-8", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: " ##" }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 394,
+              columnNumber: 29
+            }, this),
+            " ",
+            "Open-source contributions,"
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 393,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: [
+            "I wish I had more time for open source work, it is really hard to find the time to specifically work on just open source stuff and have a day job. The time that I did find was in a couple differnt areas, my first ever big contribution was for a web app for a video game called Destiny, known today as Destiny 2. Managing your gear in that game was fairly annoying, so a few developers from the community started working on an app called DIM (Destiny Item Manager). I adventually re-designed and created an updated micro-site so that it was inline with the current theme and feel of Destiny.",
+            " ",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+              "a",
+              {
+                className: "underline text-romanYellow font-bold",
+                href: "https://github.com/DestinyItemManager/DIM/pull/2087",
+                children: [
+                  "PR can be found here",
+                  " "
+                ]
+              },
+              void 0,
+              !0,
+              {
+                fileName: "app/routes/tailwind-labs.tsx",
+                lineNumber: 410,
+                columnNumber: 29
+              },
+              this
+            ),
+            " ",
+            "I wish I had more time to help out on the actualy item manager app but life / work always got in the way."
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 397,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: [
+            "Aside from my work on the DIM website, I contributed to a few small open source projects for Deque Systems. One was for an",
+            " ",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+              "a",
+              {
+                className: "underline text-romanYellow font-bold",
+                href: "https://github.com/dequelabs/combobo/pulls?q=is%3Apr+sort%3Aupdated-desc+is%3Aclosed+author%3Aroman-bytes",
+                children: "accessible combo select box"
+              },
+              void 0,
+              !1,
+              {
+                fileName: "app/routes/tailwind-labs.tsx",
+                lineNumber: 424,
+                columnNumber: 29
+              },
+              this
+            ),
+            ", the other was an",
+            " ",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+              "a",
+              {
+                className: "underline text-romanYellow font-bold",
+                href: "https://github.com/dequelabs/axe-core/pull/1644",
+                children: "update to the color contrast rule"
+              },
+              void 0,
+              !1,
+              {
+                fileName: "app/routes/tailwind-labs.tsx",
+                lineNumber: 431,
+                columnNumber: 29
+              },
+              this
+            ),
+            "within axe-core."
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 420,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: [
+            "One final thing that I am working on that I hope to release some day is a multi-chat application for streamers. Last year, the well known streaming platform Twitch allowed you to stream on multiple platforms, streamers now have an issue where they have to have 2-4 chat windows open. This project would be open source for anyone to contribute too or just use. It would be a place where you can punch in your username and everything would just work. You would be able to see chats from all the different platforms that you have enabled or are currently live on. It is very very early stages but can be",
+            " ",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+              "a",
+              {
+                href: "https://github.com/roman-bytes/multi-chat",
+                className: "underline text-romanYellow font-bold",
+                children: "found on my github."
+              },
+              void 0,
+              !1,
+              {
+                fileName: "app/routes/tailwind-labs.tsx",
+                lineNumber: 452,
+                columnNumber: 29
+              },
+              this
+            )
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 439,
+            columnNumber: 25
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 392,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { className: "text-bold font-ubuntu text-4xl mb-8", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: "##" }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 462,
+              columnNumber: 29
+            }, this),
+            " Teaching ability,"
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 461,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "If there is anything I have learned over the years from being a developer and mentoring other developers along the way. It is that everyone learns and retains things differently, I learned this recently when I was going over product requirements with a fellow QA teammate. There was a prodcut requirements document that was shared with us all but this teammate was having some problems getting a full grasp of what was changing. They needed to really understand so they could know what to test and how to test for this new feature. Finally, I relized that I needed some extra help explaining the feature and what was getting touch/updated. I broken out MS paint and drew a diagram to explain the parts that were getting updated and what needed to be tested. This helped give a better picture of what needed to be done on that teammates end." }, void 0, !1, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 465,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "Another experience that I can call out is that Fusilier Family Farms project, creating all this new stuff for them I wanted to make sure they understood what was going on and what was expected. In figma, I took the time to create a high level diagram of the moving pieces and what was needed for what they wanted. They asked plenty of questions not really knowing much about the web and how it all worked but they did really seem to catch on fairly quickly with how things worked and why we needed them. You can find that diagram below." }, void 0, !1, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 484,
+            columnNumber: 25
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 460,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+          "iframe",
+          {
+            title: "Fusilier Family Farms Arch",
+            width: "100%",
+            height: "550",
+            src: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FLDCaiJPvwzmRfBwDp1tFQO%2FFuslier-Family-Farm%3Ftype%3Ddesign%26node-id%3D1102%253A1422%26mode%3Ddesign%26t%3DonzHolvJQT9D9WLt-1",
+            allowFullScreen: !0
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 499,
+            columnNumber: 21
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { className: "text-bold font-ubuntu text-4xl mb-8", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: " ##" }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 508,
+              columnNumber: 29
+            }, this),
+            " ",
+            "Finally...."
+          ] }, void 0, !0, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 507,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "I am particularly excited about the chance to collaborate on projects like updating the Tailwind CSS v4.0 site and building a tool for making color schemes. My experience overseeing challenging web projects aligns with the progressive and influential projects at Tailwind Labs. Joining Tailwind Labs means being part of a team that values design, creativity, and impact. I am thrilled to become part of your team, utilizing my unique combination of creativity, technical expertise, and focus on details to contribute to the growth of Tailwind CSS and its community. I am grateful that you are considering my application. I am eager to discuss how my skills, experiences, and passions align with Tailwind Labs' goals. I am excited to assist your team in reaching success and showcasing inspiring interfaces around the world." }, void 0, !1, {
+            fileName: "app/routes/tailwind-labs.tsx",
+            lineNumber: 511,
+            columnNumber: 25
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 506,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "mb-12 border border-romanYellow flex flex-row", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "flex flex-row items-start", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+            "img",
+            {
+              className: "w-1/4",
+              src: "/profile-pic.jpg",
+              alt: "Jacob Roman Senior Digital Engineer"
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 533,
+              columnNumber: 29
+            },
+            this
+          ),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+            "img",
+            {
+              src: "/warm-regards.svg",
+              alt: "Hand written warm regards",
+              className: "w-56 p-14 ml-auto"
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 538,
+              columnNumber: 29
+            },
+            this
+          ),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+            "img",
+            {
+              src: "/jacob-sig.svg",
+              alt: "Hand written signature",
+              className: "w-56 p-10"
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 543,
+              columnNumber: 29
+            },
+            this
+          )
+        ] }, void 0, !0, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 532,
+          columnNumber: 25
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 531,
+          columnNumber: 21
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/tailwind-labs.tsx",
+        lineNumber: 29,
+        columnNumber: 17
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/routes/tailwind-labs.tsx",
+      lineNumber: 21,
+      columnNumber: 13
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/routes/tailwind-labs.tsx",
+    lineNumber: 3,
+    columnNumber: 9
+  }, this);
+}
+
 // app/routes/about.tsx
 var about_exports = {};
 __export(about_exports, {
@@ -917,15 +1779,15 @@ __export(about_exports, {
 });
 
 // public/profile-pic.jpg
-var profile_pic_default = "/build/_assets/profile-pic-KXDOVQF5.jpg";
+var profile_pic_default = "/build/_assets/profile-pic-MNCDYPPO.jpg";
 
 // app/routes/about.tsx
-var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), meta = () => ({
+var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), meta = () => ({
   title: "Roman Bytes - Full Stack Developer"
 });
 function Index() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "grid xl:gap-11 grid-cols-1 xl:grid-cols-2 grid-rows-1 my-10 xl:w-full lg:w-3/4 text-md leading-8 font-sans text-white border border-white bg-romanBlack", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "flex items-center justify-center w-full relative xl:overflow-visible overflow-hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "grid xl:gap-11 grid-cols-1 xl:grid-cols-2 grid-rows-1 my-10 xl:w-full lg:w-3/4 text-md leading-8 font-sans text-white border border-white bg-romanBlack", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "flex items-center justify-center w-full relative xl:overflow-visible overflow-hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
       "img",
       {
         className: "xl:relative absolute xl:top-0 -top-36",
@@ -945,29 +1807,29 @@ function Index() {
       lineNumber: 13,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "xl:pl-0 pl-12 pr-12", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { className: "text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading", children: "Hello!" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "xl:pl-0 pl-12 pr-12", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h1", { className: "text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading", children: "Hello!" }, void 0, !1, {
         fileName: "app/routes/about.tsx",
         lineNumber: 21,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "text-lg text-stone-500 mt-4 mb-16 font-normal", children: "husband - father - coder - jedi" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "text-lg text-stone-500 mt-4 mb-16 font-normal", children: "husband - father - coder - jedi" }, void 0, !1, {
         fileName: "app/routes/about.tsx",
         lineNumber: 24,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "text-md", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "I am full-stack developer who has a strong background with the front-end and is improving my back-end knowledge every day. I was born in 1988 and grew up in Michigan. Once I graduated High School I knew that I wanted to do something with computers. I ended up taking a Graphic Design class and loved it, so I went to Spring Arbor University and got a Bachelor of Fine Arts with a focus on Graphic Design. During my time in college I fell in love with coding and realized that stuff I designed, I could also build in code. Thus began my journey to learn everything I know about coding to this day." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "text-md", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { children: "I am full-stack developer who has a strong background with the front-end and is improving my back-end knowledge every day. I was born in 1988 and grew up in Michigan. Once I graduated High School I knew that I wanted to do something with computers. I ended up taking a Graphic Design class and loved it, so I went to Spring Arbor University and got a Bachelor of Fine Arts with a focus on Graphic Design. During my time in college I fell in love with coding and realized that stuff I designed, I could also build in code. Thus began my journey to learn everything I know about coding to this day." }, void 0, !1, {
           fileName: "app/routes/about.tsx",
           lineNumber: 28,
           columnNumber: 21
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "I have written code for Steel Fish Design, Traffic Digital Agency, and Deque. I also help out maintain a few open source projects when I have the free time. I currently work at Nexient as a Senior Developer I. In my current position I lead a team of front end developers for a client. In our day to day we use React, GQL, and Sass." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { children: "I have written code for Steel Fish Design, Traffic Digital Agency, and Deque. I also help out maintain a few open source projects when I have the free time. I currently work at Launch by NTT Data as a Senior Digital Engineer. In my current position I lead a team of front end developers for a client. In our day to day we use React, GQL, and Sass." }, void 0, !1, {
           fileName: "app/routes/about.tsx",
           lineNumber: 42,
           columnNumber: 21
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "I met my wife while attending SAU. We live in a small town in Michigan with our six year old son and two year old daughter." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { children: "I met my wife while attending SAU. We live in a small town in Michigan with our six year old son and two year old daughter." }, void 0, !1, {
           fileName: "app/routes/about.tsx",
           lineNumber: 51,
           columnNumber: 21
@@ -997,39 +1859,39 @@ __export(routes_exports, {
 });
 
 // app/components/terminal.tsx
-var import_react_terminal2 = require("react-terminal"), import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), RomanTerminal = () => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "hidden lg:flex w-800 h-460", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+var import_react_terminal2 = require("react-terminal"), import_jsx_dev_runtime12 = require("react/jsx-dev-runtime"), RomanTerminal = () => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "hidden lg:flex w-800 h-460", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
   import_react_terminal2.ReactTerminal,
   {
     commands: {
       whoami: "Jacob Roman",
-      help: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: "Commands:" }, void 0, !1, {
+      help: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: "Commands:" }, void 0, !1, {
           fileName: "app/components/terminal.tsx",
           lineNumber: 11,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("br", {}, void 0, !1, {
           fileName: "app/components/terminal.tsx",
           lineNumber: 12,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("br", {}, void 0, !1, {
           fileName: "app/components/terminal.tsx",
           lineNumber: 13,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: "VARIABLES" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: "VARIABLES" }, void 0, !1, {
           fileName: "app/components/terminal.tsx",
           lineNumber: 15,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("br", {}, void 0, !1, {
           fileName: "app/components/terminal.tsx",
           lineNumber: 16,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { style: { marginLeft: "20px" }, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("strong", { children: "about" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { style: { marginLeft: "20px" }, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("strong", { children: "about" }, void 0, !1, {
             fileName: "app/components/terminal.tsx",
             lineNumber: 18,
             columnNumber: 21
@@ -1040,13 +1902,13 @@ var import_react_terminal2 = require("react-terminal"), import_jsx_dev_runtime11
           lineNumber: 17,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("br", {}, void 0, !1, {
           fileName: "app/components/terminal.tsx",
           lineNumber: 20,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { style: { marginLeft: "20px" }, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("strong", { children: "resume" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { style: { marginLeft: "20px" }, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("strong", { children: "resume" }, void 0, !1, {
             fileName: "app/components/terminal.tsx",
             lineNumber: 22,
             columnNumber: 21
@@ -1057,13 +1919,13 @@ var import_react_terminal2 = require("react-terminal"), import_jsx_dev_runtime11
           lineNumber: 21,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("br", {}, void 0, !1, {
           fileName: "app/components/terminal.tsx",
           lineNumber: 24,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { style: { marginLeft: "20px" }, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("strong", { children: "contact" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { style: { marginLeft: "20px" }, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("strong", { children: "contact" }, void 0, !1, {
             fileName: "app/components/terminal.tsx",
             lineNumber: 26,
             columnNumber: 21
@@ -1074,28 +1936,28 @@ var import_react_terminal2 = require("react-terminal"), import_jsx_dev_runtime11
           lineNumber: 25,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("br", {}, void 0, !1, {
           fileName: "app/components/terminal.tsx",
           lineNumber: 28,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("br", {}, void 0, !1, {
           fileName: "app/components/terminal.tsx",
           lineNumber: 29,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: "FUNCTIONS" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: "FUNCTIONS" }, void 0, !1, {
           fileName: "app/components/terminal.tsx",
           lineNumber: 31,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("br", {}, void 0, !1, {
           fileName: "app/components/terminal.tsx",
           lineNumber: 32,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { style: { marginLeft: "20px" }, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("strong", { children: "experience()" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { style: { marginLeft: "20px" }, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("strong", { children: "experience()" }, void 0, !1, {
             fileName: "app/components/terminal.tsx",
             lineNumber: 34,
             columnNumber: 21
@@ -1106,17 +1968,17 @@ var import_react_terminal2 = require("react-terminal"), import_jsx_dev_runtime11
           lineNumber: 33,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("br", {}, void 0, !1, {
           fileName: "app/components/terminal.tsx",
           lineNumber: 36,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { style: { marginLeft: "40px" }, children: "returns the total years of working experience" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { style: { marginLeft: "40px" }, children: "returns the total years of working experience" }, void 0, !1, {
           fileName: "app/components/terminal.tsx",
           lineNumber: 37,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("br", {}, void 0, !1, {
           fileName: "app/components/terminal.tsx",
           lineNumber: 40,
           columnNumber: 17
@@ -1126,16 +1988,16 @@ var import_react_terminal2 = require("react-terminal"), import_jsx_dev_runtime11
         lineNumber: 10,
         columnNumber: 13
       }, this),
-      contact: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: "follow me on twitter or send me an email" }, void 0, !1, {
+      contact: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: "follow me on twitter or send me an email" }, void 0, !1, {
         fileName: "app/components/terminal.tsx",
         lineNumber: 43,
         columnNumber: 18
       }, this),
       about: "Javascript Developer, Accessibility Advocate, and Team player. I am always seeking opportunities to learn and grow. I am a simple guy who loves all things tech and a good cup of coffee. Nice to meet you.",
-      resume: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: [
+      resume: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: [
         "You can",
         " ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
           "a",
           {
             target: "_blank",
@@ -1163,9 +2025,9 @@ var import_react_terminal2 = require("react-terminal"), import_jsx_dev_runtime11
     },
     theme: "dark",
     prompt: "$",
-    welcomeMessage: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { children: [
+    welcomeMessage: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { children: [
       'Type "help" for more information. ',
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("br", {}, void 0, !1, {
         fileName: "app/components/terminal.tsx",
         lineNumber: 75,
         columnNumber: 47
@@ -1191,7 +2053,7 @@ var import_react_terminal2 = require("react-terminal"), import_jsx_dev_runtime11
 }, this), terminal_default = RomanTerminal;
 
 // app/routes/index.tsx
-var import_jsx_dev_runtime12 = require("react/jsx-dev-runtime"), meta2 = () => ({
+var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime"), meta2 = () => ({
   title: "Roman Bytes | Senior Digital Engineer",
   description: "Experienced Senior Digital Engineer with a demonstrated history of working in the computer software industry. Skilled in modern Front-end technologies, and Fron-end design. Strong engineering professional with a Bachelor of Arts focused on Graphic Design from Spring Arbor University.",
   "og:url": "https://romanbytes.dev/",
@@ -1201,11 +2063,11 @@ var import_jsx_dev_runtime12 = require("react/jsx-dev-runtime"), meta2 = () => (
   "twitter:card": "summary_large_image"
 });
 function Index2() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "flex justify-center items-center w-full", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("h1", { className: "font-sans text-white left-2.5 lg:right-2.5 xl:right-5 absolute top-2.5 xl:top-5 text-2xl text-left lg:text-right", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex justify-center items-center w-full", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h1", { className: "font-sans text-white left-2.5 lg:right-2.5 xl:right-5 absolute top-2.5 xl:top-5 text-2xl text-left lg:text-right", children: [
       "Hello, I am Jacob Roman, a",
       " ",
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { className: "text-romanYellow line-through", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "text-romanYellow line-through", children: [
         " ",
         "designer",
         " "
@@ -1214,7 +2076,7 @@ function Index2() {
         lineNumber: 25,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("br", {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("br", {}, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 29,
         columnNumber: 17
@@ -1225,7 +2087,7 @@ function Index2() {
       lineNumber: 23,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(terminal_default, {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(terminal_default, {}, void 0, !1, {
       fileName: "app/routes/index.tsx",
       lineNumber: 31,
       columnNumber: 13
@@ -1242,32 +2104,32 @@ var test_exports = {};
 __export(test_exports, {
   default: () => test
 });
-var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime");
 function test() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "mt-20 mb-40 p-14 text-md font-sans text-white border border-white bg-romanBlack", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h1", { className: "text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading", children: "Hello!" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "mt-20 mb-40 p-14 text-md font-sans text-white border border-white bg-romanBlack", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h1", { className: "text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading", children: "Hello!" }, void 0, !1, {
       fileName: "app/routes/test.tsx",
       lineNumber: 4,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-lg text-stone-500 mt-4 mb-16 font-normal", children: "husband - father - coder - jedi" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-lg text-stone-500 mt-4 mb-16 font-normal", children: "husband - father - coder - jedi" }, void 0, !1, {
       fileName: "app/routes/test.tsx",
       lineNumber: 7,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-md", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-md", children: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis lacus massa. Curabitur vitae enim id tortor malesuada scelerisque. Cras libero elit, fringilla ut consectetur vitae, dapibus ut erat. Phasellus volutpat quam eu lorem commodo porttitor. Nam id condimentum massa, vitae faucibus sapien. Sed quis dui quis dolor ullamcorper accumsan tempus quis ligula. Mauris scelerisque eleifend mollis. Cras commodo risus vitae iaculis placerat. Integer egestas interdum mi, non vestibulum elit sodales pretium. Curabitur faucibus dolor eu volutpat consequat. Nulla euismod neque egestas, rutrum lacus pretium, venenatis libero. Pellentesque fringilla lectus ultricies ultrices tincidunt. Etiam quis pretium nulla, nec ornare ex. Cras imperdiet dolor orci, ut aliquet lorem luctus a. Nullam ultrices tincidunt tortor vel sodales. In pulvinar magna lorem, in fermentum orci pulvinar sit amet. Nulla facilisi. Quisque ipsum sem, lobortis et aliquam non, efficitur ut quam. In lacinia consectetur bibendum. Suspendisse in lacinia eros, vel luctus diam. Nullam hendrerit tellus sed libero congue vehicula. Integer ipsum justo, euismod vel mattis vel, faucibus vel massa. Integer convallis sem nec metus congue mattis. Sed vel rhoncus nulla, nec euismod urna. Integer a nunc sem. Phasellus vehicula nunc et justo sollicitudin viverra. Cras blandit lacus id maximus efficitur. Ut blandit, elit eu interdum malesuada, purus turpis fringilla arcu, et sodales ante dolor eu dui. Morbi convallis, justo et ullamcorper pellentesque, ex elit dignissim nisl, eu commodo turpis nisi vel sem. Nulla euismod libero nec augue lobortis, eget rutrum nunc imperdiet. Phasellus laoreet metus sed nisi lacinia consectetur. Vestibulum at maximus mauris. Nulla eget pretium magna. Nulla pharetra congue metus et pretium. Nunc purus nisi, ultricies ac imperdiet eu, pharetra a metus. Aenean accumsan tellus quis arcu malesuada, at scelerisque dolor varius. Pellentesque mollis, turpis in luctus scelerisque, est tellus iaculis sapien, eu accumsan augue sem sed tellus. Nulla dictum mattis lectus, at tincidunt purus viverra in. In luctus nunc elit, efficitur euismod est congue id. Pellentesque rhoncus, nisl ac pretium blandit, augue tellus elementum est, ac molestie sapien sem non leo. Proin lobortis pharetra lacus quis pretium. Donec pulvinar nunc sed luctus porta. Integer tristique efficitur nunc, nec placerat tortor. Nullam aliquam ac metus sed malesuada. Integer id ante ac turpis bibendum commodo. Curabitur faucibus rutrum rutrum. Pellentesque vehicula ipsum nunc, eget vulputate eros fringilla at. Sed eu leo eget leo tristique molestie non eu diam. Aliquam vitae maximus tortor. Mauris venenatis dapibus nibh tincidunt condimentum. Nulla facilisi. Vivamus augue ligula, iaculis sed tortor eu, hendrerit facilisis turpis. Etiam faucibus laoreet arcu et egestas. Donec mauris diam, interdum sed pellentesque nec, convallis sed ex. In purus diam, condimentum sit amet elementum sit amet, tempus at sem. Aenean ligula nisl, suscipit eu ex et, ornare elementum risus. Proin sodales massa sed orci tempor, vitae elementum ligula suscipit. Fusce a ligula vehicula, porttitor metus non, commodo sem. Sed ut magna mattis, venenatis mi congue, vestibulum nisi. Proin et lectus eu libero dignissim molestie vitae vitae libero. Proin convallis at ex id efficitur. Nulla efficitur, lacus ut ornare tempor, massa urna mattis magna, vel porta leo neque vitae dui. Nam congue congue turpis id euismod. Curabitur vel sapien elementum lacus malesuada imperdiet ut eget sem. In accumsan arcu erat, ac dictum sapien varius sed. Nulla a neque eu sem rhoncus scelerisque. Phasellus eget lacus sit amet sapien semper tempor. Nunc finibus dui eget metus auctor, eget dignissim tortor aliquam. Sed elit nisl, tempor eleifend neque et, ullamcorper auctor sapien. In maximus eu nisi a convallis. Duis ut pharetra nulla. Duis non sapien egestas, egestas augue in, rutrum dolor. Nullam pharetra molestie sapien. In fringilla leo eu mi finibus, vitae dictum neque condimentum. Quisque dignissim sem vitae dui gravida, ac volutpat augue finibus. Suspendisse euismod sed nisl et posuere. Ut finibus vulputate volutpat. Duis vestibulum sem ac lorem gravida, a varius elit faucibus. Aliquam erat volutpat. Nunc sed elementum nulla. In orci elit, lacinia sed finibus ut, consequat non sem. Nunc pharetra semper metus, vel luctus justo elementum vitae. Ut convallis velit sem, id pharetra sapien aliquet a. Fusce eleifend lorem ut malesuada commodo. Donec elementum odio eros, nec ullamcorper elit elementum nec. Nam non erat vel sapien euismod aliquam vel sit amet sem. Cras hendrerit gravida massa, sit amet tincidunt velit pretium eu. Proin quis maximus est. Curabitur luctus lacus mi, suscipit mattis diam pharetra ut. Nam quis porttitor lorem. Maecenas velit dolor, pharetra ac lectus in, ultrices condimentum tortor. Pellentesque sed ex pellentesque sapien efficitur dignissim eget id felis. Pellentesque sed tortor euismod, maximus justo vitae, maximus ante. Nam in mi vestibulum, tincidunt ex in, porta arcu. Pellentesque pellentesque, quam eget congue consectetur, diam augue mollis lectus, ut gravida libero libero quis leo. Donec tincidunt neque nec metus mollis tempus. Aenean ac nulla eget magna consectetur lobortis. Nunc quis rutrum ex, eget ornare elit. Nullam porta magna sit amet erat volutpat varius. Phasellus magna ex, malesuada nec tristique et, laoreet sed justo. Suspendisse potenti. Donec consequat suscipit semper. Vivamus dictum, metus quis sodales faucibus, leo diam dapibus urna, aliquam pretium lorem arcu volutpat ante. Nullam luctus diam id velit luctus mattis. Cras sodales, lorem nec sollicitudin vehicula, risus elit blandit ex, a fermentum leo augue vitae nisi. Integer iaculis neque eget magna laoreet, eu imperdiet velit vehicula. Duis nec luctus nulla, sit amet scelerisque neque. Duis vitae dui porta, eleifend urna ultricies, posuere risus. Phasellus sit amet elit vel turpis varius efficitur a sed erat. Ut vel finibus nisi. Aliquam a pharetra ante, vel malesuada tellus. Fusce fringilla, elit quis molestie sagittis, leo tellus imperdiet felis, et volutpat leo lacus vel nunc. Phasellus porttitor turpis quis lorem venenatis semper. Quisque dictum diam quis accumsan suscipit. Pellentesque vehicula rhoncus vestibulum. Ut viverra ante ac ante maximus, eu pulvinar leo laoreet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sit amet rutrum felis, vitae faucibus metus. In accumsan vestibulum dui, ut efficitur lacus fermentum vel. Sed posuere dolor porttitor, eleifend odio ac, suscipit arcu. Quisque vulputate arcu eget elit dictum, vitae consectetur nunc mollis. Sed ex metus, congue a enim et, commodo consequat tellus. Aenean porta tempor dui quis viverra. Etiam pretium tellus at justo vulputate, sed dignissim nibh finibus. Morbi vitae ex feugiat, vestibulum sem et, ultricies sapien. Aliquam id velit nec leo faucibus ultricies. Curabitur consectetur pharetra felis, in imperdiet libero. Morbi congue pretium dignissim. Donec ornare mollis orci in hendrerit. Aenean ut dignissim nulla. Aenean imperdiet aliquet rutrum. Integer quis suscipit nibh, ac tincidunt lorem. Aenean non tellus semper, euismod felis eu, volutpat tortor. Donec non ullamcorper elit. Praesent vitae velit sit amet tortor efficitur ultrices eu nec justo. Aliquam eget quam est. Ut dignissim gravida euismod. Maecenas sit amet hendrerit nunc. Donec quis elit quis tortor euismod dignissim vel vel ex. Nam quis quam ut risus ullamcorper feugiat. Pellentesque vel bibendum quam. Duis elementum diam sed ligula blandit iaculis. Sed posuere porttitor eros, id mollis nibh tempor ut. Proin interdum velit vel tincidunt laoreet. Aenean sodales urna et tortor tempor, et suscipit tortor tincidunt. Quisque sagittis ex erat, id dignissim sem imperdiet vitae. Fusce vestibulum, sem quis aliquam facilisis, libero lectus suscipit nulla, id vulputate nisl purus eu nunc. Duis at vehicula est. Nunc semper magna vitae lacus suscipit dictum. Quisque varius dolor at lacinia posuere. Nullam eget mauris eu lorem posuere hendrerit. Nullam vel lacinia leo, nec laoreet quam. Sed tempus efficitur justo. Vestibulum id nisi finibus, accumsan tellus id, porta nulla. Nulla vel nisl justo. Fusce pellentesque mattis lorem eget condimentum. In rhoncus augue sed nisi lobortis, eu malesuada nulla rhoncus. Mauris ut mauris eget dolor imperdiet dignissim tempor eget ex. Donec velit turpis, ornare quis mi id, sodales vestibulum nunc. Praesent euismod tristique tellus, id suscipit mauris vestibulum a. Fusce et est in lorem tempus fermentum in conggvallis ligula.",
-      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "I am full-stack developer who has a strong background with the front-end and is improving my back-end knowledge every day. I was born in 1988 and grew up in Michigan. Once I graduated High School I knew that I wanted to do something with computers. I ended up taking a Graphic Design class and loved it, so I went to Spring Arbor University and got a Bachelor of Fine Arts with a focus on Graphic Design. During my time in college I fell in love with coding and realized that stuff I designed, I could also build in code. Thus began my journey to learn everything I know about coding to this day." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { children: "I am full-stack developer who has a strong background with the front-end and is improving my back-end knowledge every day. I was born in 1988 and grew up in Michigan. Once I graduated High School I knew that I wanted to do something with computers. I ended up taking a Graphic Design class and loved it, so I went to Spring Arbor University and got a Bachelor of Fine Arts with a focus on Graphic Design. During my time in college I fell in love with coding and realized that stuff I designed, I could also build in code. Thus began my journey to learn everything I know about coding to this day." }, void 0, !1, {
         fileName: "app/routes/test.tsx",
         lineNumber: 151,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "I have written code for Steel Fish Design, Traffic Digital Agency, and Deque. I also help out maintain a few open source projects when I have the free time. I currently work at Nexient as a Senior Developer I. In my current position I lead a team of front end developers for a client. In our day to day we use React, GQL, and Sass." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { children: "I have written code for Steel Fish Design, Traffic Digital Agency, and Deque. I also help out maintain a few open source projects when I have the free time. I currently work at Nexient as a Senior Developer I. In my current position I lead a team of front end developers for a client. In our day to day we use React, GQL, and Sass." }, void 0, !1, {
         fileName: "app/routes/test.tsx",
         lineNumber: 164,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "I met my wife while attending SAU. We live in a small town in Michigan with our six year old son and two year old daughter." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { children: "I met my wife while attending SAU. We live in a small town in Michigan with our six year old son and two year old daughter." }, void 0, !1, {
         fileName: "app/routes/test.tsx",
         lineNumber: 172,
         columnNumber: 17
@@ -1285,7 +2147,7 @@ function test() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-PUOIK5DD.js", imports: ["/build/_shared/chunk-OFDAVSOL.js", "/build/_shared/chunk-JR7JHID7.js", "/build/_shared/chunk-4D7IJTTE.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-XTWKFQOM.js", imports: ["/build/_shared/chunk-M2RJYPDF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-ICCJSMNJ.js", imports: ["/build/_shared/chunk-VY7J7PYC.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-GQQNNV36.js", imports: ["/build/_shared/chunk-VY7J7PYC.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/index": { id: "routes/projects/index", parentId: "root", path: "projects", index: !0, caseSensitive: void 0, module: "/build/routes/projects/index-B5NEP32T.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/project": { id: "routes/projects/project", parentId: "root", path: "projects/project", index: void 0, caseSensitive: void 0, module: "/build/routes/projects/project-UZEBTHP3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/test": { id: "routes/test", parentId: "root", path: "test", index: void 0, caseSensitive: void 0, module: "/build/routes/test-MYRIMMEQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "1cce824a", hmr: void 0, url: "/build/manifest-1CCE824A.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-PUOIK5DD.js", imports: ["/build/_shared/chunk-OFDAVSOL.js", "/build/_shared/chunk-JR7JHID7.js", "/build/_shared/chunk-4D7IJTTE.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-FKTWPNHT.js", imports: ["/build/_shared/chunk-M2RJYPDF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-PGP2KDUF.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-4XUEQ5OI.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/index": { id: "routes/projects/index", parentId: "root", path: "projects", index: !0, caseSensitive: void 0, module: "/build/routes/projects/index-B5NEP32T.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/project": { id: "routes/projects/project", parentId: "root", path: "projects/project", index: void 0, caseSensitive: void 0, module: "/build/routes/projects/project-UZEBTHP3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/tailwind-labs": { id: "routes/tailwind-labs", parentId: "root", path: "tailwind-labs", index: void 0, caseSensitive: void 0, module: "/build/routes/tailwind-labs-DJ7LGO6S.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/test": { id: "routes/test", parentId: "root", path: "test", index: void 0, caseSensitive: void 0, module: "/build/routes/test-MYRIMMEQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "d1993b6d", hmr: void 0, url: "/build/manifest-D1993B6D.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
@@ -1312,6 +2174,14 @@ var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postc
     index: !0,
     caseSensitive: void 0,
     module: projects_exports
+  },
+  "routes/tailwind-labs": {
+    id: "routes/tailwind-labs",
+    parentId: "root",
+    path: "tailwind-labs",
+    index: void 0,
+    caseSensitive: void 0,
+    module: tailwind_labs_exports
   },
   "routes/about": {
     id: "routes/about",

@@ -40,7 +40,7 @@ const Layout: FunctionComponent<LayoutProps> = ({
                 <div className="hidden lg:block absolute xl:top-5 xl:left-5 lg:top-2.5 lg:left-2.5 h-">
                     <Logo />
                 </div>
-                <div className="flex h-full w-full">
+                <div className="flex h-full w-full justify-center">
                     <main className="container lg:mx-40 h-max min-h-full lg:flex">
                         {children}
                     </main>

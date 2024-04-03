@@ -1,7 +1,6 @@
 // @ts-ignore
 import * as THREE from 'three';
 import { useFrame, Canvas } from '@react-three/fiber';
-import { OrbitControls } from '@react-three/drei';
 
 const SEPARATION = 100;
 const AMOUNTX = 100;
@@ -87,7 +86,7 @@ const Particle = () => {
 const Particles = () => {
     return (
         <Canvas
-            className="!fixed top-0 left-0 -z-10"
+            className="!fixed top-0 left-0 -z-50"
             camera={{
                 fov: 120,
                 near: 1,
@@ -99,7 +98,6 @@ const Particles = () => {
             <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
             <pointLight position={[-10, -10, -10]} />
             <Particle />
-            <OrbitControls />
         </Canvas>
     );
 };
