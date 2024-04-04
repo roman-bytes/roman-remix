@@ -639,9 +639,9 @@ video {
   margin-right: 3rem;
 }
 
-.mx-20{
-  margin-left: 5rem;
-  margin-right: 5rem;
+.mx-2{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .my-10{
@@ -709,12 +709,12 @@ video {
   margin-left: 1.5rem;
 }
 
-.ml-auto{
-  margin-left: auto;
-}
-
 .mt-16{
   margin-top: 4rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
 }
 
 .mt-20{
@@ -727,10 +727,6 @@ video {
 
 .mt-6{
   margin-top: 1.5rem;
-}
-
-.inline{
-  display: inline;
 }
 
 .flex{
@@ -772,10 +768,6 @@ video {
 
 .min-h-full{
   min-height: 100%;
-}
-
-.w-1\/4{
-  width: 25%;
 }
 
 .w-16{
@@ -934,6 +926,10 @@ video {
   padding: 3.5rem;
 }
 
+.p-2{
+  padding: 0.5rem;
+}
+
 .p-4{
   padding: 1rem;
 }
@@ -942,9 +938,14 @@ video {
   padding: 1.25rem;
 }
 
-.px-16{
-  padding-left: 4rem;
-  padding-right: 4rem;
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-12{
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .px-2{
@@ -952,14 +953,9 @@ video {
   padding-right: 0.5rem;
 }
 
-.px-44{
-  padding-left: 11rem;
-  padding-right: 11rem;
-}
-
-.py-24{
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .pl-12{
@@ -1159,6 +1155,12 @@ div[data-testid="terminal"] {
   }
 }
 
+@media (min-width: 768px){
+  .md\:flex-row{
+    flex-direction: row;
+  }
+}
+
 @media (min-width: 1024px){
   .lg\:left-2{
     left: 0.5rem;
@@ -1184,9 +1186,18 @@ div[data-testid="terminal"] {
     top: 2.5rem;
   }
 
+  .lg\:mx-20{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
   .lg\:mx-40{
     margin-left: 10rem;
     margin-right: 10rem;
+  }
+
+  .lg\:mt-20{
+    margin-top: 5rem;
   }
 
   .lg\:mt-4{
@@ -1213,8 +1224,28 @@ div[data-testid="terminal"] {
     padding: 2.5rem;
   }
 
+  .lg\:px-16{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .lg\:px-44{
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+
+  .lg\:py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
   .lg\:text-right{
     text-align: right;
+  }
+
+  .lg\:text-8xl{
+    font-size: 6rem;
+    line-height: 1;
   }
 }
 

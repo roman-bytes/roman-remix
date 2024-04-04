@@ -85,7 +85,7 @@ var import_react3 = require("@remix-run/react");
 var import_react2 = require("react"), import_classnames = __toESM(require("classnames")), import_react_terminal = require("react-terminal"), import_remix_utils = require("remix-utils");
 
 // app/components/footer.tsx
-var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), Footer = () => /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("footer", { className: "hidden lg:block w-full fixed top-1/2 text-romanText", children: [
+var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), Footer = () => /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("footer", { className: "hidden lg:block -z-50 w-full fixed top-1/2 text-romanText", children: [
   /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "absolute xl:left-5 lg:left-2.5 text-sm origin-center transform -rotate-90 -translate-x-1/2", children: "Made with love from Michigan." }, void 0, !1, {
     fileName: "app/components/footer.tsx",
     lineNumber: 5,
@@ -520,7 +520,7 @@ var import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), Layout = ({
 }, layout_default = Layout;
 
 // app/styles/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-B6TZDZKZ.css";
+var tailwind_default = "/build/_assets/tailwind-RK75LKPQ.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), links = () => [{ rel: "stylesheet", href: tailwind_default }];
@@ -826,8 +826,8 @@ __export(tailwind_labs_exports, {
 });
 var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime");
 function tailwindLabs() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "mt-20 mb-40 text-md font-sans text-white border border-romanYellow border-double bg-romanBlack", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("header", { className: "flex flex-row flex-nowrap justify-center items-center px-16 py-24", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "mt-2 lg:mt-20 mb-40 text-md font-sans text-white border border-romanYellow border-double bg-romanBlack", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("header", { className: "flex md:flex-row flex-col flex-nowrap justify-center items-center px-1 py-2 lg:px-16 lg:py-24", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
         "img",
         {
@@ -881,8 +881,8 @@ function tailwindLabs() {
       lineNumber: 4,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("main", { className: "container px-44", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { className: "text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("main", { className: "container px-12 lg:px-44", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { className: "text-4xl lg:text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: "#" }, void 0, !1, {
           fileName: "app/routes/tailwind-labs.tsx",
           lineNumber: 23,
@@ -900,7 +900,7 @@ function tailwindLabs() {
         columnNumber: 17
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "container text-lg", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-2 lg:mx-20", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: [
           "Hello Tailwind friends, this is my application for the open position of",
           " ",
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
@@ -922,7 +922,7 @@ function tailwindLabs() {
             },
             this
           ),
-          "You might say the crossover of roman-bytes (me) and Tailwind. My name is Jacob Roman also known as roman-bytes. I have been working in the web industry for just over 10 years now, I started out as a designer and was learning code everyday. I learned a ton about Wordpress as that was the most commonly used CMS at the time. I then switched gears to learning Javascript, eventually React, and everything else that goes along with that ecosystem. I currently work at Launch by NTT Data and am looking for some new challenges. I am currently leading a team that is focused on growing and become a full stack team, we are focused in the payment area of an enterprise company that is well known for video games. We currently take care of the client work which is done in NextJS, GraphQL, SCSS, and GraphQL. I would like something that is more of a creative roll and still involved with coding on a day to day. I can not express how excited I am that I have the chance to apply for this position. Below you will find multiple examples and reasons why I would be a good fit for this role."
+          "You might say the crossover of roman-bytes (me) and Tailwind. My name is Jacob Roman also known as roman-bytes. I have been working in the web industry for over a decade now. I started out as a designer and was challenging myself with learning new code everyday. I immersed myself in the world of Wordpress; as that was the most commonly used CMS at the time. I then switched gears to learning Javascript, eventually React, and everything else that goes along with that ecosystem. I currently work at Launch by NTT Data and in search of fresh, exciting new challenges. Day-to-day I lead a team that is focused on growing and becoming a full stack team. We are focused in the payment area of an enterprise company that is well known for video games. We currently take care of the client work which is done in NextJS, GraphQL, SCSS, and GraphQL. I am looking for a positiong which melds my two passions together: being creative with design and also using code daily. I can not express how excited I am that I have the chance to apply for this position. Below you will find multiple examples and reasons why I would be an ideal candidate for this role and an asset to the team."
         ] }, void 0, !0, {
           fileName: "app/routes/tailwind-labs.tsx",
           lineNumber: 31,
@@ -932,67 +932,67 @@ function tailwindLabs() {
           lineNumber: 30,
           columnNumber: 21
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-2 lg:mx-20", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { className: "text-bold font-ubuntu text-4xl mb-4 mt-6", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: "##" }, void 0, !1, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 67,
+              lineNumber: 69,
               columnNumber: 29
             }, this),
             " Projects that I am proud of,"
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 66,
+            lineNumber: 68,
             columnNumber: 25
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("ul", { className: "ml-6 mb-10 list-disc", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "NHL Playoff Bracket" }, void 0, !1, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 71,
+              lineNumber: 73,
               columnNumber: 29
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "Bloctics" }, void 0, !1, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 72,
+              lineNumber: 74,
               columnNumber: 29
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "Tarkov Tracker" }, void 0, !1, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 73,
+              lineNumber: 75,
               columnNumber: 29
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "Fusilier Family Farms" }, void 0, !1, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 74,
+              lineNumber: 76,
               columnNumber: 29
             }, this)
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 70,
+            lineNumber: 72,
             columnNumber: 25
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "It always seems like there is never enough time to work on side projects or projects that I am passionate about. Having two kids under the age of 7 might have something to do with that. Now that we are past the potty training stage as a parent, I feel like I will have more time to spend on actually creating more of these side projects." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6" }, void 0, !1, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 76,
+            lineNumber: 78,
             columnNumber: 25
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h4", { className: "text-bold font-ubuntu text-2xl mb-8", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: "####" }, void 0, !1, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 86,
+              lineNumber: 80,
               columnNumber: 29
             }, this),
             " NHL Playoff Bracket"
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 85,
+            lineNumber: 79,
             columnNumber: 25
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("ul", { className: "list-disc ml-4 mb-10", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("strong", { children: "Github: " }, void 0, !1, {
                 fileName: "app/routes/tailwind-labs.tsx",
-                lineNumber: 91,
+                lineNumber: 85,
                 columnNumber: 33
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
@@ -1008,20 +1008,20 @@ function tailwindLabs() {
                 !1,
                 {
                   fileName: "app/routes/tailwind-labs.tsx",
-                  lineNumber: 92,
+                  lineNumber: 86,
                   columnNumber: 33
                 },
                 this
               )
             ] }, void 0, !0, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 90,
+              lineNumber: 84,
               columnNumber: 29
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("strong", { children: "Figma Link: " }, void 0, !1, {
                 fileName: "app/routes/tailwind-labs.tsx",
-                lineNumber: 102,
+                lineNumber: 96,
                 columnNumber: 33
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
@@ -1037,20 +1037,20 @@ function tailwindLabs() {
                 !1,
                 {
                   fileName: "app/routes/tailwind-labs.tsx",
-                  lineNumber: 103,
+                  lineNumber: 97,
                   columnNumber: 33
                 },
                 this
               )
             ] }, void 0, !0, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 101,
+              lineNumber: 95,
               columnNumber: 29
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("strong", { children: "Live Link: " }, void 0, !1, {
                 fileName: "app/routes/tailwind-labs.tsx",
-                lineNumber: 113,
+                lineNumber: 107,
                 columnNumber: 33
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
@@ -1066,55 +1066,55 @@ function tailwindLabs() {
                 !1,
                 {
                   fileName: "app/routes/tailwind-labs.tsx",
-                  lineNumber: 114,
+                  lineNumber: 108,
                   columnNumber: 33
                 },
                 this
               )
             ] }, void 0, !0, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 112,
+              lineNumber: 106,
               columnNumber: 29
             }, this)
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 89,
+            lineNumber: 83,
             columnNumber: 25
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "This is my most current project that I am working on since the NHL Playoffs will be starting soon. I have tried to start this project in the past but never started soon enough, to be prepared for the playoff season. I wanted to start this project because the default NHL playoff bracket is:" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "This is my most current project since the NHL Playoffs will be starting soon. Since I enjoy watching hockey, especially during playoff time, I always have a bracket open on my computer. I wanted to challenge myself to create a bracket in code and then take it a step further to create new features that were not only interactive but more useful than what was already out there. Some of the reasons I started this project is because:" }, void 0, !1, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 124,
+            lineNumber: 118,
             columnNumber: 25
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("ul", { className: "ml-4 list-item mb-10", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "1. Always hard to find." }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "1. The Playoff Bracket is always hard to find." }, void 0, !1, {
+              fileName: "app/routes/tailwind-labs.tsx",
+              lineNumber: 130,
+              columnNumber: 29
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "2. Brackets all looked the same." }, void 0, !1, {
               fileName: "app/routes/tailwind-labs.tsx",
               lineNumber: 133,
               columnNumber: 29
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "2. Brackets all looked the same and boring." }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "3. Games for the current day were tedious to find." }, void 0, !1, {
               fileName: "app/routes/tailwind-labs.tsx",
               lineNumber: 134,
-              columnNumber: 29
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: "3. Games for the current day where annoying to find." }, void 0, !1, {
-              fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 135,
               columnNumber: 29
             }, this)
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 132,
+            lineNumber: 129,
             columnNumber: 25
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "A few features I plan to add to this bracket that I normally do not see on other brackets is interactivity. This will be synced with the live game APIs that exist today and I plan to make the bracket more interactive and clear that a game was going on. I also plan to make this bracket more round focused, brackets typically are static and keep the bracket layout. I want to push this further with animations, as you can sort of see from the linked figma design. Each round is going to be brought forward and in focus, to go even further with that idea. I plan on having much more stats showing when a game is live, and links to the live broadcast." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "A few features I plan to add to this bracket that I normally do not see on other brackets is interactivity. This will be synced with the live game APIs that exist today and I plan to make the bracket more interactive and clear that a game was going on. I also plan to make this bracket more round focused, brackets typically are static and keep the bracket layout. I want to push this further with animations, as you can sort of see from the linked figma design. Each round is going to be brought forward and in focus, to go even further with that idea. I plan on having statistics showing when a game is live, as well as links to the live broadcast." }, void 0, !1, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 140,
+            lineNumber: 139,
             columnNumber: 25
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/tailwind-labs.tsx",
-          lineNumber: 65,
+          lineNumber: 67,
           columnNumber: 21
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
@@ -1130,30 +1130,30 @@ function tailwindLabs() {
           !1,
           {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 157,
+            lineNumber: 156,
             columnNumber: 21
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-2 lg:mx-20", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h4", { className: "text-bold font-ubuntu text-2xl mb-8", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: "####" }, void 0, !1, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 166,
+              lineNumber: 165,
               columnNumber: 29
             }, this),
             " ",
             "Bloctics"
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 165,
+            lineNumber: 164,
             columnNumber: 25
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("ul", { className: "list-disc ml-4 mb-10", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("strong", { children: "Github: " }, void 0, !1, {
                 fileName: "app/routes/tailwind-labs.tsx",
-                lineNumber: 171,
+                lineNumber: 170,
                 columnNumber: 33
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
@@ -1169,20 +1169,20 @@ function tailwindLabs() {
                 !1,
                 {
                   fileName: "app/routes/tailwind-labs.tsx",
-                  lineNumber: 172,
+                  lineNumber: 171,
                   columnNumber: 33
                 },
                 this
               )
             ] }, void 0, !0, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 170,
+              lineNumber: 169,
               columnNumber: 29
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("strong", { children: "Live Link: " }, void 0, !1, {
                 fileName: "app/routes/tailwind-labs.tsx",
-                lineNumber: 183,
+                lineNumber: 182,
                 columnNumber: 33
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
@@ -1198,34 +1198,34 @@ function tailwindLabs() {
                 !1,
                 {
                   fileName: "app/routes/tailwind-labs.tsx",
-                  lineNumber: 184,
+                  lineNumber: 183,
                   columnNumber: 33
                 },
                 this
               )
             ] }, void 0, !0, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 182,
+              lineNumber: 181,
               columnNumber: 29
             }, this)
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 169,
+            lineNumber: 168,
             columnNumber: 25
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "Next up, Bloctics. This one I am very excited about but as I have learned will take me some time. Growing up I played a game called Tactics Arena with one of my best friends. Its basically a chess like game but your pieces come to life, for example you had a knight that would move in any direction for 4 tiles and only attacked in any direction for one square. But an archer could move 5 tiles in all directions and attack in all directions for 8 tiles. This game has come and gone, and died out, was built in flash and I have always wanted to find a way to move it to mobile. So I just started from what I knew best, HTML, JS, and CSS. The projects current state is everything you are seeing is running in HTML, CSS, and JS. I am using xState for the game state and Remix as the framework, I plan on adding multiplayer and a lobby type system. Not 100% sure how that will work currently but did plan on taking a peek at PartyKit as I have heard lots of good things about that library." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "Next up, Bloctics. This one I am very excited about but as I have learned will take me some time. Growing up I played a game called Tactics Arena with one of my best friends. It's basically a chess like game but your pieces come to life. For example, you had a knight that would move in any direction for 4 tiles and only attacked in any direction for 1 tile. But an archer could move 5 tiles in all directions and attack in all directions for 8 tiles. This game has come and gone, and was built in Flash and I have always wanted to find a way to move it to mobile. I decided to start from what I knew best, HTML, JS, and CSS. I am using xState for the game state and Remix as the framework. I plan on adding multiplayer and a lobby type system. My next plan of action is to investigate PartyKit, as I have heard great things about that library." }, void 0, !1, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 195,
+            lineNumber: 194,
             columnNumber: 25
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "As mentioned I used xState to help keep track of game state. You can view the machines below if you are interested in seeing how the machines work together. Below that you can find some screenshots of the actual game, I do not have designs for this as I wanted to see if something like this was even possible to do. If I pick this project back up I plan on designing and fine tuning the UI, I also plan on having animated attacks and walking." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "As previously mentioned, I used xState to help keep track of game state. You can view the machines below if you are interested in seeing how the machines work together. Below that you can view screenshots of the actual game, I do not have designs for this as I wanted to see if something like this was even possible to do. If I pick this project back up I plan on designing and fine-tuning the UI, I also plan on having animated attacks and walking." }, void 0, !1, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 217,
+            lineNumber: 213,
             columnNumber: 25
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/tailwind-labs.tsx",
-          lineNumber: 164,
+          lineNumber: 163,
           columnNumber: 21
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
@@ -1241,7 +1241,7 @@ function tailwindLabs() {
           !1,
           {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 229,
+            lineNumber: 225,
             columnNumber: 21
           },
           this
@@ -1257,7 +1257,7 @@ function tailwindLabs() {
           !1,
           {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 236,
+            lineNumber: 232,
             columnNumber: 21
           },
           this
@@ -1273,35 +1273,30 @@ function tailwindLabs() {
           !1,
           {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 241,
+            lineNumber: 237,
             columnNumber: 21
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20" }, void 0, !1, {
-          fileName: "app/routes/tailwind-labs.tsx",
-          lineNumber: 246,
-          columnNumber: 21
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-2 lg:mx-20", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h4", { className: "text-bold font-ubuntu text-2xl mb-8", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: " ####" }, void 0, !1, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 249,
+              lineNumber: 244,
               columnNumber: 29
             }, this),
             " ",
             "Fusilier Family Farms"
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 248,
+            lineNumber: 243,
             columnNumber: 25
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("ul", { className: "list-disc ml-4 mb-10", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("strong", { children: "Github: " }, void 0, !1, {
                 fileName: "app/routes/tailwind-labs.tsx",
-                lineNumber: 255,
+                lineNumber: 250,
                 columnNumber: 33
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
@@ -1317,20 +1312,20 @@ function tailwindLabs() {
                 !1,
                 {
                   fileName: "app/routes/tailwind-labs.tsx",
-                  lineNumber: 256,
+                  lineNumber: 251,
                   columnNumber: 33
                 },
                 this
               )
             ] }, void 0, !0, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 254,
+              lineNumber: 249,
               columnNumber: 29
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("li", { children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("strong", { children: "Figma Link: " }, void 0, !1, {
                 fileName: "app/routes/tailwind-labs.tsx",
-                lineNumber: 267,
+                lineNumber: 262,
                 columnNumber: 33
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
@@ -1346,24 +1341,24 @@ function tailwindLabs() {
                 !1,
                 {
                   fileName: "app/routes/tailwind-labs.tsx",
-                  lineNumber: 268,
+                  lineNumber: 263,
                   columnNumber: 33
                 },
                 this
               )
             ] }, void 0, !0, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 266,
+              lineNumber: 261,
               columnNumber: 29
             }, this)
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 253,
+            lineNumber: 248,
             columnNumber: 25
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/tailwind-labs.tsx",
-          lineNumber: 247,
+          lineNumber: 242,
           columnNumber: 21
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
@@ -1377,47 +1372,46 @@ function tailwindLabs() {
           !1,
           {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 279,
+            lineNumber: 274,
             columnNumber: 21
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-yellow mx-20", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "Fusilier Family Farms has a special place in my heart, this is a close friends family business and they had been running a yearly thing where you could order farm fresh produce to your door. It was getting out of hand with some things they were doing, so they reached out for some help. We had meetings and narrowed down what they wanted and needed to make sure that things run smoother for them. The project broke down because I just did not have the bandwith to work on such a project. They found a local business that specialized in this type of thing and it seems like they got things up and running. Regardless I got to do a lot of work for them and am glad I had that experience. I really hope to see this come alive some day." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-yellow mx-2 lg:mx-20", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "Fusilier Family Farms has a special place in my heart, this is a close friend's family business. They had a subscription model where you could order farm fresh produce to your door. It was becoming unmanageable, so they reached out for some help. We met a few times to identify what they most needed help with. I began this process for them and then they transferred to a local business with more bandwidth. It was a great learning experience." }, void 0, !1, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 285,
+            lineNumber: 280,
             columnNumber: 25
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: [
-            "To start off they needed a lot of work. They needed everything from a new logo, to a new ecommerce website. You can see the",
+            "At the beginning it was clear they needed a more modernized look. They needed everything from a new logo, to a new ecommerce website. You can see the",
             " ",
-            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("a", { href: "https://web.archive.org/web.archive.org/web/20220111152327/https://fusilierfamilyfarms.com/", children: "old website here" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("a", { href: "https://web.archive.org/web.archive.org/web/20220111152327/https://fusilierfamilyfarms.com/", children: "old website here." }, void 0, !1, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 306,
+              lineNumber: 296,
               columnNumber: 29
             }, this),
-            " ",
-            "and notice how much work needed to be done."
+            " "
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 302,
+            lineNumber: 292,
             columnNumber: 25
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/tailwind-labs.tsx",
-          lineNumber: 284,
+          lineNumber: 279,
           columnNumber: 21
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h4", { className: "text-bold font-ubuntu text-2xl mb-8", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: " #### " }, void 0, !1, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 314,
+            lineNumber: 303,
             columnNumber: 25
           }, this),
           "Website Design"
         ] }, void 0, !0, {
           fileName: "app/routes/tailwind-labs.tsx",
-          lineNumber: 313,
+          lineNumber: 302,
           columnNumber: 21
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
@@ -1433,7 +1427,7 @@ function tailwindLabs() {
           !1,
           {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 317,
+            lineNumber: 306,
             columnNumber: 21
           },
           this
@@ -1441,22 +1435,22 @@ function tailwindLabs() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h4", { className: "text-bold font-ubuntu text-2xl my-8", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: " ####" }, void 0, !1, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 325,
+            lineNumber: 314,
             columnNumber: 25
           }, this),
           " Fusilier Ecommerce Dashboard"
         ] }, void 0, !0, {
           fileName: "app/routes/tailwind-labs.tsx",
-          lineNumber: 324,
+          lineNumber: 313,
           columnNumber: 21
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "One thing they also needed was an ecommerce backend dashboard, they wanted to have some custom features and dealing with farm produce is always all over the place. I landed on Medusa to handle this and it is a great open source option to get a store up and running. I designed and built out the dashboard with the custom features in mind." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-2 lg:mx-20", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "One thing they also needed was an ecommerce back-end dashboard, they wanted to have custom features for specifically dealing with the challenges of fresh produce. I landed on Medusa to handle this and it is a great open source option to get a store up and running. I designed and built out the dashboard with the custom features in mind." }, void 0, !1, {
           fileName: "app/routes/tailwind-labs.tsx",
-          lineNumber: 329,
+          lineNumber: 318,
           columnNumber: 25
         }, this) }, void 0, !1, {
           fileName: "app/routes/tailwind-labs.tsx",
-          lineNumber: 328,
+          lineNumber: 317,
           columnNumber: 21
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
@@ -1472,61 +1466,61 @@ function tailwindLabs() {
           !1,
           {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 339,
+            lineNumber: 328,
             columnNumber: 21
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-2 lg:mx-20", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { className: "text-bold font-ubuntu text-4xl mb-4 mt-6", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: "##" }, void 0, !1, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 348,
+              lineNumber: 337,
               columnNumber: 29
             }, this),
             " What you\u2019re excited about,",
             " "
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 347,
+            lineNumber: 336,
             columnNumber: 25
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "This opportunity is something that I am very excited about, ever since I realized that stuff you design for the web can be created. I have always had a passion for building things on the web, I figured it was a good idea to finish out my college degree with the focus in Graphic Design and then learning coding on my own. It was an age where the web was brand new and everyone started using it, so I figured it was the right move for me. The position of Design Engineer seems like the perfect fit for me, I have experience of designing all sorts of different digital things. I also have the ability to figure things out when it comes to coding. Reading through the list of things that this position will be responsible for has me very excited." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "This opportunity is something I am very excited about. I remember the time when I first realized I could code and create the designs I made. I have always had a passion for building things on the web, and while I know there are college programs for that, I was close to finishing my bachelor's degree in graphic design. After school I wholeheartedly pursued learning code and am completley self-taught. The position of Design Engineer is the perfect fit for me, I have experience designing all sorts of different digital UI's- everything from logos to micro-sites to web applications. Due to my passion for code and being self-taught I have an uncanny ability to figure anything out when it comes to code. I will not stop until a solution is reached. Reading through the list of responsibilities for this position has lit a fire in me and has me very excited." }, void 0, !1, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 351,
+            lineNumber: 340,
             columnNumber: 25
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "One of the things I would be most excited to work on would be the color pallete tool. Having a background in design and working at a web accesibility company for a few years. I feel confident that this is something that I could make work really well, especially if we have accesibility approved colors built in. Secondly, being able to create new templates is something that I have always wanted the chance to do, both the micro-sites and creating or updating existing tailwind templates would be something that I would enjoy." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "One of the projects I would be most excited to work on would be the color pallete tool. Having a background in design and working at a web accessibility company for years I feel confident this is something that I could make work really well, especially if we have accessibility approved colors built in. In addition, being able to create new templates is something that I have always wanted the chance to do, both the micro-sites and creating or updating existing tailwind templates would be something I would greatly enjoy." }, void 0, !1, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 368,
+            lineNumber: 360,
             columnNumber: 25
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb=6", children: "Lastly, I would enjoy working on any one of the small utils/tools that would help improve tailwind labs developer performance. Interal tools are always useful and can be a big benefit to increase speed and productivity. Solving issues by creating an internal tool or researching a way to support a certain feature in the future is something that I always like digging into and learning more about." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb=6", children: "Lastly, I would enjoy working on any one of the small utils/tools that would help improve tailwind labs developer performance. Internal tools are always useful and can be a huge asset to increase speed and productivity. Solving issues by creating an internal tool or researching a way to support a certain feature in the future is something that I always like digging into and learning more about." }, void 0, !1, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 381,
+            lineNumber: 373,
             columnNumber: 25
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/tailwind-labs.tsx",
-          lineNumber: 346,
+          lineNumber: 335,
           columnNumber: 21
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-2 lg:mx-20", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { className: "text-bold font-ubuntu text-4xl mb-8", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: " ##" }, void 0, !1, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 394,
+              lineNumber: 386,
               columnNumber: 29
             }, this),
             " ",
             "Open-source contributions,"
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 393,
+            lineNumber: 385,
             columnNumber: 25
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: [
-            "I wish I had more time for open source work, it is really hard to find the time to specifically work on just open source stuff and have a day job. The time that I did find was in a couple differnt areas, my first ever big contribution was for a web app for a video game called Destiny, known today as Destiny 2. Managing your gear in that game was fairly annoying, so a few developers from the community started working on an app called DIM (Destiny Item Manager). I adventually re-designed and created an updated micro-site so that it was inline with the current theme and feel of Destiny.",
+            "I enjoy contributing to open-source. While I have not contributed to numerous open-sources, my first ever big contribution was for a web app for a video game called Destiny, known today as Destiny 2. It became clear that for many players it became difficult to manage gear, so a few developers from the community started working on an app called DIM (Destiny Item Manager). I eventually re-designed and created an updated micro-site so that it was in line with the current theme and feel of Destiny.",
             " ",
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
               "a",
@@ -1542,16 +1536,16 @@ function tailwindLabs() {
               !0,
               {
                 fileName: "app/routes/tailwind-labs.tsx",
-                lineNumber: 410,
+                lineNumber: 400,
                 columnNumber: 29
               },
               this
             ),
             " ",
-            "I wish I had more time to help out on the actualy item manager app but life / work always got in the way."
+            "In a perfect world I would have more expendalbe time to contribute to the item manager app but family / life / work has taken priority lately."
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 397,
+            lineNumber: 389,
             columnNumber: 25
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: [
@@ -1568,7 +1562,7 @@ function tailwindLabs() {
               !1,
               {
                 fileName: "app/routes/tailwind-labs.tsx",
-                lineNumber: 424,
+                lineNumber: 414,
                 columnNumber: 29
               },
               this
@@ -1586,7 +1580,7 @@ function tailwindLabs() {
               !1,
               {
                 fileName: "app/routes/tailwind-labs.tsx",
-                lineNumber: 431,
+                lineNumber: 421,
                 columnNumber: 29
               },
               this
@@ -1594,11 +1588,11 @@ function tailwindLabs() {
             "within axe-core."
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 420,
+            lineNumber: 410,
             columnNumber: 25
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: [
-            "One final thing that I am working on that I hope to release some day is a multi-chat application for streamers. Last year, the well known streaming platform Twitch allowed you to stream on multiple platforms, streamers now have an issue where they have to have 2-4 chat windows open. This project would be open source for anyone to contribute too or just use. It would be a place where you can punch in your username and everything would just work. You would be able to see chats from all the different platforms that you have enabled or are currently live on. It is very very early stages but can be",
+            "One final project I am working on is a multi-chat application for streamers. Last year, the well-known streaming platform Twitch allowed you to stream on multiple platforms, streamers now have an issue where they have to have 2-4 chat windows open. This project will be open source for anyone to contribute to or just use. This app will allow you to add your username for each platform and put all the chats into one single window. Streamers will be able to see chats from all the different platforms that you have enabled or are currently live on. It is in very early stages of development but can be",
             " ",
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
               "a",
@@ -1611,47 +1605,47 @@ function tailwindLabs() {
               !1,
               {
                 fileName: "app/routes/tailwind-labs.tsx",
-                lineNumber: 452,
+                lineNumber: 442,
                 columnNumber: 29
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 439,
+            lineNumber: 429,
             columnNumber: 25
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/tailwind-labs.tsx",
-          lineNumber: 392,
+          lineNumber: 384,
           columnNumber: 21
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-2 lg:mx-20", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { className: "text-bold font-ubuntu text-4xl mb-8", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: "##" }, void 0, !1, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 462,
+              lineNumber: 452,
               columnNumber: 29
             }, this),
             " Teaching ability,"
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 461,
+            lineNumber: 451,
             columnNumber: 25
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "If there is anything I have learned over the years from being a developer and mentoring other developers along the way. It is that everyone learns and retains things differently, I learned this recently when I was going over product requirements with a fellow QA teammate. There was a prodcut requirements document that was shared with us all but this teammate was having some problems getting a full grasp of what was changing. They needed to really understand so they could know what to test and how to test for this new feature. Finally, I relized that I needed some extra help explaining the feature and what was getting touch/updated. I broken out MS paint and drew a diagram to explain the parts that were getting updated and what needed to be tested. This helped give a better picture of what needed to be done on that teammates end." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "If there is anything I have learned over the years from being a developer and mentoring other developers along the way, it is that everyone learns and retains things differently. I learned this recently when I was going over product requirements with a fellow QA teammate. There was a prodcut requirements document that was shared with us all but this teammate was having some problems getting a full grasp of what was changing. They needed to really understand so they could know what to test and how to test for this new feature. Finally, I realized that I needed some extra help explaining the feature and what was getting touch/updated. I opened up MS paint and drew a diagram to explain the parts that were getting updated and what needed to be tested. This helped give a better picture of what needed to be done on that teammate's end." }, void 0, !1, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 465,
+            lineNumber: 455,
             columnNumber: 25
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "Another experience that I can call out is that Fusilier Family Farms project, creating all this new stuff for them I wanted to make sure they understood what was going on and what was expected. In figma, I took the time to create a high level diagram of the moving pieces and what was needed for what they wanted. They asked plenty of questions not really knowing much about the web and how it all worked but they did really seem to catch on fairly quickly with how things worked and why we needed them. You can find that diagram below." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "Another teaching experience I recall is the Fusilier Family Farms project, creating all the updated digital footprint for them I needed to explain the changes to them in a way that was clearly understood. In figma, I took the time to create a high level diagram of the moving pieces and what was needed for what they wanted. They asked plenty of questions not really knowing much about the web and how it all worked but they caught on fairly quickly with how things worked and why we needed them. You can find that diagram below." }, void 0, !1, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 484,
+            lineNumber: 474,
             columnNumber: 25
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/tailwind-labs.tsx",
-          lineNumber: 460,
+          lineNumber: 450,
           columnNumber: 21
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
@@ -1667,40 +1661,45 @@ function tailwindLabs() {
           !1,
           {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 499,
+            lineNumber: 489,
             columnNumber: 21
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-20", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "my-12 border-b-romanYellow mx-2 lg:mx-20", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { className: "text-bold font-ubuntu text-4xl mb-8", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "text-slate-400", children: " ##" }, void 0, !1, {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 508,
+              lineNumber: 498,
               columnNumber: 29
             }, this),
             " ",
             "Finally...."
           ] }, void 0, !0, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 507,
+            lineNumber: 497,
             columnNumber: 25
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "mb-6", children: "I am particularly excited about the chance to collaborate on projects like updating the Tailwind CSS v4.0 site and building a tool for making color schemes. My experience overseeing challenging web projects aligns with the progressive and influential projects at Tailwind Labs. Joining Tailwind Labs means being part of a team that values design, creativity, and impact. I am thrilled to become part of your team, utilizing my unique combination of creativity, technical expertise, and focus on details to contribute to the growth of Tailwind CSS and its community. I am grateful that you are considering my application. I am eager to discuss how my skills, experiences, and passions align with Tailwind Labs' goals. I am excited to assist your team in reaching success and showcasing inspiring interfaces around the world." }, void 0, !1, {
             fileName: "app/routes/tailwind-labs.tsx",
-            lineNumber: 511,
+            lineNumber: 501,
             columnNumber: 25
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/tailwind-labs.tsx",
-          lineNumber: 506,
+          lineNumber: 496,
           columnNumber: 21
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "mb-12 border border-romanYellow flex flex-row", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "flex flex-row items-start", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "text-lg font-ubuntu", children: "Warm regards," }, void 0, !1, {
+          fileName: "app/routes/tailwind-labs.tsx",
+          lineNumber: 521,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "mb-12 flex flex-row", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "flex flex-row items-start", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
             "img",
             {
-              className: "w-1/4",
+              className: "w-56 p-2 border border-romanYellow",
               src: "/profile-pic.jpg",
               alt: "Jacob Roman Senior Digital Engineer"
             },
@@ -1708,23 +1707,7 @@ function tailwindLabs() {
             !1,
             {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 533,
-              columnNumber: 29
-            },
-            this
-          ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
-            "img",
-            {
-              src: "/warm-regards.svg",
-              alt: "Hand written warm regards",
-              className: "w-56 p-14 ml-auto"
-            },
-            void 0,
-            !1,
-            {
-              fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 538,
+              lineNumber: 524,
               columnNumber: 29
             },
             this
@@ -1740,18 +1723,18 @@ function tailwindLabs() {
             !1,
             {
               fileName: "app/routes/tailwind-labs.tsx",
-              lineNumber: 543,
+              lineNumber: 529,
               columnNumber: 29
             },
             this
           )
         ] }, void 0, !0, {
           fileName: "app/routes/tailwind-labs.tsx",
-          lineNumber: 532,
+          lineNumber: 523,
           columnNumber: 25
         }, this) }, void 0, !1, {
           fileName: "app/routes/tailwind-labs.tsx",
-          lineNumber: 531,
+          lineNumber: 522,
           columnNumber: 21
         }, this)
       ] }, void 0, !0, {
@@ -2147,7 +2130,7 @@ function test() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-PUOIK5DD.js", imports: ["/build/_shared/chunk-OFDAVSOL.js", "/build/_shared/chunk-JR7JHID7.js", "/build/_shared/chunk-4D7IJTTE.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-FKTWPNHT.js", imports: ["/build/_shared/chunk-M2RJYPDF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-PGP2KDUF.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-4XUEQ5OI.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/index": { id: "routes/projects/index", parentId: "root", path: "projects", index: !0, caseSensitive: void 0, module: "/build/routes/projects/index-B5NEP32T.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/project": { id: "routes/projects/project", parentId: "root", path: "projects/project", index: void 0, caseSensitive: void 0, module: "/build/routes/projects/project-UZEBTHP3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/tailwind-labs": { id: "routes/tailwind-labs", parentId: "root", path: "tailwind-labs", index: void 0, caseSensitive: void 0, module: "/build/routes/tailwind-labs-DJ7LGO6S.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/test": { id: "routes/test", parentId: "root", path: "test", index: void 0, caseSensitive: void 0, module: "/build/routes/test-MYRIMMEQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "d1993b6d", hmr: void 0, url: "/build/manifest-D1993B6D.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-PUOIK5DD.js", imports: ["/build/_shared/chunk-OFDAVSOL.js", "/build/_shared/chunk-JR7JHID7.js", "/build/_shared/chunk-4D7IJTTE.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-AUTMEIY4.js", imports: ["/build/_shared/chunk-M2RJYPDF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-PGP2KDUF.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-4XUEQ5OI.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/index": { id: "routes/projects/index", parentId: "root", path: "projects", index: !0, caseSensitive: void 0, module: "/build/routes/projects/index-B5NEP32T.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/project": { id: "routes/projects/project", parentId: "root", path: "projects/project", index: void 0, caseSensitive: void 0, module: "/build/routes/projects/project-UZEBTHP3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/tailwind-labs": { id: "routes/tailwind-labs", parentId: "root", path: "tailwind-labs", index: void 0, caseSensitive: void 0, module: "/build/routes/tailwind-labs-YUCQLEMT.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/test": { id: "routes/test", parentId: "root", path: "test", index: void 0, caseSensitive: void 0, module: "/build/routes/test-MYRIMMEQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "913bb953", hmr: void 0, url: "/build/manifest-913BB953.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

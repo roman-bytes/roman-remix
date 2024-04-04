@@ -1,7 +1,7 @@
 import type { FunctionComponent, ReactElement } from 'react';
 
 const Footer: FunctionComponent = (): ReactElement => (
-    <footer className="hidden lg:block w-full fixed top-1/2 text-romanText">
+    <footer className="hidden lg:block -z-50 w-full fixed top-1/2 text-romanText">
         <div className="absolute xl:left-5 lg:left-2.5 text-sm origin-center transform -rotate-90 -translate-x-1/2">
             Made with love from Michigan.
         </div>
