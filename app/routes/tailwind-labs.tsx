@@ -157,6 +157,7 @@ export default function tailwindLabs() {
                         title="Roman Bytes Figma Doc for NHL Playoff Bracket"
                         width="100%"
                         height="550"
+                        className="hidden lg:block"
                         src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FiSnjc0uXCUkQQe03I2I6Kb%2FNHL-Playoff-Bracket%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3D4VvRAX8i4o4Q3VLd-1"
                         allowFullScreen
                     ></iframe>
@@ -226,6 +227,7 @@ export default function tailwindLabs() {
                         title="Stately Bloctics"
                         width="100%"
                         height="550px"
+                        className="hidden lg:block"
                         src="https://stately.ai/registry/editor/embed/e5ddcec4-8767-4b5a-b256-a5f090f8a62f?machineId=1a4c38d0-ea1a-4dfa-a6f4-a17b237c987e"
                         allowFullScreen
                     ></iframe>
@@ -287,7 +289,6 @@ export default function tailwindLabs() {
                             help with. I began this process for them and then
                             they transferred to a local business with more
                             bandwidth. It was a great learning experience.
-                            {/*them and am glad I had that experience. I really*/}
                         </p>
                         <p className="mb-6">
                             At the beginning it was clear they needed a more
@@ -307,6 +308,7 @@ export default function tailwindLabs() {
                         title="Fusilier Family Farms Website Design"
                         width="100%"
                         height="450"
+                        className="hidden lg:block"
                         src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FLDCaiJPvwzmRfBwDp1tFQO%2FFuslier-Family-Farm%3Ftype%3Ddesign%26node-id%3D41%253A0%26mode%3Ddesign%26t%3DonzHolvJQT9D9WLt-1"
                         allowFullScreen
                     ></iframe>
@@ -329,6 +331,7 @@ export default function tailwindLabs() {
                         title="Fusilier Family Farms Ecommerce Dashboard"
                         width="100%"
                         height="550"
+                        className="hidden lg:block"
                         src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FLDCaiJPvwzmRfBwDp1tFQO%2FFuslier-Family-Farm%3Ftype%3Ddesign%26node-id%3D45%253A0%26mode%3Ddesign%26t%3DonzHolvJQT9D9WLt-1"
                         allowFullScreen
                     ></iframe>
@@ -490,6 +493,7 @@ export default function tailwindLabs() {
                         title="Fusilier Family Farms Arch"
                         width="100%"
                         height="550"
+                        className="hidden lg:block"
                         src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FLDCaiJPvwzmRfBwDp1tFQO%2FFuslier-Family-Farm%3Ftype%3Ddesign%26node-id%3D1102%253A1422%26mode%3Ddesign%26t%3DonzHolvJQT9D9WLt-1"
                         allowFullScreen
                     ></iframe>
@@ -520,7 +524,7 @@ export default function tailwindLabs() {
                     </section>
                     <p className="text-lg font-ubuntu">Warm regards,</p>
                     <section className="mb-12 flex flex-row">
-                        <div className="flex flex-row items-start">
+                        <div className="flex flex-col md:flex-row">
                             <img
                                 className="w-56 p-2 border border-romanYellow"
                                 src="/profile-pic.jpg"
