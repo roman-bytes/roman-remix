@@ -522,7 +522,7 @@ export default function tailwindLabs() {
                             interfaces around the world.
                         </p>
                     </section>
-                    <p className="text-lg font-ubuntu">Warm regards,</p>
+                    <p className="text-lg font-ubuntu">Thank you,</p>
                     <section className="mb-12 flex flex-row">
                         <div className="flex flex-col md:flex-row">
                             <img
