@@ -108,15 +108,10 @@ function Document({
                 <Meta />
                 <Links />
             </head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T0T5SRHCGN"></script>
-      <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-T0T5SRHCGN');
-</script>
-
+            <script
+                async
+                src="https://www.googletagmanager.com/gtag/js?id=G-T0T5SRHCGN"
+            ></script>
             <body className="bg-romanBlack w-full h-full">
                 {children}
                 <ScrollRestoration />
