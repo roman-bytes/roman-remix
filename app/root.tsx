@@ -108,12 +108,10 @@ function Document({
                 <Meta />
                 <Links />
             </head>
-      
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-T0T5SRHCGN"></script>
-<script>
+      <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() {dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-T0T5SRHCGN');

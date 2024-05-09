@@ -854,10 +854,6 @@ video {
   flex-wrap: nowrap;
 }
 
-.items-start{
-  align-items: flex-start;
-}
-
 .items-end{
   align-items: flex-end;
 }
