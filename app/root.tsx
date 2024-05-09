@@ -67,8 +67,8 @@ export function CatchBoundary() {
         case 404:
             message = (
                 <p>
-                    Oops! Looks like you tried to visit a page that does not
-                    exist.
+                    What you are looking for is not there. Please visit the home
+                    page and try again.
                 </p>
             );
             break;
@@ -80,10 +80,11 @@ export function CatchBoundary() {
     return (
         <Document title={`${caught.status} ${caught.statusText}`}>
             <Layout>
-                <h1>
-                    {caught.status}: {caught.statusText}
-                </h1>
-                {message}
+                <div className="mt-20 mb-40 mx-auto p-14 text-md font-sans text-white border border-white bg-romanBlack">
+                    <h1 className="text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading">
+                        {caught.status}: {caught.statusText}
+                    </h1>
+                </div>
             </Layout>
         </Document>
     );
