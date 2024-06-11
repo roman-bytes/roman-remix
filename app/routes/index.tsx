@@ -21,11 +21,7 @@ export default function Index() {
     return (
         <div className="flex justify-center items-center w-full">
             <h1 className="font-sans text-white left-2.5 lg:right-2.5 xl:right-5 absolute top-2.5 xl:top-5 text-2xl text-left lg:text-right">
-                Hello, I am Jacob Roman, a{' '}
-                <span className="text-romanYellow line-through">
-                    {' '}
-                    designer{' '}
-                </span>
+                Hello, I am Jacob Roman, a self taught
                 <br /> Senior Digital Engineer based in Michigan.
             </h1>
             <RomanTerminal />
