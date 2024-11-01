@@ -1,5 +1,4 @@
 import {
-    Link,
     Links,
     LiveReload,
     Meta,
@@ -7,9 +6,11 @@ import {
     Scripts,
     ScrollRestoration,
     useCatch,
+    useLoaderData,
 } from '@remix-run/react';
 import Layout from './components/layout';
 import type { LinksFunction } from '@remix-run/node';
+import { json } from '@remix-run/node';
 
 import tailwindUrl from './styles/tailwind.css';
 
@@ -17,6 +18,14 @@ import tailwindUrl from './styles/tailwind.css';
 export let links: LinksFunction = () => {
     return [{ rel: 'stylesheet', href: tailwindUrl }];
 };
+
+export async function loader() {
+    return json({
+        ENV: {
+            FEATURE_NEW_BRAND: process.env.FEATURE_NEW_BRAND,
+        }
+    })
+}
 
 // https://remix.run/api/conventions#default-export
 // https://remix.run/api/conventions#route-filenames
@@ -97,6 +106,8 @@ function Document({
     children: React.ReactNode;
     title?: string;
 }) {
+    const data = useLoaderData<typeof loader>();
+
     return (
         <html lang="en" className="w-full h-full font-mono">
             <head>
@@ -109,11 +120,7 @@ function Document({
                 <Meta />
                 <Links />
             </head>
-            <script
-                async
-                src="https://www.googletagmanager.com/gtag/js?id=G-T0T5SRHCGN"
-            ></script>
-            <body className="bg-romanBlack w-full h-full">
+            <body className={`${data?.ENV?.FEATURE_NEW_BRAND === 'true' ? 'bg-white grid' : 'bg-romanBlack'} w-full h-full`}>
                 {children}
                 <ScrollRestoration />
                 <Scripts />

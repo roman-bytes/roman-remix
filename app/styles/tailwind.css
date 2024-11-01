@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Ubuntu:wght@700&family=Ubuntu+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap');
 
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
@@ -630,6 +630,11 @@ video {
   z-index: -50;
 }
 
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .my-10{
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -645,11 +650,6 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mx-auto{
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .mb-16{
   margin-bottom: 4rem;
 }
@@ -662,6 +662,10 @@ video {
   margin-bottom: 10rem;
 }
 
+.mt-12{
+  margin-top: 3rem;
+}
+
 .mt-16{
   margin-top: 4rem;
 }
@@ -672,6 +676,10 @@ video {
 
 .mt-4{
   margin-top: 1rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
 }
 
 .flex{
@@ -713,6 +721,14 @@ video {
 
 .w-16{
   width: 4rem;
+}
+
+.w-28{
+  width: 7rem;
+}
+
+.w-5\/12{
+  width: 41.666667%;
 }
 
 .w-800{
@@ -799,8 +815,16 @@ video {
   overflow: hidden;
 }
 
+.rounded-3xl{
+  border-radius: 1.5rem;
+}
+
 .border{
   border-width: 1px;
+}
+
+.border-2{
+  border-width: 2px;
 }
 
 .border-b{
@@ -811,6 +835,11 @@ video {
   border-top-width: 1px;
 }
 
+.border-romanBlack{
+  --tw-border-opacity: 1;
+  border-color: rgb(31 36 43 / var(--tw-border-opacity));
+}
+
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
@@ -819,6 +848,11 @@ video {
 .bg-romanBlack{
   --tw-bg-opacity: 1;
   background-color: rgb(31 36 43 / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .fill-current{
@@ -842,12 +876,25 @@ video {
   padding-right: 0.5rem;
 }
 
+.px-28{
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+.pb-28{
+  padding-bottom: 7rem;
+}
+
 .pl-12{
   padding-left: 3rem;
 }
 
 .pr-12{
   padding-right: 3rem;
+}
+
+.pt-32{
+  padding-top: 8rem;
 }
 
 .text-left{
@@ -860,6 +907,10 @@ video {
 
 .font-mono{
   font-family: Ubuntu\ Mono, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+
+.font-newMono{
+  font-family: Red Hat Mono, Courier New, monospace;
 }
 
 .font-sans{
@@ -925,11 +976,6 @@ video {
   color: rgb(186 186 186 / var(--tw-text-opacity));
 }
 
-.text-romanYellow{
-  --tw-text-opacity: 1;
-  color: rgb(219 168 97 / var(--tw-text-opacity));
-}
-
 .text-stone-500{
   --tw-text-opacity: 1;
   color: rgb(120 113 108 / var(--tw-text-opacity));
@@ -944,12 +990,21 @@ video {
   text-decoration-line: underline;
 }
 
-.line-through{
-  text-decoration-line: line-through;
-}
-
 .filter{
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.grid {
+  --size: 45px;
+  --line: color-mix(in lch, canvasText, transparent 90%);
+  background: linear-gradient(
+      90deg,
+      var(--line) 1px,
+      transparent 1px var(--size)
+    )
+    50% 50% / var(--size) var(--size),
+  linear-gradient(var(--line) 1px, transparent 1px var(--size)) 50% 50% /
+    var(--size) var(--size);
 }
 
 div[data-testid="terminal"] {

@@ -4,22 +4,34 @@ import React, { useState } from 'react';
 import classNames from 'classnames';
 import { TerminalContextProvider } from 'react-terminal';
 import { ClientOnly } from 'remix-utils';
+import { useLoaderData } from "@remix-run/react";
 
 import Footer from './footer';
 import Social from './social';
 import Nav from './nav';
 import Logo from './logo';
 import Particles from '~/components/particles';
+import { json } from "@remix-run/node";
+import NewLayout from "~/components/new-layout";
 
 interface LayoutProps {
     children: ReactNode;
 }
 
+export async function loader() {
+    return json({
+        ENV: {
+            FEATURE_NEW_BRAND: process.env.FEATURE_NEW_BRAND,
+        }
+    })
+}
+
+
 const Layout: FunctionComponent<LayoutProps> = ({
     children,
 }: LayoutProps): ReactElement => {
+    const data = useLoaderData();
     const [mobileMenu, setMobileMenu] = useState(false);
-
     const handleMenuOpen = () => {
         setMobileMenu(!mobileMenu);
     };
@@ -33,6 +45,12 @@ const Layout: FunctionComponent<LayoutProps> = ({
         'flex-no-wrap justify-center',
         mobileMenu ? 'flex' : 'hidden'
     );
+
+    if (data.ENV.FEATURE_NEW_BRAND === 'true') {
+        return (
+            <NewLayout />
+        );
+    }
 
     return (
         <TerminalContextProvider>

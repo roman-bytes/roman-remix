@@ -1,10 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Ubuntu:wght@700&family=Ubuntu+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap');
 
 @tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
+
+
+.grid {
+  --size: 45px;
+  --line: color-mix(in lch, canvasText, transparent 90%);
+  background: linear-gradient(
+      90deg,
+      var(--line) 1px,
+      transparent 1px var(--size)
+    )
+    50% 50% / var(--size) var(--size),
+  linear-gradient(var(--line) 1px, transparent 1px var(--size)) 50% 50% /
+    var(--size) var(--size);
+}
 
 div[data-testid="terminal"] {
     width: 100%;

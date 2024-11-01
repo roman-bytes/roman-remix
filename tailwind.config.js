@@ -11,6 +11,11 @@ module.exports = {
                 'Courier New',
                 'monospace',
             ],
+            newMono: [
+                'Red\ Hat\ Mono',
+                'Courier New',
+                'monospace'
+            ],
             sans: [
                 'Didact\\ Gothic',
                 'system-ui',
