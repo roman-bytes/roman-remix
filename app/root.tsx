@@ -13,6 +13,7 @@ import type { LinksFunction } from '@remix-run/node';
 import { json } from '@remix-run/node';
 
 import tailwindUrl from './styles/tailwind.css';
+import NewLayout from "~/components/new-layout";
 
 // https://remix.run/api/app#links
 export let links: LinksFunction = () => {
@@ -30,6 +31,19 @@ export async function loader() {
 // https://remix.run/api/conventions#default-export
 // https://remix.run/api/conventions#route-filenames
 export default function App() {
+    const data = useLoaderData();
+    const isNewLayout = data.ENV.FEATURE_NEW_BRAND === 'true';
+
+    if (isNewLayout) {
+        return (
+            <Document>
+                <NewLayout>
+                    <Outlet />
+                </NewLayout>
+            </Document>
+        )
+    }
+
     return (
         <Document>
             <Layout>
@@ -42,6 +56,20 @@ export default function App() {
 // https://remix.run/docs/en/v1/api/conventions#errorboundary
 export function ErrorBoundary({ error }: { error: Error }) {
     console.error(error);
+    const data = useLoaderData();
+    const isNewLayout = data.ENV.FEATURE_NEW_BRAND === 'true';
+
+    if (isNewLayout) {
+        return (
+            <Document>
+                <NewLayout>
+                    <Outlet />
+                </NewLayout>
+            </Document>
+        )
+    }
+
+
     return (
         <Document title="Error!">
             <Layout>
@@ -62,6 +90,8 @@ export function ErrorBoundary({ error }: { error: Error }) {
 // https://remix.run/docs/en/v1/api/conventions#catchboundary
 export function CatchBoundary() {
     let caught = useCatch();
+    const data = useLoaderData();
+    const isNewLayout = data.ENV.FEATURE_NEW_BRAND === 'true';
 
     let message;
     switch (caught.status) {
@@ -84,6 +114,20 @@ export function CatchBoundary() {
 
         default:
             throw new Error(caught.data || caught.statusText);
+    }
+
+    if (isNewLayout) {
+        return (
+            <Document title={`${caught.status} ${caught.statusText}`}>
+                <NewLayout>
+                    <div className="mt-20 mb-40 mx-auto p-14 text-md font-sans text-white border border-white bg-romanBlack">
+                        <h1 className="text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading">
+                            {caught.status}: {caught.statusText}
+                        </h1>
+                    </div>
+                </NewLayout>
+            </Document>
+        );
     }
 
     return (

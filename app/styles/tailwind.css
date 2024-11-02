@@ -626,6 +626,10 @@ video {
   top: 2.5rem;
 }
 
+.top-10{
+  top: 2.5rem;
+}
+
 .-z-50{
   z-index: -50;
 }
@@ -899,6 +903,10 @@ video {
 
 .text-left{
   text-align: left;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .text-right{

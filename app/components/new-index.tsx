@@ -1,10 +1,15 @@
 import RomanBytesLogo from "~/components/roman-bytes-logo";
 import { Link } from '@remix-run/react';
 import NewFooter from "~/components/newFooter";
+import {useMatches} from "react-router";
 
 export default function NewIndex() {
+    const matches = useMatches();
+    const currentRoute = matches[1];
+
   return (
-         <div className="container border-2 border-romanBlack rounded-3xl bg-white pt-32 px-28 pb-28">
+         <div className="container relative border-2 border-romanBlack rounded-3xl bg-white pt-32 px-28 pb-28">
+             <div className="absolute top-10 left-0 right-0 text-center text-romanPrimary">{`~ ${currentRoute.pathname} `}</div>
              <RomanBytesLogo />
              <div className="font-newMono mt-12 w-5/12">
                  <p>
@@ -16,7 +21,7 @@ export default function NewIndex() {
                  <p>
                      I don’t write much. I am looking to change that. You can see any future posts on {' '}
                      <Link
-                         to="/"
+                         to="/blog"
                          className="text-romanPrimary underline"
                      >
                          my blog page.
@@ -26,10 +31,10 @@ export default function NewIndex() {
                  <p>
                      I have a number of side projects that I am currently working on. You can see {' '}
                      <Link
-                         to="/"
+                         to="/projects"
                          className="text-romanPrimary underline"
                      >
-                         that list here.
+                         those projects here.
                      </Link>
                  </p>
              </div>
