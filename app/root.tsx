@@ -56,8 +56,7 @@ export default function App() {
 // https://remix.run/docs/en/v1/api/conventions#errorboundary
 export function ErrorBoundary({ error }: { error: Error }) {
     console.error(error);
-    const data = useLoaderData();
-    const isNewLayout = data.ENV.FEATURE_NEW_BRAND === 'true';
+    const isNewLayout = 'true'
 
     if (isNewLayout) {
         return (
@@ -90,8 +89,7 @@ export function ErrorBoundary({ error }: { error: Error }) {
 // https://remix.run/docs/en/v1/api/conventions#catchboundary
 export function CatchBoundary() {
     let caught = useCatch();
-    const data = useLoaderData();
-    const isNewLayout = data.ENV.FEATURE_NEW_BRAND === 'true';
+    const isNewLayout = 'true';
 
     let message;
     switch (caught.status) {
