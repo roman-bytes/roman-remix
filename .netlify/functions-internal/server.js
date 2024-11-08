@@ -1220,28 +1220,33 @@ var slug_exports = {};
 __export(slug_exports, {
   default: () => slug_default
 });
-var import_react_router3 = require("react-router"), import_jsx_dev_runtime14 = require("react/jsx-dev-runtime");
+var import_react_router3 = require("react-router"), import_react8 = require("@remix-run/react"), import_jsx_dev_runtime14 = require("react/jsx-dev-runtime");
 function Slug() {
   let currentRoute = (0, import_react_router3.useMatches)()[1];
   return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("main", { className: "container relative border-2 border-romanBlack rounded-3xl bg-white pt-32 px-28 pb-28 my-28", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "absolute top-10 left-0 right-0 text-center text-romanPrimary mb-16", children: `~ ${currentRoute.pathname} ` }, void 0, !1, {
       fileName: "app/routes/blog/$slug.tsx",
-      lineNumber: 12,
+      lineNumber: 13,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(roman_bytes_logo_default, {}, void 0, !1, {
       fileName: "app/routes/blog/$slug.tsx",
-      lineNumber: 13,
+      lineNumber: 14,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_react8.Link, { to: "/blog", children: "../ Back to blog" }, void 0, !1, {
+      fileName: "app/routes/blog/$slug.tsx",
+      lineNumber: 15,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { children: "This is a single blog post" }, void 0, !1, {
       fileName: "app/routes/blog/$slug.tsx",
-      lineNumber: 15,
+      lineNumber: 16,
       columnNumber: 13
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/blog/$slug.tsx",
-    lineNumber: 11,
+    lineNumber: 12,
     columnNumber: 9
   }, this);
 }
@@ -1253,7 +1258,7 @@ __export(blog_exports, {
   default: () => Blog
 });
 var import_react_router4 = require("react-router");
-var import_react8 = require("@remix-run/react"), import_jsx_dev_runtime15 = require("react/jsx-dev-runtime"), posts = [
+var import_react9 = require("@remix-run/react"), import_jsx_dev_runtime15 = require("react/jsx-dev-runtime"), posts = [
   {
     id: 1,
     date: (/* @__PURE__ */ new Date()).toISOString(),
@@ -1295,7 +1300,7 @@ function Blog() {
         lineNumber: 43,
         columnNumber: 25
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_react8.Link, { to: `/blog/${post.slug}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h2", { className: "text-4xl flex my-4", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_react9.Link, { to: `/blog/${post.slug}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h2", { className: "text-4xl flex my-4", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("span", { className: "text-romanText mr-6", children: "//" }, void 0, !1, {
           fileName: "app/routes/blog/index.tsx",
           lineNumber: 45,
@@ -1440,7 +1445,7 @@ __export(routes_exports, {
   loader: () => loader6,
   meta: () => meta2
 });
-var import_node5 = require("@remix-run/node"), import_react10 = require("@remix-run/react");
+var import_node5 = require("@remix-run/node"), import_react11 = require("@remix-run/react");
 
 // app/components/terminal.tsx
 var import_react_terminal2 = require("react-terminal"), import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), RomanTerminal = () => /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "hidden lg:flex w-800 h-460", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
@@ -1637,7 +1642,7 @@ var import_react_terminal2 = require("react-terminal"), import_jsx_dev_runtime17
 }, this), terminal_default = RomanTerminal;
 
 // app/components/new-index.tsx
-var import_react9 = require("@remix-run/react");
+var import_react10 = require("@remix-run/react");
 
 // app/components/newFooter.tsx
 var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime");
@@ -1716,7 +1721,7 @@ function NewIndex() {
         "I don\u2019t write much. I am looking to change that. You can see any future posts on ",
         " ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
-          import_react9.Link,
+          import_react10.Link,
           {
             to: "/blog",
             className: "text-romanPrimary underline",
@@ -1745,7 +1750,7 @@ function NewIndex() {
         "I have a number of side projects that I am currently working on. You can see ",
         " ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
-          import_react9.Link,
+          import_react10.Link,
           {
             to: "/projects",
             className: "text-romanPrimary underline",
@@ -1800,7 +1805,7 @@ async function loader6() {
   });
 }
 function Index2() {
-  return (0, import_react10.useLoaderData)().ENV.FEATURE_NEW_BRAND === "true" ? /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(NewLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(NewIndex, {}, void 0, !1, {
+  return (0, import_react11.useLoaderData)().ENV.FEATURE_NEW_BRAND === "true" ? /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(NewLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(NewIndex, {}, void 0, !1, {
     fileName: "app/routes/index.tsx",
     lineNumber: 41,
     columnNumber: 17
@@ -1853,7 +1858,7 @@ function test() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-YY5AC6NW.js", imports: ["/build/_shared/chunk-E2A4YMCQ.js", "/build/_shared/chunk-JR7JHID7.js", "/build/_shared/chunk-4D7IJTTE.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ZS6PZBYM.js", imports: ["/build/_shared/chunk-H3KP5NYJ.js", "/build/_shared/chunk-WA2U3LPD.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/404": { id: "routes/404", parentId: "root", path: "404", index: void 0, caseSensitive: void 0, module: "/build/routes/404-5XDYRPD7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[robots.txt]": { id: "routes/[robots.txt]", parentId: "root", path: "robots.txt", index: void 0, caseSensitive: void 0, module: "/build/routes/[robots.txt]-S655RADV.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[sitemap.xml]": { id: "routes/[sitemap.xml]", parentId: "root", path: "sitemap.xml", index: void 0, caseSensitive: void 0, module: "/build/routes/[sitemap.xml]-2PY4GZS4.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-PGP2KDUF.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/$slug": { id: "routes/blog/$slug", parentId: "root", path: "blog/:slug", index: void 0, caseSensitive: void 0, module: "/build/routes/blog/$slug-W3JDEY7S.js", imports: ["/build/_shared/chunk-CJGW5X4T.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/index": { id: "routes/blog/index", parentId: "root", path: "blog", index: !0, caseSensitive: void 0, module: "/build/routes/blog/index-RGJX7MMU.js", imports: ["/build/_shared/chunk-4CK7UXS2.js", "/build/_shared/chunk-CJGW5X4T.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-GMB3N7ZZ.js", imports: ["/build/_shared/chunk-K6M27BHM.js", "/build/_shared/chunk-CJGW5X4T.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/$name": { id: "routes/projects/$name", parentId: "root", path: "projects/:name", index: void 0, caseSensitive: void 0, module: "/build/routes/projects/$name-LRM33GBD.js", imports: ["/build/_shared/chunk-CJGW5X4T.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/index": { id: "routes/projects/index", parentId: "root", path: "projects", index: !0, caseSensitive: void 0, module: "/build/routes/projects/index-47LEOFJW.js", imports: ["/build/_shared/chunk-4CK7UXS2.js", "/build/_shared/chunk-CJGW5X4T.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "626bf2c8", hmr: void 0, url: "/build/manifest-626BF2C8.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-YY5AC6NW.js", imports: ["/build/_shared/chunk-E2A4YMCQ.js", "/build/_shared/chunk-JR7JHID7.js", "/build/_shared/chunk-4D7IJTTE.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ZS6PZBYM.js", imports: ["/build/_shared/chunk-H3KP5NYJ.js", "/build/_shared/chunk-WA2U3LPD.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/404": { id: "routes/404", parentId: "root", path: "404", index: void 0, caseSensitive: void 0, module: "/build/routes/404-5XDYRPD7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[robots.txt]": { id: "routes/[robots.txt]", parentId: "root", path: "robots.txt", index: void 0, caseSensitive: void 0, module: "/build/routes/[robots.txt]-S655RADV.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[sitemap.xml]": { id: "routes/[sitemap.xml]", parentId: "root", path: "sitemap.xml", index: void 0, caseSensitive: void 0, module: "/build/routes/[sitemap.xml]-2PY4GZS4.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-PGP2KDUF.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/$slug": { id: "routes/blog/$slug", parentId: "root", path: "blog/:slug", index: void 0, caseSensitive: void 0, module: "/build/routes/blog/$slug-ROC2F4G3.js", imports: ["/build/_shared/chunk-CJGW5X4T.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/index": { id: "routes/blog/index", parentId: "root", path: "blog", index: !0, caseSensitive: void 0, module: "/build/routes/blog/index-RGJX7MMU.js", imports: ["/build/_shared/chunk-4CK7UXS2.js", "/build/_shared/chunk-CJGW5X4T.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-GMB3N7ZZ.js", imports: ["/build/_shared/chunk-K6M27BHM.js", "/build/_shared/chunk-CJGW5X4T.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/$name": { id: "routes/projects/$name", parentId: "root", path: "projects/:name", index: void 0, caseSensitive: void 0, module: "/build/routes/projects/$name-LRM33GBD.js", imports: ["/build/_shared/chunk-CJGW5X4T.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/index": { id: "routes/projects/index", parentId: "root", path: "projects", index: !0, caseSensitive: void 0, module: "/build/routes/projects/index-47LEOFJW.js", imports: ["/build/_shared/chunk-4CK7UXS2.js", "/build/_shared/chunk-CJGW5X4T.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "ade57d39", hmr: void 0, url: "/build/manifest-ADE57D39.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
