@@ -162,7 +162,7 @@ function Document({
                 <Meta />
                 <Links />
             </head>
-            <body className={`${data?.ENV?.FEATURE_NEW_BRAND === 'true' ? 'bg-white grid' : 'bg-romanBlack'} w-full h-full`}>
+            <body className={`${data?.ENV?.FEATURE_NEW_BRAND === 'true' ? 'bg-white roman-grid' : 'bg-romanBlack'} w-full h-full`}>
                 {children}
                 <ScrollRestoration />
                 <Scripts />

@@ -1,16 +1,31 @@
 import React from 'react';
 import RomanBytesLogo from "~/components/roman-bytes-logo";
 import { useMatches } from "react-router";
-import { Link } from "@remix-run/react";
+import {Link, useLoaderData} from "@remix-run/react";
+import { json, LoaderArgs } from '@remix-run/node';
+
+export const loader = async ({ params }: LoaderArgs) => {
+    let path = params;
+    console.log(path);
+
+    const currentDevToPost = await fetch(`https://dev.to/api/articles/romanbytes/${path.slug}`).then(res => res.json());
+    console.log(currentDevToPost);
+
+    return json({
+        article: currentDevToPost,
+    })
+}
 
 function Slug() {
     const matches = useMatches();
     const currentRoute = matches[1];
+    const data = useLoaderData();
 
+    console.log('data', data);
 
     return (
         <main className="container relative border-2 border-romanBlack rounded-3xl bg-white pt-32 px-28 pb-28 my-28">
-            <div className="absolute top-10 left-0 right-0 text-center text-romanPrimary mb-16">{`~ ${currentRoute.pathname} `}</div>
+            {/*<div className="absolute top-10 left-0 right-0 text-center text-romanPrimary mb-16">{`~ ${currentRoute.pathname} `}</div>*/}
             <RomanBytesLogo/>
             <Link to="/blog">../ Back to blog</Link>
             <div>

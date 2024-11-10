@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 
-.grid {
+.roman-grid {
   --size: 45px;
   --line: color-mix(in lch, canvasText, transparent 90%);
   background: linear-gradient(

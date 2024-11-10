@@ -16,15 +16,52 @@ type RepoData = {
     description: string;
 };
 
-export const loader = async () => {
+type ColorData = {
+    color: string;
+    url: string;
+}
 
+type Colors = {
+    [language: string]: ColorData;
+}
+
+type LangColorResult = {
+    color: string;
+    name: string;
+}
+
+const getLangColors = async (langs: any): Promise<{ [key: string]: LangColorResult}> => {
+    const colors: Colors = await fetch('https://raw.githubusercontent.com/ozh/github-colors/refs/heads/master/colors.json').then(res => res.json());
+
+    // Grab colors and return new array
+    const langColors = langs.reduce((acc: { [key: string]: LangColorResult}, lang) => {
+        if (colors[lang]) {
+            acc[lang] = {
+                color: colors[lang].color,
+                name: lang,
+            };
+        }
+        return acc;
+    }, {})
+
+    return langColors;
+}
+
+export const loader = async () => {
     const bytesRepos = await fetch(
         'https://api.github.com/users/roman-bytes/repos?sort=updated_at'
     ).then((response) => response.json());
+    // TODO: put some error handling here
 
     const portfolio = bytesRepos.filter((repo: RepoData) =>
         repo.topics.includes('portfolio')
     );
+
+    const setLangs = async (repo) => {
+        const githubLangs = await fetch(repo.languages_url).then((response) => response.json());
+        const setLangs:{[p: string]: LangColorResult} = await getLangColors(Object.keys(githubLangs));
+        return setLangs;
+    };
 
     const projects = await Promise.all(portfolio.map(async (repo: RepoData) => {
         return {
@@ -35,7 +72,7 @@ export const loader = async () => {
            name: repo.name,
            updated_at: repo.updated_at,
            description: repo.description,
-           languages:  await fetch(repo.languages_url).then((response) => response.json()),
+           languages:  setLangs(repo),
         }
     }));
 
@@ -52,7 +89,6 @@ export default function Projects() {
     const matches = useMatches();
     const currentRoute = matches[1];
     const isNewLayout = ENV?.FEATURE_NEW_BRAND === 'true';
-
     const repoTiles = repos.map((repo: RepoData) => {
         return (
             <a
@@ -115,7 +151,7 @@ export default function Projects() {
             return `${minutes} minute${minutes > 1 ? 's' : ''} ago`;
         }
     }
-
+    console.log('repos', repos);
     if (isNewLayout) {
 
         const repoCards = repos.map((repo: RepoData, ix: number) => {
@@ -128,8 +164,8 @@ export default function Projects() {
                     <footer className="flex justify-between items-center mt-36">
                         <div className="flex flex-row">
                             {langs.map(lang => (
-                                <div className="w-10 h-10 ml-[-10px] bg-romanText text-slate-700 rounded-full border-2 border-slate-500 font-bold text-2xl flex items-center justify-center">
-                                    {lang[0]}
+                                <div key={lang} className="bg-romanText text-slate-700 rounded-full border-2 border-slate-500 text-md flex items-center justify-center p-3">
+                                    {lang}
                                 </div>
                             ))}
                         </div>

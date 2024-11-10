@@ -27,7 +27,7 @@ export default function NewIndex() {
                          my blog page.
                      </Link>
                  </p>
-                 <h2 className="font-bold mt-8">Other</h2>
+                 <h2 className="font-bold mt-8">Projects</h2>
                  <p>
                      I have a number of side projects that I am currently working on. You can see {' '}
                      <Link

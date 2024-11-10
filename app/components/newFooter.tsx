@@ -1,4 +1,6 @@
 import React from 'react';
+import {useMatches} from "react-router";
+import RomanBytesLogo from "~/components/roman-bytes-logo";
 
 function NewFooter() {
     const socialLinks = [
@@ -19,21 +21,42 @@ function NewFooter() {
             link: 'https://dev.to/romanbytes',
         }
     ]
+    const matches = useMatches();
+    const currentRoute = matches[1];
 
-    return (
-        <ul className="flex flex-col items-end">
-            {socialLinks.map(link => (
-                <a
-                    key={link.social}
-                    href={link.link}
-                    className="text-romanPrimary w-28 text-left"
-                    target="_blank"
-                >
-                    // {link.social}
-                </a>
-            ))}
-        </ul>
-    );
+    if (currentRoute.pathname === '/') {
+        return (
+            <ul className="flex flex-col items-end">
+                {socialLinks.map(link => (
+                    <a
+                        key={link.social}
+                        href={link.link}
+                        className="text-romanPrimary w-28 text-left"
+                        target="_blank"
+                    >
+                        // {link.social}
+                    </a>
+                ))}
+            </ul>
+        );
+    }
+   return (
+       <div className="flex flex-row justify-between">
+           <RomanBytesLogo/>
+           <ul className="flex flex-col items-end">
+               {socialLinks.map(link => (
+                   <a
+                       key={link.social}
+                       href={link.link}
+                       className="text-romanPrimary w-28 text-left"
+                       target="_blank"
+                   >
+                       // {link.social}
+                   </a>
+               ))}
+           </ul>
+       </div>
+   )
 }
 
 export default NewFooter;
