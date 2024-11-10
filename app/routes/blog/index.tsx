@@ -28,7 +28,7 @@ export default function Blog() {
                 {posts.map((post) => (
                     <div key={post.id} className="relative w-full lg:w-1/2 max-w-[400] max-h-[225] min-w-[400] min-h-[225] border border-dashed border-romanText hover:border-solid hover:border-romanPrimary p-8 mt-[-1px] ml-0 lg:ml-[-1px]">
                         <div className="ml-16">{post.created_at}</div>
-                        <Link to={`/blog/${post.slug}`}>
+                        <Link to={`/blog/${post.id}`}>
                             <h2 className="text-4xl flex my-4">
                                 <span className="text-romanText mr-6">//</span>
                                 <span className="block">{post.title}</span>

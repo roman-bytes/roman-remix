@@ -1,9 +1,7 @@
 import { http, HttpResponse } from 'msw'
 
 export const handlers = [
-    // Intercept "GET https://example.com/user" requests...
     http.get('https://api.github.com/users/roman-bytes/repos?sort=updated_at', () => {
-        // ...and respond to them using this JSON response.
         return HttpResponse.json([{
             "id": 866282411,
             "node_id": "R_kgDOM6Jrqw",
@@ -120,7 +118,7 @@ export const handlers = [
            [
                {
                    "type_of": "article",
-                   "id": 2015568,
+                   "id": 12345,
                    "title": "Sentry can’t fix React hydration errors, but it can really help you debug them",
                    "description": "Hydration failed because the initial ui does not match what was rendered on the server. Don’t you...",
                    "readable_publish_date": "Sep 26",
@@ -168,7 +166,7 @@ export const handlers = [
                },
                {
                    "type_of": "article",
-                   "id": 1419842,
+                   "id": 54321,
                    "title": "Hey there!",
                    "description": "Did u know, that this is my first draft? I'm actually testing the API",
                    "readable_publish_date": "Apr 6",
@@ -190,15 +188,15 @@ export const handlers = [
                    "last_comment_at": "2023-04-06T23:29:44Z",
                    "reading_time_minutes": 1,
                    "tag_list": [
-
+                       "NextJS", "react", "javascript", "monitoring"
                    ],
-                   "tags": "",
+                   "tags": "NextJS, react, javascript, monitoring",
                    "user": {
-                       "name": "Guilherme Cheng",
-                       "username": "guilhermecheng",
+                       "name": "Mock Roman",
+                       "username": "mock roman",
                        "twitter_username": null,
-                       "github_username": "Guilhermecheng",
-                       "user_id": 1046757,
+                       "github_username": "mock-roman",
+                       "user_id": 101010,
                        "website_url": null,
                        "profile_image": "https://res.cloudinary.com/practicaldev/image/fetch/s--sDcHxoDy--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/1046757/543e3ca0-4f99-46ba-b8a1-79c06976b72b.jpeg",
                        "profile_image_90": "https://res.cloudinary.com/practicaldev/image/fetch/s--4IlcgxTN--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/1046757/543e3ca0-4f99-46ba-b8a1-79c06976b72b.jpeg"
@@ -206,5 +204,57 @@ export const handlers = [
                }
                ]
        )
+    }),
+    http.get('https://dev.to/api/articles/12345', () => {
+        return HttpResponse.json({
+            "type_of": "article",
+            "id": 2015568,
+            "title": "Sentry can’t fix React hydration errors, but it can really help you debug them",
+            "description": "Hydration failed because the initial ui does not match what was rendered on the server. Don’t you...",
+            "readable_publish_date": "Sep 26",
+            "slug": "sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them-40aa",
+            "path": "/sentry/sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them-40aa",
+            "url": "https://dev.to/sentry/sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them-40aa",
+            "comments_count": 0,
+            "public_reactions_count": 4,
+            "collection_id": null,
+            "published_timestamp": "2024-09-26T09:02:11Z",
+            "positive_reactions_count": 4,
+            "cover_image": null,
+            "social_image": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg",
+            "canonical_url": "https://blog.sentry.io/sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them/",
+            "created_at": "2024-09-26T09:02:12Z",
+            "edited_at": null,
+            "crossposted_at": null,
+            "published_at": "2024-09-26T09:02:11Z",
+            "last_comment_at": "2024-09-26T09:02:11Z",
+            "reading_time_minutes": 5,
+            "tag_list": "nextjs, react, javascript, monitoring",
+            "tags": [
+                "nextjs",
+                "react",
+                "javascript",
+                "monitoring"
+            ],
+            "body_html": "",
+            "body_markdown": "",
+            "user": {
+                "name": "Salma Alam-Naylor",
+                "username": "whitep4nth3r",
+                "twitter_username": "whitep4nth3r",
+                "github_username": "whitep4nth3r",
+                "user_id": 492757,
+                "website_url": "https://whitep4nth3r.com/",
+                "profile_image": "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F492757%2Fc31e9460-d3f1-4fb2-8016-bb03155c42fa.png",
+                "profile_image_90": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F492757%2Fc31e9460-d3f1-4fb2-8016-bb03155c42fa.png"
+            },
+            "organization": {
+                "name": "Sentry",
+                "username": "sentry",
+                "slug": "sentry",
+                "profile_image": "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F3774%2F02d4162c-978f-4471-9d39-b2928cfb9e24.png",
+                "profile_image_90": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F3774%2F02d4162c-978f-4471-9d39-b2928cfb9e24.png"
+            },
+        })
     }),
 ]
