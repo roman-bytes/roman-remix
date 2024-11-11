@@ -169,8 +169,9 @@ export default function Projects() {
                                 </div>
                             ))}
                         </div>
-                        <Link
-                            to={`/projects/${repo.name}`}
+                        <a
+                            href={repo.html_url}
+                            target="_blank"
                         >
                             <svg
                                 width="107"
@@ -184,7 +185,7 @@ export default function Projects() {
                                     fill="#BF860F"
                                 />
                             </svg>
-                        </Link>
+                        </a>
                     </footer>
                     <Plus className="absolute top-[-3px] left-[-3px]" />
                     <Plus className="absolute top-[-3px] right-[-3px]" />
