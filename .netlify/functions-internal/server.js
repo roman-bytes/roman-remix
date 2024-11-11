@@ -499,10 +499,10 @@ __export(root_exports, {
   links: () => links,
   loader: () => loader
 });
-var import_react4 = require("@remix-run/react");
+var import_react5 = require("@remix-run/react");
 
 // app/components/layout.tsx
-var import_react2 = require("react"), import_classnames = __toESM(require("classnames")), import_react_terminal = require("react-terminal"), import_remix_utils = require("remix-utils"), import_react3 = require("@remix-run/react");
+var import_react3 = require("react"), import_classnames = __toESM(require("classnames")), import_react_terminal = require("react-terminal"), import_remix_utils = require("remix-utils"), import_react4 = require("@remix-run/react");
 
 // app/components/footer.tsx
 var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), Footer = () => /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("footer", { className: "hidden lg:block -z-50 w-full fixed top-1/2 text-romanText", children: [
@@ -777,12 +777,89 @@ function NewLayout({ children }) {
   }, this);
 }
 
+// app/components/roman-bytes-logo.tsx
+var import_react2 = require("@remix-run/react"), import_jsx_dev_runtime8 = require("react/jsx-dev-runtime");
+function RomanBytesLogo() {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+    import_react2.Link,
+    {
+      to: "/",
+      className: "mb-8 block w-fit",
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("svg", { width: "30", height: "38", viewBox: "0 0 30 38", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+          "path",
+          {
+            d: "M25.8144 20.2562C24.6151 22.3551 21.7168 24.2539 20.5674 24.9036C19.6679 25.2034 19.6679 25.5032 19.518 25.6531C19.3681 25.803 19.9678 25.6531 19.0683 27.452C18.3487 28.8912 16.8696 28.6513 16.2199 28.3515C15.8701 28.1017 15.0806 27.8418 14.7208 28.8013C14.361 29.7607 16.07 30.6002 16.9695 30.9H19.3681C19.518 32.4991 20.4775 35.9371 23.116 36.8966C25.7544 37.856 27.7133 37.896 28.3629 37.7961C28.8127 37.4962 29.7121 35.6973 29.7121 30.9C29.7121 26.1028 27.9132 21.9053 27.0137 20.4062C26.564 19.8065 26.414 18.6071 25.8144 20.2562Z",
+            fill: "#CC9340"
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/components/roman-bytes-logo.tsx",
+            lineNumber: 11,
+            columnNumber: 17
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+          "path",
+          {
+            d: "M6.17574 23.8541L4.07696 25.2033L1.97817 26.7025C1.52843 27.1522 1.4085 27.0023 1.2286 26.5526C0.0292971 23.5543 -0.0706452 20.0063 0.0292971 18.6072C0.0792682 16.1086 1.43848 10.0021 6.47557 5.56469C11.5127 1.12727 17.1694 0.0178868 19.3681 0.0178754C19.2482 1.09724 18.9184 2.86625 19.2182 3.31597L21.9166 0.317702C22.2165 0.0178754 21.9166 -0.0345871 22.966 0.0178754C25.3647 0.137806 28.263 1.3671 29.4123 1.96675C30.1319 2.32654 29.8121 3.01614 29.5622 3.31597C28.5628 4.46531 26.474 6.97386 26.1142 7.81337C25.7544 8.65288 25.1648 8.56294 24.9149 8.41302C24.2653 8.01326 22.0366 7.18374 18.3187 7.06381C14.6009 6.94388 10.7731 9.71228 9.32393 11.1115C11.1729 10.3619 15.4704 8.83279 17.869 8.71286C20.8673 8.56295 22.0666 9.31251 23.2659 9.61234C24.2253 9.8522 23.9655 10.5118 23.7156 10.8116L21.7667 13.5101C21.4669 14.1097 21.1671 14.0624 20.5674 13.8099C17.7191 12.6106 14.7208 13.2103 10.8231 15.6089C6.92531 18.0075 6.62548 22.355 6.62548 23.1045C6.62548 23.7042 6.32566 23.8541 6.17574 23.8541Z",
+            fill: "#CC9340"
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/components/roman-bytes-logo.tsx",
+            lineNumber: 14,
+            columnNumber: 17
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+          "path",
+          {
+            d: "M8.12483 26.2531C9.68393 30.6905 7.47521 32.2996 6.17596 32.5494C5.17654 32.6993 3.77735 33.1791 6.17596 33.8987C9.17423 34.7981 12.4723 31.5 13.5217 29.851C14.3612 28.5318 14.1713 27.0026 13.9715 26.403C13.7716 25.9033 13.6716 24.574 14.8709 23.2548C16.3701 21.6058 18.7687 23.4047 19.0685 24.0044C19.3084 24.4841 19.868 24.2043 20.1179 24.0044C21.5171 22.855 24.4954 20.3465 25.215 19.507C25.9345 18.6675 25.7147 18.2577 25.5148 18.1578C25.2649 17.5081 23.8058 15.8791 19.968 14.5598C16.1302 13.2406 12.2724 15.5093 10.8233 16.8085C9.27417 18.1078 6.56574 21.8156 8.12483 26.2531Z",
+            fill: "#CC9340"
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/components/roman-bytes-logo.tsx",
+            lineNumber: 17,
+            columnNumber: 17
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("circle", { cx: "16.8204", cy: "25.5035", r: "1.79896", fill: "#CC9340" }, void 0, !1, {
+          fileName: "app/components/roman-bytes-logo.tsx",
+          lineNumber: 20,
+          columnNumber: 17
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/components/roman-bytes-logo.tsx",
+        lineNumber: 10,
+        columnNumber: 13
+      }, this)
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/components/roman-bytes-logo.tsx",
+      lineNumber: 6,
+      columnNumber: 9
+    },
+    this
+  );
+}
+var roman_bytes_logo_default = RomanBytesLogo;
+
 // app/components/layout.tsx
-var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime");
 var Layout = ({
   children
 }) => {
-  let data = (0, import_react3.useLoaderData)(), [mobileMenu, setMobileMenu] = (0, import_react2.useState)(!1), handleMenuOpen = () => {
+  let data = (0, import_react4.useLoaderData)(), [mobileMenu, setMobileMenu] = (0, import_react3.useState)(!1), handleMenuOpen = () => {
     setMobileMenu(!mobileMenu);
   }, mobileMenuClass = (0, import_classnames.default)(
     "justify-between my-5",
@@ -791,58 +868,58 @@ var Layout = ({
     "flex-no-wrap justify-center",
     mobileMenu ? "flex" : "hidden"
   );
-  return data.ENV.FEATURE_NEW_BRAND === "true" ? /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(NewLayout, {}, void 0, !1, {
+  return data.ENV.FEATURE_NEW_BRAND === "true" ? /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(NewLayout, {}, void 0, !1, {
     fileName: "app/components/layout.tsx",
-    lineNumber: 51,
+    lineNumber: 52,
     columnNumber: 13
-  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_react_terminal.TerminalContextProvider, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("main", { className: "h-full", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "hidden lg:block absolute xl:top-5 xl:left-5 lg:top-2.5 lg:left-2.5 h-", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(logo_default, {}, void 0, !1, {
+  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react_terminal.TerminalContextProvider, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("main", { className: "h-full", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "lg:block absolute xl:top-5 xl:left-5 lg:top-2.5 lg:left-2.5", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(roman_bytes_logo_default, {}, void 0, !1, {
+        fileName: "app/components/layout.tsx",
+        lineNumber: 60,
+        columnNumber: 21
+      }, this) }, void 0, !1, {
         fileName: "app/components/layout.tsx",
         lineNumber: 59,
-        columnNumber: 21
-      }, this) }, void 0, !1, {
-        fileName: "app/components/layout.tsx",
-        lineNumber: 58,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "flex h-full w-full justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("main", { className: "container lg:mx-40 h-max min-h-full lg:flex", children }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex h-full w-full justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("main", { className: "container lg:mx-40 h-max min-h-full lg:flex", children }, void 0, !1, {
+        fileName: "app/components/layout.tsx",
+        lineNumber: 63,
+        columnNumber: 21
+      }, this) }, void 0, !1, {
         fileName: "app/components/layout.tsx",
         lineNumber: 62,
-        columnNumber: 21
-      }, this) }, void 0, !1, {
-        fileName: "app/components/layout.tsx",
-        lineNumber: 61,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "hidden lg:flex w-full fixed text-romanText xl:p-20 lg:p-10 justify-between items-end bottom-0 left-0 right-0", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(social_default, {}, void 0, !1, {
-          fileName: "app/components/layout.tsx",
-          lineNumber: 67,
-          columnNumber: 21
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(nav_default, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "hidden lg:flex w-full fixed text-romanText xl:p-20 lg:p-10 justify-between items-end bottom-0 left-0 right-0", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(social_default, {}, void 0, !1, {
           fileName: "app/components/layout.tsx",
           lineNumber: 68,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(nav_default, {}, void 0, !1, {
+          fileName: "app/components/layout.tsx",
+          lineNumber: 69,
           columnNumber: 21
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/layout.tsx",
-        lineNumber: 66,
+        lineNumber: 67,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "lg:hidden p-5 border-t border-white bg-romanBlack w-full fixed text-romanText lg:p-10 flex justify-between bottom-0 left-0 right-0 flex-col", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "flex flex-row justify-between items-center", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "xl:top-5 xl:left-5 lg:top-2.5 lg:left-2.5", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(logo_default, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "lg:hidden p-5 border-t border-white bg-romanBlack w-full fixed text-romanText lg:p-10 flex justify-between bottom-0 left-0 right-0 flex-col", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex flex-row justify-between items-center", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "xl:top-5 xl:left-5 lg:top-2.5 lg:left-2.5", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(logo_default, {}, void 0, !1, {
             fileName: "app/components/layout.tsx",
-            lineNumber: 73,
+            lineNumber: 74,
             columnNumber: 29
           }, this) }, void 0, !1, {
             fileName: "app/components/layout.tsx",
-            lineNumber: 72,
+            lineNumber: 73,
             columnNumber: 25
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
             "svg",
             {
               width: 24,
@@ -852,7 +929,7 @@ var Layout = ({
               xmlns: "http://www.w3.org/2000/svg",
               className: "sm:block lg:hidden xl:hidden cursor-pointer",
               onClick: () => handleMenuOpen(),
-              children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+              children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
                 "path",
                 {
                   fillRule: "evenodd",
@@ -864,7 +941,7 @@ var Layout = ({
                 !1,
                 {
                   fileName: "app/components/layout.tsx",
-                  lineNumber: 84,
+                  lineNumber: 85,
                   columnNumber: 29
                 },
                 this
@@ -874,86 +951,86 @@ var Layout = ({
             !1,
             {
               fileName: "app/components/layout.tsx",
-              lineNumber: 75,
+              lineNumber: 76,
               columnNumber: 25
             },
             this
           )
         ] }, void 0, !0, {
           fileName: "app/components/layout.tsx",
-          lineNumber: 71,
+          lineNumber: 72,
           columnNumber: 21
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: mobileMenuClass, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(social_default, {}, void 0, !1, {
-            fileName: "app/components/layout.tsx",
-            lineNumber: 93,
-            columnNumber: 25
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(nav_default, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: mobileMenuClass, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(social_default, {}, void 0, !1, {
             fileName: "app/components/layout.tsx",
             lineNumber: 94,
+            columnNumber: 25
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(nav_default, {}, void 0, !1, {
+            fileName: "app/components/layout.tsx",
+            lineNumber: 95,
             columnNumber: 25
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/layout.tsx",
-          lineNumber: 92,
+          lineNumber: 93,
           columnNumber: 21
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("footer", { className: footerMobileClass, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "text-sm", children: "Made with love from Michigan." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("footer", { className: footerMobileClass, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "text-sm", children: "Made with love from Michigan." }, void 0, !1, {
             fileName: "app/components/layout.tsx",
-            lineNumber: 97,
+            lineNumber: 98,
             columnNumber: 25
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "text-sm", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("a", { href: "https://github.com/roman-bytes/roman-bytes-dev", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "text-sm", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("a", { href: "https://github.com/roman-bytes/roman-bytes-dev", children: [
             "Source Code",
             " "
           ] }, void 0, !0, {
             fileName: "app/components/layout.tsx",
-            lineNumber: 101,
+            lineNumber: 102,
             columnNumber: 29
           }, this) }, void 0, !1, {
             fileName: "app/components/layout.tsx",
-            lineNumber: 100,
+            lineNumber: 101,
             columnNumber: 25
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/layout.tsx",
-          lineNumber: 96,
+          lineNumber: 97,
           columnNumber: 21
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/layout.tsx",
-        lineNumber: 70,
+        lineNumber: 71,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(footer_default, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(footer_default, {}, void 0, !1, {
         fileName: "app/components/layout.tsx",
-        lineNumber: 107,
+        lineNumber: 108,
         columnNumber: 17
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/layout.tsx",
-      lineNumber: 57,
+      lineNumber: 58,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_remix_utils.ClientOnly, { fallback: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_remix_utils.ClientOnly, { fallback: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", {}, void 0, !1, {
       fileName: "app/components/layout.tsx",
-      lineNumber: 109,
+      lineNumber: 110,
       columnNumber: 35
-    }, this), children: () => /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(particles_default, {}, void 0, !1, {
+    }, this), children: () => /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(particles_default, {}, void 0, !1, {
       fileName: "app/components/layout.tsx",
-      lineNumber: 109,
+      lineNumber: 110,
       columnNumber: 51
     }, this) }, void 0, !1, {
       fileName: "app/components/layout.tsx",
-      lineNumber: 109,
+      lineNumber: 110,
       columnNumber: 13
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/layout.tsx",
-    lineNumber: 56,
+    lineNumber: 57,
     columnNumber: 9
   }, this);
 }, layout_default = Layout;
@@ -962,10 +1039,10 @@ var Layout = ({
 var import_node5 = require("@remix-run/node");
 
 // app/styles/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-TLJJB5FK.css";
+var tailwind_default = "/build/_assets/tailwind-OW72FGCU.css";
 
 // app/root.tsx
-var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), links = () => [{ rel: "stylesheet", href: tailwind_default }];
+var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), links = () => [{ rel: "stylesheet", href: tailwind_default }];
 async function loader() {
   return (0, import_node5.json)({
     ENV: {
@@ -974,7 +1051,7 @@ async function loader() {
   });
 }
 function App() {
-  return (0, import_react4.useLoaderData)().ENV.FEATURE_NEW_BRAND === "true" ? /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(NewLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react4.Outlet, {}, void 0, !1, {
+  return (0, import_react5.useLoaderData)().ENV.FEATURE_NEW_BRAND === "true" ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(NewLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_react5.Outlet, {}, void 0, !1, {
     fileName: "app/root.tsx",
     lineNumber: 41,
     columnNumber: 21
@@ -986,7 +1063,7 @@ function App() {
     fileName: "app/root.tsx",
     lineNumber: 39,
     columnNumber: 7
-  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(layout_default, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react4.Outlet, {}, void 0, !1, {
+  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(layout_default, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_react5.Outlet, {}, void 0, !1, {
     fileName: "app/root.tsx",
     lineNumber: 50,
     columnNumber: 17
@@ -1001,7 +1078,7 @@ function App() {
   }, this);
 }
 function ErrorBoundary({ error }) {
-  return console.error(error), "true" ? /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(NewLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react4.Outlet, {}, void 0, !1, {
+  return console.error(error), "true" ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(NewLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_react5.Outlet, {}, void 0, !1, {
     fileName: "app/root.tsx",
     lineNumber: 65,
     columnNumber: 21
@@ -1013,23 +1090,23 @@ function ErrorBoundary({ error }) {
     fileName: "app/root.tsx",
     lineNumber: 63,
     columnNumber: 7
-  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(Document, { title: "Error!", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(layout_default, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h1", { children: "There was an error" }, void 0, !1, {
+  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(Document, { title: "Error!", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(layout_default, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { children: "There was an error" }, void 0, !1, {
       fileName: "app/root.tsx",
       lineNumber: 76,
       columnNumber: 21
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: error.message }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: error.message }, void 0, !1, {
       fileName: "app/root.tsx",
       lineNumber: 77,
       columnNumber: 21
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("hr", {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("hr", {}, void 0, !1, {
       fileName: "app/root.tsx",
       lineNumber: 78,
       columnNumber: 21
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Hey, developer, you should replace this with what you want your users to see." }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Hey, developer, you should replace this with what you want your users to see." }, void 0, !1, {
       fileName: "app/root.tsx",
       lineNumber: 79,
       columnNumber: 21
@@ -1049,17 +1126,17 @@ function ErrorBoundary({ error }) {
   }, this);
 }
 function CatchBoundary() {
-  let caught = (0, import_react4.useCatch)(), isNewLayout = "true", message;
+  let caught = (0, import_react5.useCatch)(), isNewLayout = "true", message;
   switch (caught.status) {
     case 401:
-      message = /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Oops! Looks like you tried to visit a page that you do not have access to." }, void 0, !1, {
+      message = /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Oops! Looks like you tried to visit a page that you do not have access to." }, void 0, !1, {
         fileName: "app/root.tsx",
         lineNumber: 98,
         columnNumber: 7
       }, this);
       break;
     case 404:
-      message = /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "What you are looking for is not there. Please visit the home page and try again." }, void 0, !1, {
+      message = /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "What you are looking for is not there. Please visit the home page and try again." }, void 0, !1, {
         fileName: "app/root.tsx",
         lineNumber: 106,
         columnNumber: 7
@@ -1068,7 +1145,7 @@ function CatchBoundary() {
     default:
       throw new Error(caught.data || caught.statusText);
   }
-  return isNewLayout ? /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(Document, { title: `${caught.status} ${caught.statusText}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(NewLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "mt-20 mb-40 mx-auto p-14 text-md font-sans text-white border border-white bg-romanBlack", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h1", { className: "text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading", children: [
+  return isNewLayout ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(Document, { title: `${caught.status} ${caught.statusText}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(NewLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "mt-20 mb-40 mx-auto p-14 text-md font-sans text-white border border-white bg-romanBlack", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { className: "text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading", children: [
     caught.status,
     ": ",
     caught.statusText
@@ -1088,7 +1165,7 @@ function CatchBoundary() {
     fileName: "app/root.tsx",
     lineNumber: 119,
     columnNumber: 7
-  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(Document, { title: `${caught.status} ${caught.statusText}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(layout_default, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "mt-20 mb-40 mx-auto p-14 text-md font-sans text-white border border-white bg-romanBlack", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h1", { className: "text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading", children: [
+  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(Document, { title: `${caught.status} ${caught.statusText}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(layout_default, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "mt-20 mb-40 mx-auto p-14 text-md font-sans text-white border border-white bg-romanBlack", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { className: "text-8xl font-bold mt-16 font-ubuntu leading-heading tracking-heading", children: [
     caught.status,
     ": ",
     caught.statusText
@@ -1115,15 +1192,15 @@ function Document({
   title
 }) {
   var _a;
-  let data = (0, import_react4.useLoaderData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("html", { lang: "en", className: "w-full h-full font-mono", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("head", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("meta", { charSet: "utf-8" }, void 0, !1, {
+  let data = (0, import_react5.useLoaderData)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("html", { lang: "en", className: "w-full h-full font-mono", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("head", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("meta", { charSet: "utf-8" }, void 0, !1, {
         fileName: "app/root.tsx",
         lineNumber: 156,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
         "meta",
         {
           name: "viewport",
@@ -1138,17 +1215,17 @@ function Document({
         },
         this
       ),
-      title ? /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("title", { children: title }, void 0, !1, {
+      title ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("title", { children: title }, void 0, !1, {
         fileName: "app/root.tsx",
         lineNumber: 161,
         columnNumber: 26
       }, this) : null,
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react4.Meta, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_react5.Meta, {}, void 0, !1, {
         fileName: "app/root.tsx",
         lineNumber: 162,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react4.Links, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_react5.Links, {}, void 0, !1, {
         fileName: "app/root.tsx",
         lineNumber: 163,
         columnNumber: 17
@@ -1158,19 +1235,19 @@ function Document({
       lineNumber: 155,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("body", { className: `${((_a = data == null ? void 0 : data.ENV) == null ? void 0 : _a.FEATURE_NEW_BRAND) === "true" ? "bg-white roman-grid" : "bg-romanBlack"} w-full h-full`, children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("body", { className: `${((_a = data == null ? void 0 : data.ENV) == null ? void 0 : _a.FEATURE_NEW_BRAND) === "true" ? "bg-white roman-grid" : "bg-romanBlack"} w-full h-full`, children: [
       children,
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react4.ScrollRestoration, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_react5.ScrollRestoration, {}, void 0, !1, {
         fileName: "app/root.tsx",
         lineNumber: 167,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react4.Scripts, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_react5.Scripts, {}, void 0, !1, {
         fileName: "app/root.tsx",
         lineNumber: 168,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react4.LiveReload, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_react5.LiveReload, {}, void 0, !1, {
         fileName: "app/root.tsx",
         lineNumber: 169,
         columnNumber: 60
@@ -1194,85 +1271,6 @@ __export(name_exports, {
   loader: () => loader2
 });
 var import_node6 = require("@remix-run/node");
-
-// app/components/roman-bytes-logo.tsx
-var import_react5 = require("@remix-run/react"), import_jsx_dev_runtime10 = require("react/jsx-dev-runtime");
-function RomanBytesLogo() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
-    import_react5.Link,
-    {
-      to: "/",
-      className: "mb-8 block w-fit",
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("svg", { width: "30", height: "38", viewBox: "0 0 30 38", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
-          "path",
-          {
-            d: "M25.8144 20.2562C24.6151 22.3551 21.7168 24.2539 20.5674 24.9036C19.6679 25.2034 19.6679 25.5032 19.518 25.6531C19.3681 25.803 19.9678 25.6531 19.0683 27.452C18.3487 28.8912 16.8696 28.6513 16.2199 28.3515C15.8701 28.1017 15.0806 27.8418 14.7208 28.8013C14.361 29.7607 16.07 30.6002 16.9695 30.9H19.3681C19.518 32.4991 20.4775 35.9371 23.116 36.8966C25.7544 37.856 27.7133 37.896 28.3629 37.7961C28.8127 37.4962 29.7121 35.6973 29.7121 30.9C29.7121 26.1028 27.9132 21.9053 27.0137 20.4062C26.564 19.8065 26.414 18.6071 25.8144 20.2562Z",
-            fill: "#1F242B"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/components/roman-bytes-logo.tsx",
-            lineNumber: 11,
-            columnNumber: 17
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
-          "path",
-          {
-            d: "M6.17574 23.8541L4.07696 25.2033L1.97817 26.7025C1.52843 27.1522 1.4085 27.0023 1.2286 26.5526C0.0292971 23.5543 -0.0706452 20.0063 0.0292971 18.6072C0.0792682 16.1086 1.43848 10.0021 6.47557 5.56469C11.5127 1.12727 17.1694 0.0178868 19.3681 0.0178754C19.2482 1.09724 18.9184 2.86625 19.2182 3.31597L21.9166 0.317702C22.2165 0.0178754 21.9166 -0.0345871 22.966 0.0178754C25.3647 0.137806 28.263 1.3671 29.4123 1.96675C30.1319 2.32654 29.8121 3.01614 29.5622 3.31597C28.5628 4.46531 26.474 6.97386 26.1142 7.81337C25.7544 8.65288 25.1648 8.56294 24.9149 8.41302C24.2653 8.01326 22.0366 7.18374 18.3187 7.06381C14.6009 6.94388 10.7731 9.71228 9.32393 11.1115C11.1729 10.3619 15.4704 8.83279 17.869 8.71286C20.8673 8.56295 22.0666 9.31251 23.2659 9.61234C24.2253 9.8522 23.9655 10.5118 23.7156 10.8116L21.7667 13.5101C21.4669 14.1097 21.1671 14.0624 20.5674 13.8099C17.7191 12.6106 14.7208 13.2103 10.8231 15.6089C6.92531 18.0075 6.62548 22.355 6.62548 23.1045C6.62548 23.7042 6.32566 23.8541 6.17574 23.8541Z",
-            fill: "#1F242B"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/components/roman-bytes-logo.tsx",
-            lineNumber: 14,
-            columnNumber: 17
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
-          "path",
-          {
-            d: "M8.12483 26.2531C9.68393 30.6905 7.47521 32.2996 6.17596 32.5494C5.17654 32.6993 3.77735 33.1791 6.17596 33.8987C9.17423 34.7981 12.4723 31.5 13.5217 29.851C14.3612 28.5318 14.1713 27.0026 13.9715 26.403C13.7716 25.9033 13.6716 24.574 14.8709 23.2548C16.3701 21.6058 18.7687 23.4047 19.0685 24.0044C19.3084 24.4841 19.868 24.2043 20.1179 24.0044C21.5171 22.855 24.4954 20.3465 25.215 19.507C25.9345 18.6675 25.7147 18.2577 25.5148 18.1578C25.2649 17.5081 23.8058 15.8791 19.968 14.5598C16.1302 13.2406 12.2724 15.5093 10.8233 16.8085C9.27417 18.1078 6.56574 21.8156 8.12483 26.2531Z",
-            fill: "#1F242B"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/components/roman-bytes-logo.tsx",
-            lineNumber: 17,
-            columnNumber: 17
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("circle", { cx: "16.8204", cy: "25.5035", r: "1.79896", fill: "#1F242B" }, void 0, !1, {
-          fileName: "app/components/roman-bytes-logo.tsx",
-          lineNumber: 20,
-          columnNumber: 17
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/components/roman-bytes-logo.tsx",
-        lineNumber: 10,
-        columnNumber: 13
-      }, this)
-    },
-    void 0,
-    !1,
-    {
-      fileName: "app/components/roman-bytes-logo.tsx",
-      lineNumber: 6,
-      columnNumber: 9
-    },
-    this
-  );
-}
-var roman_bytes_logo_default = RomanBytesLogo;
-
-// app/routes/projects/$name.tsx
 var import_react_router2 = require("react-router"), import_react6 = require("@remix-run/react"), import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), loader2 = async ({ params }) => {
   let path = params;
   console.log(path);
@@ -2386,7 +2384,7 @@ function test() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-IYO4ASC7.js", imports: ["/build/_shared/chunk-ZMXWR5T2.js", "/build/_shared/chunk-N3HBL2FC.js", "/build/_shared/chunk-CZ6D5A5Z.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-KDU63HKP.js", imports: ["/build/_shared/chunk-A55AI6NP.js", "/build/_shared/chunk-KBNJLGOV.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/404": { id: "routes/404", parentId: "root", path: "404", index: void 0, caseSensitive: void 0, module: "/build/routes/404-UK3TOFIX.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[robots.txt]": { id: "routes/[robots.txt]", parentId: "root", path: "robots.txt", index: void 0, caseSensitive: void 0, module: "/build/routes/[robots.txt]-KBLGU22A.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[sitemap.xml]": { id: "routes/[sitemap.xml]", parentId: "root", path: "sitemap.xml", index: void 0, caseSensitive: void 0, module: "/build/routes/[sitemap.xml]-YOANNW2S.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-7I4EEPBU.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/$slug": { id: "routes/blog/$slug", parentId: "root", path: "blog/:slug", index: void 0, caseSensitive: void 0, module: "/build/routes/blog/$slug-S7TUGJVM.js", imports: ["/build/_shared/chunk-PXJV3QUY.js", "/build/_shared/chunk-6LBV4JVG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/index": { id: "routes/blog/index", parentId: "root", path: "blog", index: !0, caseSensitive: void 0, module: "/build/routes/blog/index-66NDH52W.js", imports: ["/build/_shared/chunk-IJ32PCQM.js", "/build/_shared/chunk-PXJV3QUY.js", "/build/_shared/chunk-6LBV4JVG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-RPEV54HN.js", imports: ["/build/_shared/chunk-K6M27BHM.js", "/build/_shared/chunk-6LBV4JVG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/$name": { id: "routes/projects/$name", parentId: "root", path: "projects/:name", index: void 0, caseSensitive: void 0, module: "/build/routes/projects/$name-UN7XMXKF.js", imports: ["/build/_shared/chunk-6LBV4JVG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/index": { id: "routes/projects/index", parentId: "root", path: "projects", index: !0, caseSensitive: void 0, module: "/build/routes/projects/index-O4G2OREC.js", imports: ["/build/_shared/chunk-IJ32PCQM.js", "/build/_shared/chunk-6LBV4JVG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "2c26debf", hmr: void 0, url: "/build/manifest-2C26DEBF.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-IYO4ASC7.js", imports: ["/build/_shared/chunk-ZMXWR5T2.js", "/build/_shared/chunk-N3HBL2FC.js", "/build/_shared/chunk-CZ6D5A5Z.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-PHPP36K2.js", imports: ["/build/_shared/chunk-A55AI6NP.js", "/build/_shared/chunk-AW6LP27P.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/404": { id: "routes/404", parentId: "root", path: "404", index: void 0, caseSensitive: void 0, module: "/build/routes/404-UK3TOFIX.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[robots.txt]": { id: "routes/[robots.txt]", parentId: "root", path: "robots.txt", index: void 0, caseSensitive: void 0, module: "/build/routes/[robots.txt]-KBLGU22A.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[sitemap.xml]": { id: "routes/[sitemap.xml]", parentId: "root", path: "sitemap.xml", index: void 0, caseSensitive: void 0, module: "/build/routes/[sitemap.xml]-YOANNW2S.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-7I4EEPBU.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/$slug": { id: "routes/blog/$slug", parentId: "root", path: "blog/:slug", index: void 0, caseSensitive: void 0, module: "/build/routes/blog/$slug-5ZE4TDIS.js", imports: ["/build/_shared/chunk-PXJV3QUY.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/index": { id: "routes/blog/index", parentId: "root", path: "blog", index: !0, caseSensitive: void 0, module: "/build/routes/blog/index-3YNXLHON.js", imports: ["/build/_shared/chunk-IJ32PCQM.js", "/build/_shared/chunk-PXJV3QUY.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-6WOT2BTL.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/$name": { id: "routes/projects/$name", parentId: "root", path: "projects/:name", index: void 0, caseSensitive: void 0, module: "/build/routes/projects/$name-FGUW7ZI4.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/index": { id: "routes/projects/index", parentId: "root", path: "projects", index: !0, caseSensitive: void 0, module: "/build/routes/projects/index-5IUA63R5.js", imports: ["/build/_shared/chunk-IJ32PCQM.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "debe4f8b", hmr: void 0, url: "/build/manifest-DEBE4F8B.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

@@ -13,6 +13,7 @@ import Logo from './logo';
 import Particles from '~/components/particles';
 import { json } from "@remix-run/node";
 import NewLayout from "~/components/new-layout";
+import RomanBytesLogo from "~/components/roman-bytes-logo";
 
 interface LayoutProps {
     children: ReactNode;
@@ -55,8 +56,8 @@ const Layout: FunctionComponent<LayoutProps> = ({
     return (
         <TerminalContextProvider>
             <main className="h-full">
-                <div className="hidden lg:block absolute xl:top-5 xl:left-5 lg:top-2.5 lg:left-2.5 h-">
-                    <Logo />
+                <div className="lg:block absolute xl:top-5 xl:left-5 lg:top-2.5 lg:left-2.5">
+                    <RomanBytesLogo />
                 </div>
                 <div className="flex h-full w-full justify-center">
                     <main className="container lg:mx-40 h-max min-h-full lg:flex">

@@ -809,6 +809,10 @@ video {
   width: 7rem;
 }
 
+.w-4\/12{
+  width: 33.333333%;
+}
+
 .w-5\/12{
   width: 41.666667%;
 }
@@ -824,10 +828,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-4\/12{
-  width: 33.333333%;
 }
 
 .min-w-\[400\]{
@@ -979,10 +979,6 @@ video {
 
 .bg-opacity-90{
   --tw-bg-opacity: 0.9;
-}
-
-.bg-cover{
-  background-size: cover;
 }
 
 .bg-contain{
