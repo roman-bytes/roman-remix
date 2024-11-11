@@ -165,50 +165,91 @@ var import_msw = require("msw"), handlers = [
     [
       {
         type_of: "article",
-        id: 12345,
-        title: "Sentry can\u2019t fix React hydration errors, but it can really help you debug them",
-        description: "Hydration failed because the initial ui does not match what was rendered on the server. Don\u2019t you...",
-        readable_publish_date: "Sep 26",
-        slug: "sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them-40aa",
-        path: "/sentry/sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them-40aa",
-        url: "https://dev.to/sentry/sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them-40aa",
+        id: 442766,
+        title: "Hi, I'm Jacob Roman: A Decade in Web Development",
+        description: "Hey web friends, my name is Jacob Roman or you might also know me as Roman Bytes. By day I am a Full...",
+        readable_publish_date: "Nov 11",
+        slug: "hi-im-jacob-roman-a-decade-in-web-development-3kpp",
+        path: "/romanbytes/hi-im-jacob-roman-a-decade-in-web-development-3kpp",
+        url: "https://dev.to/romanbytes/hi-im-jacob-roman-a-decade-in-web-development-3kpp",
         comments_count: 0,
-        public_reactions_count: 4,
+        public_reactions_count: 0,
         collection_id: null,
-        published_timestamp: "2024-09-26T09:02:11Z",
-        positive_reactions_count: 4,
-        cover_image: null,
-        social_image: "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg",
-        canonical_url: "https://blog.sentry.io/sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them/",
-        created_at: "2024-09-26T09:02:12Z",
-        edited_at: null,
+        published_timestamp: "2024-11-11T15:09:38Z",
+        positive_reactions_count: 0,
+        cover_image: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0fua0ahqklwljazws96o.jpg",
+        social_image: "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0fua0ahqklwljazws96o.jpg",
+        canonical_url: "https://dev.to/romanbytes/hi-im-jacob-roman-a-decade-in-web-development-3kpp",
+        created_at: "2020-08-31T19:52:40Z",
+        edited_at: "2024-11-11T15:10:16Z",
         crossposted_at: null,
-        published_at: "2024-09-26T09:02:11Z",
-        last_comment_at: "2024-09-26T09:02:11Z",
-        reading_time_minutes: 5,
-        tag_list: [
-          "nextjs",
-          "react",
-          "javascript",
-          "monitoring"
+        published_at: "2024-11-11T15:09:38Z",
+        last_comment_at: "2024-11-11T15:09:38Z",
+        reading_time_minutes: 2,
+        tag_list: "developer, firstpost, blog, helloworld",
+        tags: [
+          "developer",
+          "firstpost",
+          "blog",
+          "helloworld"
         ],
-        tags: "nextjs, react, javascript, monitoring",
+        body_html: `<p>Hey web friends, my name is Jacob Roman or you might also know me as Roman Bytes. By day I am a Full Stack developer that has knowledge with the Javascript ecosystem. I have worked with the web for over a decade now and..... have seen all sorts of things. From working with Dreamweaver and FTPing files to the server. Yes, FTP. (For those that do not know FTP stands for File Transfer Protocol). The good ol drag and drop your files to update your site. To the modern stack of Calude, Cursor, and Shadcn. I am excited that I finally decided to take the leap and start sharing my experiences, insights and tips with web development. I have been wanting to do this for quite some time. </p>
+
+<p>So now you may be wondering, "Great, glad that you started. No what can I expect?" Glad you asked. To start I plan on sharing some basic things that I have learned while working in this field. I may create small useful bits of code that have been super helpful for me when developing. We might just call those 'bytes'. I plan on sharing my thoughts on best practices and what I have seen work and what doesn't. Who knows what else might come from this journey, either way I am excited to share what I have learned and connect with other developers.</p>
+
+<p>My main reason for starting a blog is to not only give back to the community because I to started out reading and going through others blogs to learn. I am starting this to have a place to keep record and track of all sorts of things that I learned and can reference in the future. I am sure my future self will thank me.</p>
+
+<p>I hope that some of you follow me in this journey and follow my blog and other spaces. I am not only trying to start writing here but I am trying my hand a live coding over on Twitch. For now I think that is a good start and we can see where things take us. </p>
+
+<p>Thanks for reading this first post!</p>
+
+<p><a href="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F23i5no84sl5ecg5fwfka.jpg" class="article-body-image-wrapper"><img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F23i5no84sl5ecg5fwfka.jpg" alt="Image description" loading="lazy" width="800" height="800"></a></p>
+
+<p>X: <a href="https://x.com/romanbytes" target="_blank" rel="noopener noreferrer">https://x.com/romanbytes</a><br>
+BlueSky: <a href="https://bsky.app/profile/romanbytes.bsky.social" target="_blank" rel="noopener noreferrer">https://bsky.app/profile/romanbytes.bsky.social</a><br>
+Twitch: <a href="https://www.twitch.tv/romanbytes" target="_blank" rel="noopener noreferrer">https://www.twitch.tv/romanbytes</a><br>
+Website: <a href="https://romanbytes.dev/" target="_blank" rel="noopener noreferrer">https://romanbytes.dev/</a></p>
+
+<p>Till Next Byte, Roman out</p>
+
+`,
+        body_markdown: `Hey web friends, my name is Jacob Roman or you might also know me as Roman Bytes. By day I am a Full Stack developer that has knowledge with the Javascript ecosystem. I have worked with the web for over a decade now and..... have seen all sorts of things. From working with Dreamweaver and FTPing files to the server. Yes, FTP. (For those that do not know FTP stands for File Transfer Protocol). The good ol drag and drop your files to update your site. To the modern stack of Calude, Cursor, and Shadcn. I am excited that I finally decided to take the leap and start sharing my experiences, insights and tips with web development. I have been wanting to do this for quite some time. 
+
+
+So now you may be wondering, "Great, glad that you started. No what can I expect?" Glad you asked. To start I plan on sharing some basic things that I have learned while working in this field. I may create small useful bits of code that have been super helpful for me when developing. We might just call those 'bytes'. I plan on sharing my thoughts on best practices and what I have seen work and what doesn't. Who knows what else might come from this journey, either way I am excited to share what I have learned and connect with other developers.
+
+
+My main reason for starting a blog is to not only give back to the community because I to started out reading and going through others blogs to learn. I am starting this to have a place to keep record and track of all sorts of things that I learned and can reference in the future. I am sure my future self will thank me.
+
+
+I hope that some of you follow me in this journey and follow my blog and other spaces. I am not only trying to start writing here but I am trying my hand a live coding over on Twitch. For now I think that is a good start and we can see where things take us. 
+
+Thanks for reading this first post!
+
+
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/23i5no84sl5ecg5fwfka.jpg)
+
+
+X: https://x.com/romanbytes
+BlueSky: https://bsky.app/profile/romanbytes.bsky.social
+Twitch: https://www.twitch.tv/romanbytes
+Website: https://romanbytes.dev/
+
+
+Till Next Byte, Roman out
+
+`,
         user: {
-          name: "Salma Alam-Naylor",
-          username: "whitep4nth3r",
-          twitter_username: "whitep4nth3r",
-          github_username: "whitep4nth3r",
-          user_id: 492757,
-          website_url: "https://whitep4nth3r.com/",
-          profile_image: "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F492757%2Fc31e9460-d3f1-4fb2-8016-bb03155c42fa.png",
-          profile_image_90: "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F492757%2Fc31e9460-d3f1-4fb2-8016-bb03155c42fa.png"
-        },
-        organization: {
-          name: "Sentry",
-          username: "sentry",
-          slug: "sentry",
-          profile_image: "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F3774%2F02d4162c-978f-4471-9d39-b2928cfb9e24.png",
-          profile_image_90: "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F3774%2F02d4162c-978f-4471-9d39-b2928cfb9e24.png"
+          name: "Jacob Roman",
+          username: "romanbytes",
+          twitter_username: null,
+          github_username: "roman-bytes",
+          user_id: 253488,
+          website_url: "https://romanbytes.dev",
+          profile_image: "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F253488%2F1225fa77-2a11-4ae5-a423-a2b3442ec44e.jpg",
+          profile_image_90: "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F253488%2F1225fa77-2a11-4ae5-a423-a2b3442ec44e.jpg"
         }
       },
       {
@@ -234,13 +275,13 @@ var import_msw = require("msw"), handlers = [
         published_at: "2023-04-06T23:29:44Z",
         last_comment_at: "2023-04-06T23:29:44Z",
         reading_time_minutes: 1,
-        tag_list: [
+        tags: [
           "NextJS",
           "react",
           "javascript",
           "monitoring"
         ],
-        tags: "NextJS, react, javascript, monitoring",
+        tag_list: "NextJS, react, javascript, monitoring",
         user: {
           name: "Mock Roman",
           username: "mock roman",
@@ -254,56 +295,97 @@ var import_msw = require("msw"), handlers = [
       }
     ]
   )),
-  import_msw.http.get("https://dev.to/api/articles/12345", () => import_msw.HttpResponse.json({
-    type_of: "article",
-    id: 2015568,
-    title: "Sentry can\u2019t fix React hydration errors, but it can really help you debug them",
-    description: "Hydration failed because the initial ui does not match what was rendered on the server. Don\u2019t you...",
-    readable_publish_date: "Sep 26",
-    slug: "sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them-40aa",
-    path: "/sentry/sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them-40aa",
-    url: "https://dev.to/sentry/sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them-40aa",
-    comments_count: 0,
-    public_reactions_count: 4,
-    collection_id: null,
-    published_timestamp: "2024-09-26T09:02:11Z",
-    positive_reactions_count: 4,
-    cover_image: null,
-    social_image: "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg",
-    canonical_url: "https://blog.sentry.io/sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them/",
-    created_at: "2024-09-26T09:02:12Z",
-    edited_at: null,
-    crossposted_at: null,
-    published_at: "2024-09-26T09:02:11Z",
-    last_comment_at: "2024-09-26T09:02:11Z",
-    reading_time_minutes: 5,
-    tag_list: "nextjs, react, javascript, monitoring",
-    tags: [
-      "nextjs",
-      "react",
-      "javascript",
-      "monitoring"
-    ],
-    body_html: "",
-    body_markdown: "",
-    user: {
-      name: "Salma Alam-Naylor",
-      username: "whitep4nth3r",
-      twitter_username: "whitep4nth3r",
-      github_username: "whitep4nth3r",
-      user_id: 492757,
-      website_url: "https://whitep4nth3r.com/",
-      profile_image: "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F492757%2Fc31e9460-d3f1-4fb2-8016-bb03155c42fa.png",
-      profile_image_90: "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F492757%2Fc31e9460-d3f1-4fb2-8016-bb03155c42fa.png"
-    },
-    organization: {
-      name: "Sentry",
-      username: "sentry",
-      slug: "sentry",
-      profile_image: "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F3774%2F02d4162c-978f-4471-9d39-b2928cfb9e24.png",
-      profile_image_90: "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F3774%2F02d4162c-978f-4471-9d39-b2928cfb9e24.png"
+  import_msw.http.get("https://dev.to/api/articles/12345", () => import_msw.HttpResponse.json(
+    {
+      type_of: "article",
+      id: 442766,
+      title: "Hi, I'm Jacob Roman: A Decade in Web Development",
+      description: "Hey web friends, my name is Jacob Roman or you might also know me as Roman Bytes. By day I am a Full...",
+      readable_publish_date: "Nov 11",
+      slug: "hi-im-jacob-roman-a-decade-in-web-development-3kpp",
+      path: "/romanbytes/hi-im-jacob-roman-a-decade-in-web-development-3kpp",
+      url: "https://dev.to/romanbytes/hi-im-jacob-roman-a-decade-in-web-development-3kpp",
+      comments_count: 0,
+      public_reactions_count: 0,
+      collection_id: null,
+      published_timestamp: "2024-11-11T15:09:38Z",
+      positive_reactions_count: 0,
+      cover_image: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0fua0ahqklwljazws96o.jpg",
+      social_image: "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0fua0ahqklwljazws96o.jpg",
+      canonical_url: "https://dev.to/romanbytes/hi-im-jacob-roman-a-decade-in-web-development-3kpp",
+      created_at: "2020-08-31T19:52:40Z",
+      edited_at: "2024-11-11T15:10:16Z",
+      crossposted_at: null,
+      published_at: "2024-11-11T15:09:38Z",
+      last_comment_at: "2024-11-11T15:09:38Z",
+      reading_time_minutes: 2,
+      tag_list: "developer, firstpost, blog, helloworld",
+      tags: [
+        "developer",
+        "firstpost",
+        "blog",
+        "helloworld"
+      ],
+      body_html: `<p>Hey web friends, my name is Jacob Roman or you might also know me as Roman Bytes. By day I am a Full Stack developer that has knowledge with the Javascript ecosystem. I have worked with the web for over a decade now and..... have seen all sorts of things. From working with Dreamweaver and FTPing files to the server. Yes, FTP. (For those that do not know FTP stands for File Transfer Protocol). The good ol drag and drop your files to update your site. To the modern stack of Calude, Cursor, and Shadcn. I am excited that I finally decided to take the leap and start sharing my experiences, insights and tips with web development. I have been wanting to do this for quite some time. </p>
+
+<p>So now you may be wondering, "Great, glad that you started. No what can I expect?" Glad you asked. To start I plan on sharing some basic things that I have learned while working in this field. I may create small useful bits of code that have been super helpful for me when developing. We might just call those 'bytes'. I plan on sharing my thoughts on best practices and what I have seen work and what doesn't. Who knows what else might come from this journey, either way I am excited to share what I have learned and connect with other developers.</p>
+
+<p>My main reason for starting a blog is to not only give back to the community because I to started out reading and going through others blogs to learn. I am starting this to have a place to keep record and track of all sorts of things that I learned and can reference in the future. I am sure my future self will thank me.</p>
+
+<p>I hope that some of you follow me in this journey and follow my blog and other spaces. I am not only trying to start writing here but I am trying my hand a live coding over on Twitch. For now I think that is a good start and we can see where things take us. </p>
+
+<p>Thanks for reading this first post!</p>
+
+<p><a href="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F23i5no84sl5ecg5fwfka.jpg" class="article-body-image-wrapper"><img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F23i5no84sl5ecg5fwfka.jpg" alt="Image description" loading="lazy" width="800" height="800"></a></p>
+
+<p>X: <a href="https://x.com/romanbytes" target="_blank" rel="noopener noreferrer">https://x.com/romanbytes</a><br>
+BlueSky: <a href="https://bsky.app/profile/romanbytes.bsky.social" target="_blank" rel="noopener noreferrer">https://bsky.app/profile/romanbytes.bsky.social</a><br>
+Twitch: <a href="https://www.twitch.tv/romanbytes" target="_blank" rel="noopener noreferrer">https://www.twitch.tv/romanbytes</a><br>
+Website: <a href="https://romanbytes.dev/" target="_blank" rel="noopener noreferrer">https://romanbytes.dev/</a></p>
+
+<p>Till Next Byte, Roman out</p>
+
+`,
+      body_markdown: `Hey web friends, my name is Jacob Roman or you might also know me as Roman Bytes. By day I am a Full Stack developer that has knowledge with the Javascript ecosystem. I have worked with the web for over a decade now and..... have seen all sorts of things. From working with Dreamweaver and FTPing files to the server. Yes, FTP. (For those that do not know FTP stands for File Transfer Protocol). The good ol drag and drop your files to update your site. To the modern stack of Calude, Cursor, and Shadcn. I am excited that I finally decided to take the leap and start sharing my experiences, insights and tips with web development. I have been wanting to do this for quite some time. 
+
+
+So now you may be wondering, "Great, glad that you started. No what can I expect?" Glad you asked. To start I plan on sharing some basic things that I have learned while working in this field. I may create small useful bits of code that have been super helpful for me when developing. We might just call those 'bytes'. I plan on sharing my thoughts on best practices and what I have seen work and what doesn't. Who knows what else might come from this journey, either way I am excited to share what I have learned and connect with other developers.
+
+
+My main reason for starting a blog is to not only give back to the community because I to started out reading and going through others blogs to learn. I am starting this to have a place to keep record and track of all sorts of things that I learned and can reference in the future. I am sure my future self will thank me.
+
+
+I hope that some of you follow me in this journey and follow my blog and other spaces. I am not only trying to start writing here but I am trying my hand a live coding over on Twitch. For now I think that is a good start and we can see where things take us. 
+
+Thanks for reading this first post!
+
+
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/23i5no84sl5ecg5fwfka.jpg)
+
+
+X: https://x.com/romanbytes
+BlueSky: https://bsky.app/profile/romanbytes.bsky.social
+Twitch: https://www.twitch.tv/romanbytes
+Website: https://romanbytes.dev/
+
+
+Till Next Byte, Roman out
+
+`,
+      user: {
+        name: "Jacob Roman",
+        username: "romanbytes",
+        twitter_username: null,
+        github_username: "roman-bytes",
+        user_id: 253488,
+        website_url: "https://romanbytes.dev",
+        profile_image: "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F253488%2F1225fa77-2a11-4ae5-a423-a2b3442ec44e.jpg",
+        profile_image_90: "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F253488%2F1225fa77-2a11-4ae5-a423-a2b3442ec44e.jpg"
+      }
     }
-  }))
+  ))
 ];
 
 // app/mocks/node.ts
@@ -311,7 +393,9 @@ var server = (0, import_node.setupServer)(...handlers);
 
 // app/entry.server.tsx
 var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ABORT_DELAY = 5e3;
-server.listen();
+server.listen({
+  onUnhandledRequest: "bypass"
+});
 function handleRequest(request, responseStatusCode, responseHeaders, remixContext) {
   return (0, import_isbot.isbot)(request.headers.get("user-agent")) ? handleBotRequest(
     request,
@@ -339,7 +423,7 @@ function handleBotRequest(request, responseStatusCode, responseHeaders, remixCon
         !1,
         {
           fileName: "app/entry.server.tsx",
-          lineNumber: 44,
+          lineNumber: 46,
           columnNumber: 9
         },
         this
@@ -379,7 +463,7 @@ function handleBrowserRequest(request, responseStatusCode, responseHeaders, remi
         !1,
         {
           fileName: "app/entry.server.tsx",
-          lineNumber: 86,
+          lineNumber: 88,
           columnNumber: 9
         },
         this
@@ -878,7 +962,7 @@ var Layout = ({
 var import_node5 = require("@remix-run/node");
 
 // app/styles/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-VTMMF2CQ.css";
+var tailwind_default = "/build/_assets/tailwind-TLJJB5FK.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), links = () => [{ rel: "stylesheet", href: tailwind_default }];
@@ -1576,53 +1660,93 @@ __export(slug_exports, {
   default: () => slug_default,
   loader: () => loader6
 });
-var import_react_router4 = require("react-router"), import_react8 = require("@remix-run/react"), import_node8 = require("@remix-run/node"), import_jsx_dev_runtime14 = require("react/jsx-dev-runtime"), loader6 = async ({ params }) => {
+var import_react_router4 = require("react-router"), import_react8 = require("@remix-run/react"), import_node8 = require("@remix-run/node"), import_date_fns = require("date-fns"), import_jsx_dev_runtime14 = require("react/jsx-dev-runtime"), loader6 = async ({ params }) => {
   let path = params;
   console.log("path", path);
   let currentDevToPost = await fetch(`https://dev.to/api/articles/${path.slug}`).then((res) => res.json());
   return console.log("current post", currentDevToPost), (0, import_node8.json)({
     article: currentDevToPost
   });
-};
+}, formatTime = (time) => (0, import_date_fns.format)((0, import_date_fns.parseISO)(time), "MM/dd/yyyy");
 function Slug() {
   let currentRoute = (0, import_react_router4.useMatches)()[1], data = (0, import_react8.useLoaderData)();
-  return console.log("data", data), /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("main", { className: "container relative border-2 border-romanBlack rounded-3xl bg-white pt-32 px-28 pb-28 my-28", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "absolute top-10 left-0 right-0 text-center text-romanPrimary mb-16", children: `~ ${currentRoute.pathname} ` }, void 0, !1, {
+  return console.log("data", data), /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+    "main",
+    {
+      className: "container relative border-2 font-newMono border-romanBlack rounded-3xl bg-white my-28 bg-contain overflow-hidden",
+      style: {
+        backgroundImage: `url(${data.article.cover_image})`
+      },
+      children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "absolute top-10 left-0 right-0 text-center text-romanPrimary mb-16 bg-white w-fit mx-auto", children: `~ ${currentRoute.pathname} ` }, void 0, !1, {
+          fileName: "app/routes/blog/$slug.tsx",
+          lineNumber: 39,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "pt-48 px-28 pb-10 bg-white bg-opacity-90 relative", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(roman_bytes_logo_default, {}, void 0, !1, {
+            fileName: "app/routes/blog/$slug.tsx",
+            lineNumber: 41,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_react8.Link, { className: "absolute right-28 bottom-10", to: "/blog", children: "../ Back to blog" }, void 0, !1, {
+            fileName: "app/routes/blog/$slug.tsx",
+            lineNumber: 42,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h2", { className: "font-extrabold text-5xl mt-20", children: data.article.title }, void 0, !1, {
+            fileName: "app/routes/blog/$slug.tsx",
+            lineNumber: 43,
+            columnNumber: 17
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/blog/$slug.tsx",
+          lineNumber: 40,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "bg-white px-28", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "w-4/12", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { children: formatTime(data.article.created_at) }, void 0, !1, {
+            fileName: "app/routes/blog/$slug.tsx",
+            lineNumber: 47,
+            columnNumber: 21
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex items-center ml-16", children: data.article.tags.map((tag) => /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-romanPrimary text-md mr-4", children: [
+            "#",
+            tag
+          ] }, tag, !0, {
+            fileName: "app/routes/blog/$slug.tsx",
+            lineNumber: 49,
+            columnNumber: 57
+          }, this)) }, void 0, !1, {
+            fileName: "app/routes/blog/$slug.tsx",
+            lineNumber: 48,
+            columnNumber: 21
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "mt-20", dangerouslySetInnerHTML: { __html: data.article.body_html } }, void 0, !1, {
+            fileName: "app/routes/blog/$slug.tsx",
+            lineNumber: 51,
+            columnNumber: 21
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/blog/$slug.tsx",
+          lineNumber: 46,
+          columnNumber: 17
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/blog/$slug.tsx",
+          lineNumber: 45,
+          columnNumber: 13
+        }, this)
+      ]
+    },
+    void 0,
+    !0,
+    {
       fileName: "app/routes/blog/$slug.tsx",
-      lineNumber: 29,
-      columnNumber: 13
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(roman_bytes_logo_default, {}, void 0, !1, {
-      fileName: "app/routes/blog/$slug.tsx",
-      lineNumber: 30,
-      columnNumber: 13
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_react8.Link, { to: "/blog", children: "../ Back to blog" }, void 0, !1, {
-      fileName: "app/routes/blog/$slug.tsx",
-      lineNumber: 31,
-      columnNumber: 13
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h2", { className: "font-extrabold text-5xl", children: data.article.title }, void 0, !1, {
-        fileName: "app/routes/blog/$slug.tsx",
-        lineNumber: 33,
-        columnNumber: 17
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { dangerouslySetInnerHTML: { __html: data.article.body_html } }, void 0, !1, {
-        fileName: "app/routes/blog/$slug.tsx",
-        lineNumber: 34,
-        columnNumber: 17
-      }, this)
-    ] }, void 0, !0, {
-      fileName: "app/routes/blog/$slug.tsx",
-      lineNumber: 32,
-      columnNumber: 13
-    }, this)
-  ] }, void 0, !0, {
-    fileName: "app/routes/blog/$slug.tsx",
-    lineNumber: 28,
-    columnNumber: 9
-  }, this);
+      lineNumber: 33,
+      columnNumber: 9
+    },
+    this
+  );
 }
 var slug_default = Slug;
 
@@ -1633,85 +1757,95 @@ __export(blog_exports, {
   loader: () => loader7
 });
 var import_react_router5 = require("react-router");
-var import_react9 = require("@remix-run/react"), import_node9 = require("@remix-run/node"), import_jsx_dev_runtime15 = require("react/jsx-dev-runtime"), loader7 = async () => {
+var import_react9 = require("@remix-run/react"), import_node9 = require("@remix-run/node"), import_date_fns2 = require("date-fns"), import_jsx_dev_runtime15 = require("react/jsx-dev-runtime"), loader7 = async () => {
   let articles = await fetch("https://dev.to/api/articles?username=romanbytes").then((res) => res.json());
   return (0, import_node9.json)({
     posts: articles
   });
-};
+}, formatTime2 = (time) => (0, import_date_fns2.format)((0, import_date_fns2.parseISO)(time), "MM/dd/yyyy");
 function Blog() {
   let { posts } = (0, import_react9.useLoaderData)(), currentRoute = (0, import_react_router5.useMatches)()[1];
-  return console.log("posts-dev-to", posts), /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("main", { className: "container relative border-2 border-romanBlack rounded-3xl bg-white pt-32 px-28 pb-28 my-28", children: [
+  return console.log("post", posts), /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("main", { className: "container relative border-2 border-romanBlack rounded-3xl bg-white pt-32 px-28 pb-28 my-28", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "absolute top-10 left-0 right-0 text-center text-romanPrimary mb-16", children: `~ ${currentRoute.pathname} ` }, void 0, !1, {
       fileName: "app/routes/blog/index.tsx",
-      lineNumber: 24,
+      lineNumber: 30,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(roman_bytes_logo_default, {}, void 0, !1, {
       fileName: "app/routes/blog/index.tsx",
-      lineNumber: 25,
+      lineNumber: 31,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("section", { children: posts.map((post) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "relative w-full lg:w-1/2 max-w-[400] max-h-[225] min-w-[400] min-h-[225] border border-dashed border-romanText hover:border-solid hover:border-romanPrimary p-8 mt-[-1px] ml-0 lg:ml-[-1px]", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "ml-16", children: post.created_at }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("section", { className: "mt-32", children: posts.map((post) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "relative w-full lg:w-1/2 max-w-[400] max-h-[225] min-w-[400] min-h-[225] border border-dashed border-romanText hover:border-solid hover:border-romanPrimary p-8 mt-[-1px] ml-0 lg:ml-[-1px]", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "ml-16", children: formatTime2(post.created_at) }, void 0, !1, {
         fileName: "app/routes/blog/index.tsx",
-        lineNumber: 30,
+        lineNumber: 36,
         columnNumber: 25
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_react9.Link, { to: `/blog/${post.id}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h2", { className: "text-4xl flex my-4", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("span", { className: "text-romanText mr-6", children: "//" }, void 0, !1, {
           fileName: "app/routes/blog/index.tsx",
-          lineNumber: 33,
+          lineNumber: 39,
           columnNumber: 33
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("span", { className: "block", children: post.title }, void 0, !1, {
           fileName: "app/routes/blog/index.tsx",
-          lineNumber: 34,
+          lineNumber: 40,
           columnNumber: 33
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/blog/index.tsx",
-        lineNumber: 32,
+        lineNumber: 38,
         columnNumber: 29
       }, this) }, void 0, !1, {
-        fileName: "app/routes/blog/index.tsx",
-        lineNumber: 31,
-        columnNumber: 25
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "flex items-center ml-16", children: post.tag_list.map((tag) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "text-romanPrimary text-md mr-4", children: [
-        "#",
-        tag
-      ] }, void 0, !0, {
-        fileName: "app/routes/blog/index.tsx",
-        lineNumber: 38,
-        columnNumber: 57
-      }, this)) }, void 0, !1, {
         fileName: "app/routes/blog/index.tsx",
         lineNumber: 37,
         columnNumber: 25
       }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "flex items-center ml-16", children: post.tags.map((tag) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "text-romanPrimary text-md mr-4", children: [
+        "#",
+        tag
+      ] }, tag, !0, {
+        fileName: "app/routes/blog/index.tsx",
+        lineNumber: 44,
+        columnNumber: 53
+      }, this)) }, void 0, !1, {
+        fileName: "app/routes/blog/index.tsx",
+        lineNumber: 43,
+        columnNumber: 25
+      }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(plus_default, { className: "absolute top-[-3px] left-[-3px]" }, void 0, !1, {
         fileName: "app/routes/blog/index.tsx",
-        lineNumber: 40,
+        lineNumber: 46,
         columnNumber: 25
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(plus_default, { className: "absolute top-[-3px] right-[-3px]" }, void 0, !1, {
         fileName: "app/routes/blog/index.tsx",
-        lineNumber: 41,
+        lineNumber: 47,
+        columnNumber: 25
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(plus_default, { className: "absolute bottom-[-3px] left-[-3px]" }, void 0, !1, {
+        fileName: "app/routes/blog/index.tsx",
+        lineNumber: 48,
+        columnNumber: 25
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(plus_default, { className: "absolute bottom-[-3px] right-[-3px]" }, void 0, !1, {
+        fileName: "app/routes/blog/index.tsx",
+        lineNumber: 49,
         columnNumber: 25
       }, this)
     ] }, post.id, !0, {
       fileName: "app/routes/blog/index.tsx",
-      lineNumber: 29,
+      lineNumber: 35,
       columnNumber: 21
     }, this)) }, void 0, !1, {
       fileName: "app/routes/blog/index.tsx",
-      lineNumber: 27,
+      lineNumber: 33,
       columnNumber: 13
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/blog/index.tsx",
-    lineNumber: 23,
+    lineNumber: 29,
     columnNumber: 9
   }, this);
 }
@@ -2100,7 +2234,7 @@ function NewIndex() {
       lineNumber: 14,
       columnNumber: 14
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "font-newMono mt-12 w-5/12", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "font-newMono mt-20 w-5/12", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { children: "I\u2019m Jacob Roman, also known as Roman Bytes, a Senior Digital Engineer with over a decade of experience leading multiple teams to build high-performance web applications. I love clean design, video games, and hockey." }, void 0, !1, {
         fileName: "app/components/new-index.tsx",
         lineNumber: 16,
@@ -2252,7 +2386,7 @@ function test() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-2LUPDKBW.js", imports: ["/build/_shared/chunk-ZMXWR5T2.js", "/build/_shared/chunk-N3HBL2FC.js", "/build/_shared/chunk-CZ6D5A5Z.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-AKYYJLCI.js", imports: ["/build/_shared/chunk-A55AI6NP.js", "/build/_shared/chunk-KBNJLGOV.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/404": { id: "routes/404", parentId: "root", path: "404", index: void 0, caseSensitive: void 0, module: "/build/routes/404-UK3TOFIX.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[robots.txt]": { id: "routes/[robots.txt]", parentId: "root", path: "robots.txt", index: void 0, caseSensitive: void 0, module: "/build/routes/[robots.txt]-KBLGU22A.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[sitemap.xml]": { id: "routes/[sitemap.xml]", parentId: "root", path: "sitemap.xml", index: void 0, caseSensitive: void 0, module: "/build/routes/[sitemap.xml]-YOANNW2S.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-7I4EEPBU.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/$slug": { id: "routes/blog/$slug", parentId: "root", path: "blog/:slug", index: void 0, caseSensitive: void 0, module: "/build/routes/blog/$slug-2J6XYWB7.js", imports: ["/build/_shared/chunk-6LBV4JVG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/index": { id: "routes/blog/index", parentId: "root", path: "blog", index: !0, caseSensitive: void 0, module: "/build/routes/blog/index-D2DVYOW3.js", imports: ["/build/_shared/chunk-IJ32PCQM.js", "/build/_shared/chunk-6LBV4JVG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-VFSFSOMN.js", imports: ["/build/_shared/chunk-K6M27BHM.js", "/build/_shared/chunk-6LBV4JVG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/$name": { id: "routes/projects/$name", parentId: "root", path: "projects/:name", index: void 0, caseSensitive: void 0, module: "/build/routes/projects/$name-UN7XMXKF.js", imports: ["/build/_shared/chunk-6LBV4JVG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/index": { id: "routes/projects/index", parentId: "root", path: "projects", index: !0, caseSensitive: void 0, module: "/build/routes/projects/index-O4G2OREC.js", imports: ["/build/_shared/chunk-IJ32PCQM.js", "/build/_shared/chunk-6LBV4JVG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "dc03cf26", hmr: void 0, url: "/build/manifest-DC03CF26.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-IYO4ASC7.js", imports: ["/build/_shared/chunk-ZMXWR5T2.js", "/build/_shared/chunk-N3HBL2FC.js", "/build/_shared/chunk-CZ6D5A5Z.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-KDU63HKP.js", imports: ["/build/_shared/chunk-A55AI6NP.js", "/build/_shared/chunk-KBNJLGOV.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/404": { id: "routes/404", parentId: "root", path: "404", index: void 0, caseSensitive: void 0, module: "/build/routes/404-UK3TOFIX.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[robots.txt]": { id: "routes/[robots.txt]", parentId: "root", path: "robots.txt", index: void 0, caseSensitive: void 0, module: "/build/routes/[robots.txt]-KBLGU22A.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[sitemap.xml]": { id: "routes/[sitemap.xml]", parentId: "root", path: "sitemap.xml", index: void 0, caseSensitive: void 0, module: "/build/routes/[sitemap.xml]-YOANNW2S.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-7I4EEPBU.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/$slug": { id: "routes/blog/$slug", parentId: "root", path: "blog/:slug", index: void 0, caseSensitive: void 0, module: "/build/routes/blog/$slug-S7TUGJVM.js", imports: ["/build/_shared/chunk-PXJV3QUY.js", "/build/_shared/chunk-6LBV4JVG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/index": { id: "routes/blog/index", parentId: "root", path: "blog", index: !0, caseSensitive: void 0, module: "/build/routes/blog/index-66NDH52W.js", imports: ["/build/_shared/chunk-IJ32PCQM.js", "/build/_shared/chunk-PXJV3QUY.js", "/build/_shared/chunk-6LBV4JVG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-RPEV54HN.js", imports: ["/build/_shared/chunk-K6M27BHM.js", "/build/_shared/chunk-6LBV4JVG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/$name": { id: "routes/projects/$name", parentId: "root", path: "projects/:name", index: void 0, caseSensitive: void 0, module: "/build/routes/projects/$name-UN7XMXKF.js", imports: ["/build/_shared/chunk-6LBV4JVG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/index": { id: "routes/projects/index", parentId: "root", path: "projects", index: !0, caseSensitive: void 0, module: "/build/routes/projects/index-O4G2OREC.js", imports: ["/build/_shared/chunk-IJ32PCQM.js", "/build/_shared/chunk-6LBV4JVG.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "2c26debf", hmr: void 0, url: "/build/manifest-2C26DEBF.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

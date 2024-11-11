@@ -24,6 +24,7 @@
     "@remix-run/serve": "^1.4.3",
     "classnames": "^2.3.1",
     "cross-env": "^7.0.3",
+    "data-fns": "^1.1.0",
     "dotenv": "^16.4.5",
     "isbot": "^5.1.17",
     "react": "^18.2.0",

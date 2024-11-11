@@ -9,7 +9,9 @@ import { server } from './mocks/node'
 const ABORT_DELAY = 5_000
 
 if (process.env.NODE_ENV === 'development') {
-  server.listen()
+  server.listen({
+      onUnhandledRequest: 'bypass',
+  })
 }
 
 export default function handleRequest(

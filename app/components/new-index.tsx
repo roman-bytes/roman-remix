@@ -12,7 +12,7 @@ export default function NewIndex() {
          <div className="container relative border-2 border-romanBlack rounded-3xl bg-white pt-32 px-28 pb-28">
              <div className="absolute top-10 left-0 right-0 text-center text-romanPrimary">{`~ ${currentRoute.pathname} `}</div>
              <RomanBytesLogo />
-             <div className="font-newMono mt-12 w-5/12">
+             <div className="font-newMono mt-20 w-5/12">
                  <p>
                      I’m Jacob Roman, also known as Roman Bytes, a Senior Digital Engineer with over a decade of
                      experience leading multiple teams to build high-performance web applications. I love clean design,

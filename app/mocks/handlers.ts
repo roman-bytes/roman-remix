@@ -118,50 +118,45 @@ export const handlers = [
            [
                {
                    "type_of": "article",
-                   "id": 12345,
-                   "title": "Sentry can’t fix React hydration errors, but it can really help you debug them",
-                   "description": "Hydration failed because the initial ui does not match what was rendered on the server. Don’t you...",
-                   "readable_publish_date": "Sep 26",
-                   "slug": "sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them-40aa",
-                   "path": "/sentry/sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them-40aa",
-                   "url": "https://dev.to/sentry/sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them-40aa",
+                   "id": 442766,
+                   "title": "Hi, I'm Jacob Roman: A Decade in Web Development",
+                   "description": "Hey web friends, my name is Jacob Roman or you might also know me as Roman Bytes. By day I am a Full...",
+                   "readable_publish_date": "Nov 11",
+                   "slug": "hi-im-jacob-roman-a-decade-in-web-development-3kpp",
+                   "path": "/romanbytes/hi-im-jacob-roman-a-decade-in-web-development-3kpp",
+                   "url": "https://dev.to/romanbytes/hi-im-jacob-roman-a-decade-in-web-development-3kpp",
                    "comments_count": 0,
-                   "public_reactions_count": 4,
+                   "public_reactions_count": 0,
                    "collection_id": null,
-                   "published_timestamp": "2024-09-26T09:02:11Z",
-                   "positive_reactions_count": 4,
-                   "cover_image": null,
-                   "social_image": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg",
-                   "canonical_url": "https://blog.sentry.io/sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them/",
-                   "created_at": "2024-09-26T09:02:12Z",
-                   "edited_at": null,
+                   "published_timestamp": "2024-11-11T15:09:38Z",
+                   "positive_reactions_count": 0,
+                   "cover_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0fua0ahqklwljazws96o.jpg",
+                   "social_image": "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0fua0ahqklwljazws96o.jpg",
+                   "canonical_url": "https://dev.to/romanbytes/hi-im-jacob-roman-a-decade-in-web-development-3kpp",
+                   "created_at": "2020-08-31T19:52:40Z",
+                   "edited_at": "2024-11-11T15:10:16Z",
                    "crossposted_at": null,
-                   "published_at": "2024-09-26T09:02:11Z",
-                   "last_comment_at": "2024-09-26T09:02:11Z",
-                   "reading_time_minutes": 5,
-                   "tag_list": [
-                       "nextjs",
-                       "react",
-                       "javascript",
-                       "monitoring"
+                   "published_at": "2024-11-11T15:09:38Z",
+                   "last_comment_at": "2024-11-11T15:09:38Z",
+                   "reading_time_minutes": 2,
+                   "tag_list": "developer, firstpost, blog, helloworld",
+                   "tags": [
+                       "developer",
+                       "firstpost",
+                       "blog",
+                       "helloworld"
                    ],
-                   "tags": "nextjs, react, javascript, monitoring",
+                   "body_html": "\u003Cp\u003EHey web friends, my name is Jacob Roman or you might also know me as Roman Bytes. By day I am a Full Stack developer that has knowledge with the Javascript ecosystem. I have worked with the web for over a decade now and..... have seen all sorts of things. From working with Dreamweaver and FTPing files to the server. Yes, FTP. (For those that do not know FTP stands for File Transfer Protocol). The good ol drag and drop your files to update your site. To the modern stack of Calude, Cursor, and Shadcn. I am excited that I finally decided to take the leap and start sharing my experiences, insights and tips with web development. I have been wanting to do this for quite some time. \u003C/p\u003E\n\n\u003Cp\u003ESo now you may be wondering, \"Great, glad that you started. No what can I expect?\" Glad you asked. To start I plan on sharing some basic things that I have learned while working in this field. I may create small useful bits of code that have been super helpful for me when developing. We might just call those 'bytes'. I plan on sharing my thoughts on best practices and what I have seen work and what doesn't. Who knows what else might come from this journey, either way I am excited to share what I have learned and connect with other developers.\u003C/p\u003E\n\n\u003Cp\u003EMy main reason for starting a blog is to not only give back to the community because I to started out reading and going through others blogs to learn. I am starting this to have a place to keep record and track of all sorts of things that I learned and can reference in the future. I am sure my future self will thank me.\u003C/p\u003E\n\n\u003Cp\u003EI hope that some of you follow me in this journey and follow my blog and other spaces. I am not only trying to start writing here but I am trying my hand a live coding over on Twitch. For now I think that is a good start and we can see where things take us. \u003C/p\u003E\n\n\u003Cp\u003EThanks for reading this first post!\u003C/p\u003E\n\n\u003Cp\u003E\u003Ca href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F23i5no84sl5ecg5fwfka.jpg\" class=\"article-body-image-wrapper\"\u003E\u003Cimg src=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F23i5no84sl5ecg5fwfka.jpg\" alt=\"Image description\" loading=\"lazy\" width=\"800\" height=\"800\"\u003E\u003C/a\u003E\u003C/p\u003E\n\n\u003Cp\u003EX: \u003Ca href=\"https://x.com/romanbytes\" target=\"_blank\" rel=\"noopener noreferrer\"\u003Ehttps://x.com/romanbytes\u003C/a\u003E\u003Cbr\u003E\nBlueSky: \u003Ca href=\"https://bsky.app/profile/romanbytes.bsky.social\" target=\"_blank\" rel=\"noopener noreferrer\"\u003Ehttps://bsky.app/profile/romanbytes.bsky.social\u003C/a\u003E\u003Cbr\u003E\nTwitch: \u003Ca href=\"https://www.twitch.tv/romanbytes\" target=\"_blank\" rel=\"noopener noreferrer\"\u003Ehttps://www.twitch.tv/romanbytes\u003C/a\u003E\u003Cbr\u003E\nWebsite: \u003Ca href=\"https://romanbytes.dev/\" target=\"_blank\" rel=\"noopener noreferrer\"\u003Ehttps://romanbytes.dev/\u003C/a\u003E\u003C/p\u003E\n\n\u003Cp\u003ETill Next Byte, Roman out\u003C/p\u003E\n\n",
+                   "body_markdown": "Hey web friends, my name is Jacob Roman or you might also know me as Roman Bytes. By day I am a Full Stack developer that has knowledge with the Javascript ecosystem. I have worked with the web for over a decade now and..... have seen all sorts of things. From working with Dreamweaver and FTPing files to the server. Yes, FTP. (For those that do not know FTP stands for File Transfer Protocol). The good ol drag and drop your files to update your site. To the modern stack of Calude, Cursor, and Shadcn. I am excited that I finally decided to take the leap and start sharing my experiences, insights and tips with web development. I have been wanting to do this for quite some time. \n\n\nSo now you may be wondering, \"Great, glad that you started. No what can I expect?\" Glad you asked. To start I plan on sharing some basic things that I have learned while working in this field. I may create small useful bits of code that have been super helpful for me when developing. We might just call those 'bytes'. I plan on sharing my thoughts on best practices and what I have seen work and what doesn't. Who knows what else might come from this journey, either way I am excited to share what I have learned and connect with other developers.\n\n\nMy main reason for starting a blog is to not only give back to the community because I to started out reading and going through others blogs to learn. I am starting this to have a place to keep record and track of all sorts of things that I learned and can reference in the future. I am sure my future self will thank me.\n\n\nI hope that some of you follow me in this journey and follow my blog and other spaces. I am not only trying to start writing here but I am trying my hand a live coding over on Twitch. For now I think that is a good start and we can see where things take us. \n\nThanks for reading this first post!\n\n\n\n\n![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/23i5no84sl5ecg5fwfka.jpg)\n\n\nX: https://x.com/romanbytes\nBlueSky: https://bsky.app/profile/romanbytes.bsky.social\nTwitch: https://www.twitch.tv/romanbytes\nWebsite: https://romanbytes.dev/\n\n\nTill Next Byte, Roman out\n\n",
                    "user": {
-                       "name": "Salma Alam-Naylor",
-                       "username": "whitep4nth3r",
-                       "twitter_username": "whitep4nth3r",
-                       "github_username": "whitep4nth3r",
-                       "user_id": 492757,
-                       "website_url": "https://whitep4nth3r.com/",
-                       "profile_image": "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F492757%2Fc31e9460-d3f1-4fb2-8016-bb03155c42fa.png",
-                       "profile_image_90": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F492757%2Fc31e9460-d3f1-4fb2-8016-bb03155c42fa.png"
-                   },
-                   "organization": {
-                       "name": "Sentry",
-                       "username": "sentry",
-                       "slug": "sentry",
-                       "profile_image": "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F3774%2F02d4162c-978f-4471-9d39-b2928cfb9e24.png",
-                       "profile_image_90": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F3774%2F02d4162c-978f-4471-9d39-b2928cfb9e24.png"
+                       "name": "Jacob Roman",
+                       "username": "romanbytes",
+                       "twitter_username": null,
+                       "github_username": "roman-bytes",
+                       "user_id": 253488,
+                       "website_url": "https://romanbytes.dev",
+                       "profile_image": "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F253488%2F1225fa77-2a11-4ae5-a423-a2b3442ec44e.jpg",
+                       "profile_image_90": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F253488%2F1225fa77-2a11-4ae5-a423-a2b3442ec44e.jpg"
                    }
                },
                {
@@ -187,10 +182,10 @@ export const handlers = [
                    "published_at": "2023-04-06T23:29:44Z",
                    "last_comment_at": "2023-04-06T23:29:44Z",
                    "reading_time_minutes": 1,
-                   "tag_list": [
+                   "tags": [
                        "NextJS", "react", "javascript", "monitoring"
                    ],
-                   "tags": "NextJS, react, javascript, monitoring",
+                   "tag_list": "NextJS, react, javascript, monitoring",
                    "user": {
                        "name": "Mock Roman",
                        "username": "mock roman",
@@ -206,55 +201,50 @@ export const handlers = [
        )
     }),
     http.get('https://dev.to/api/articles/12345', () => {
-        return HttpResponse.json({
-            "type_of": "article",
-            "id": 2015568,
-            "title": "Sentry can’t fix React hydration errors, but it can really help you debug them",
-            "description": "Hydration failed because the initial ui does not match what was rendered on the server. Don’t you...",
-            "readable_publish_date": "Sep 26",
-            "slug": "sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them-40aa",
-            "path": "/sentry/sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them-40aa",
-            "url": "https://dev.to/sentry/sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them-40aa",
-            "comments_count": 0,
-            "public_reactions_count": 4,
-            "collection_id": null,
-            "published_timestamp": "2024-09-26T09:02:11Z",
-            "positive_reactions_count": 4,
-            "cover_image": null,
-            "social_image": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg",
-            "canonical_url": "https://blog.sentry.io/sentry-cant-fix-react-hydration-errors-but-it-can-really-help-you-debug-them/",
-            "created_at": "2024-09-26T09:02:12Z",
-            "edited_at": null,
-            "crossposted_at": null,
-            "published_at": "2024-09-26T09:02:11Z",
-            "last_comment_at": "2024-09-26T09:02:11Z",
-            "reading_time_minutes": 5,
-            "tag_list": "nextjs, react, javascript, monitoring",
-            "tags": [
-                "nextjs",
-                "react",
-                "javascript",
-                "monitoring"
-            ],
-            "body_html": "",
-            "body_markdown": "",
-            "user": {
-                "name": "Salma Alam-Naylor",
-                "username": "whitep4nth3r",
-                "twitter_username": "whitep4nth3r",
-                "github_username": "whitep4nth3r",
-                "user_id": 492757,
-                "website_url": "https://whitep4nth3r.com/",
-                "profile_image": "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F492757%2Fc31e9460-d3f1-4fb2-8016-bb03155c42fa.png",
-                "profile_image_90": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F492757%2Fc31e9460-d3f1-4fb2-8016-bb03155c42fa.png"
-            },
-            "organization": {
-                "name": "Sentry",
-                "username": "sentry",
-                "slug": "sentry",
-                "profile_image": "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F3774%2F02d4162c-978f-4471-9d39-b2928cfb9e24.png",
-                "profile_image_90": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F3774%2F02d4162c-978f-4471-9d39-b2928cfb9e24.png"
-            },
-        })
+        return HttpResponse.json(
+            {
+                "type_of": "article",
+                "id": 442766,
+                "title": "Hi, I'm Jacob Roman: A Decade in Web Development",
+                "description": "Hey web friends, my name is Jacob Roman or you might also know me as Roman Bytes. By day I am a Full...",
+                "readable_publish_date": "Nov 11",
+                "slug": "hi-im-jacob-roman-a-decade-in-web-development-3kpp",
+                "path": "/romanbytes/hi-im-jacob-roman-a-decade-in-web-development-3kpp",
+                "url": "https://dev.to/romanbytes/hi-im-jacob-roman-a-decade-in-web-development-3kpp",
+                "comments_count": 0,
+                "public_reactions_count": 0,
+                "collection_id": null,
+                "published_timestamp": "2024-11-11T15:09:38Z",
+                "positive_reactions_count": 0,
+                "cover_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0fua0ahqklwljazws96o.jpg",
+                "social_image": "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0fua0ahqklwljazws96o.jpg",
+                "canonical_url": "https://dev.to/romanbytes/hi-im-jacob-roman-a-decade-in-web-development-3kpp",
+                "created_at": "2020-08-31T19:52:40Z",
+                "edited_at": "2024-11-11T15:10:16Z",
+                "crossposted_at": null,
+                "published_at": "2024-11-11T15:09:38Z",
+                "last_comment_at": "2024-11-11T15:09:38Z",
+                "reading_time_minutes": 2,
+                "tag_list": "developer, firstpost, blog, helloworld",
+                "tags": [
+                    "developer",
+                    "firstpost",
+                    "blog",
+                    "helloworld"
+                ],
+                "body_html": "\u003Cp\u003EHey web friends, my name is Jacob Roman or you might also know me as Roman Bytes. By day I am a Full Stack developer that has knowledge with the Javascript ecosystem. I have worked with the web for over a decade now and..... have seen all sorts of things. From working with Dreamweaver and FTPing files to the server. Yes, FTP. (For those that do not know FTP stands for File Transfer Protocol). The good ol drag and drop your files to update your site. To the modern stack of Calude, Cursor, and Shadcn. I am excited that I finally decided to take the leap and start sharing my experiences, insights and tips with web development. I have been wanting to do this for quite some time. \u003C/p\u003E\n\n\u003Cp\u003ESo now you may be wondering, \"Great, glad that you started. No what can I expect?\" Glad you asked. To start I plan on sharing some basic things that I have learned while working in this field. I may create small useful bits of code that have been super helpful for me when developing. We might just call those 'bytes'. I plan on sharing my thoughts on best practices and what I have seen work and what doesn't. Who knows what else might come from this journey, either way I am excited to share what I have learned and connect with other developers.\u003C/p\u003E\n\n\u003Cp\u003EMy main reason for starting a blog is to not only give back to the community because I to started out reading and going through others blogs to learn. I am starting this to have a place to keep record and track of all sorts of things that I learned and can reference in the future. I am sure my future self will thank me.\u003C/p\u003E\n\n\u003Cp\u003EI hope that some of you follow me in this journey and follow my blog and other spaces. I am not only trying to start writing here but I am trying my hand a live coding over on Twitch. For now I think that is a good start and we can see where things take us. \u003C/p\u003E\n\n\u003Cp\u003EThanks for reading this first post!\u003C/p\u003E\n\n\u003Cp\u003E\u003Ca href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F23i5no84sl5ecg5fwfka.jpg\" class=\"article-body-image-wrapper\"\u003E\u003Cimg src=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F23i5no84sl5ecg5fwfka.jpg\" alt=\"Image description\" loading=\"lazy\" width=\"800\" height=\"800\"\u003E\u003C/a\u003E\u003C/p\u003E\n\n\u003Cp\u003EX: \u003Ca href=\"https://x.com/romanbytes\" target=\"_blank\" rel=\"noopener noreferrer\"\u003Ehttps://x.com/romanbytes\u003C/a\u003E\u003Cbr\u003E\nBlueSky: \u003Ca href=\"https://bsky.app/profile/romanbytes.bsky.social\" target=\"_blank\" rel=\"noopener noreferrer\"\u003Ehttps://bsky.app/profile/romanbytes.bsky.social\u003C/a\u003E\u003Cbr\u003E\nTwitch: \u003Ca href=\"https://www.twitch.tv/romanbytes\" target=\"_blank\" rel=\"noopener noreferrer\"\u003Ehttps://www.twitch.tv/romanbytes\u003C/a\u003E\u003Cbr\u003E\nWebsite: \u003Ca href=\"https://romanbytes.dev/\" target=\"_blank\" rel=\"noopener noreferrer\"\u003Ehttps://romanbytes.dev/\u003C/a\u003E\u003C/p\u003E\n\n\u003Cp\u003ETill Next Byte, Roman out\u003C/p\u003E\n\n",
+                "body_markdown": "Hey web friends, my name is Jacob Roman or you might also know me as Roman Bytes. By day I am a Full Stack developer that has knowledge with the Javascript ecosystem. I have worked with the web for over a decade now and..... have seen all sorts of things. From working with Dreamweaver and FTPing files to the server. Yes, FTP. (For those that do not know FTP stands for File Transfer Protocol). The good ol drag and drop your files to update your site. To the modern stack of Calude, Cursor, and Shadcn. I am excited that I finally decided to take the leap and start sharing my experiences, insights and tips with web development. I have been wanting to do this for quite some time. \n\n\nSo now you may be wondering, \"Great, glad that you started. No what can I expect?\" Glad you asked. To start I plan on sharing some basic things that I have learned while working in this field. I may create small useful bits of code that have been super helpful for me when developing. We might just call those 'bytes'. I plan on sharing my thoughts on best practices and what I have seen work and what doesn't. Who knows what else might come from this journey, either way I am excited to share what I have learned and connect with other developers.\n\n\nMy main reason for starting a blog is to not only give back to the community because I to started out reading and going through others blogs to learn. I am starting this to have a place to keep record and track of all sorts of things that I learned and can reference in the future. I am sure my future self will thank me.\n\n\nI hope that some of you follow me in this journey and follow my blog and other spaces. I am not only trying to start writing here but I am trying my hand a live coding over on Twitch. For now I think that is a good start and we can see where things take us. \n\nThanks for reading this first post!\n\n\n\n\n![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/23i5no84sl5ecg5fwfka.jpg)\n\n\nX: https://x.com/romanbytes\nBlueSky: https://bsky.app/profile/romanbytes.bsky.social\nTwitch: https://www.twitch.tv/romanbytes\nWebsite: https://romanbytes.dev/\n\n\nTill Next Byte, Roman out\n\n",
+                "user": {
+                    "name": "Jacob Roman",
+                    "username": "romanbytes",
+                    "twitter_username": null,
+                    "github_username": "roman-bytes",
+                    "user_id": 253488,
+                    "website_url": "https://romanbytes.dev",
+                    "profile_image": "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F253488%2F1225fa77-2a11-4ae5-a423-a2b3442ec44e.jpg",
+                    "profile_image_90": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F253488%2F1225fa77-2a11-4ae5-a423-a2b3442ec44e.jpg"
+                }
+            }
+        )
     }),
 ]
