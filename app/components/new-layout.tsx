@@ -11,7 +11,7 @@ export default function NewLayout({ children }: NewLayoutProps): ReactElement {
     const isHomePage = currentRoute.pathname === '/';
 
     return (
-        <div className={`flex flex-col items-center ${isHomePage ? 'justify-center' : ''} h-full w-full`}>
+        <div className={`flex flex-col items-center ${isHomePage ? 'justify-center h-full' : ''} w-full`}>
             {children}
         </div>
     );

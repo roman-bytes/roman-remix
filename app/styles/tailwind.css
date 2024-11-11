@@ -809,12 +809,16 @@ video {
   width: 7rem;
 }
 
-.w-4\/12{
-  width: 33.333333%;
+.w-3\/4{
+  width: 75%;
 }
 
 .w-5\/12{
   width: 41.666667%;
+}
+
+.w-6\/12{
+  width: 50%;
 }
 
 .w-800{
@@ -1027,6 +1031,10 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.pb-24{
+  padding-bottom: 6rem;
+}
+
 .pb-28{
   padding-bottom: 7rem;
 }
@@ -1037,6 +1045,10 @@ video {
 
 .pr-12{
   padding-right: 3rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
 }
 
 .pt-32{
@@ -1178,6 +1190,17 @@ video {
     50% 50% / var(--size) var(--size),
   linear-gradient(var(--line) 1px, transparent 1px var(--size)) 50% 50% /
     var(--size) var(--size);
+}
+
+/* Content styles */
+
+.content p {
+  margin: 2rem 0;
+}
+
+.content a {
+  color: #CC9340;
+  text-decoration: underline;
 }
 
 div[data-testid="terminal"] {
