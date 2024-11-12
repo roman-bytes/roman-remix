@@ -3,6 +3,7 @@ import {json} from "@remix-run/node";
 import RomanBytesLogo from "~/components/roman-bytes-logo";
 import {useMatches} from "react-router";
 import Plus from "~/components/plus";
+import React from "react";
 
 type RepoData = {
     languages_url: string;
@@ -151,7 +152,6 @@ export default function Projects() {
             return `${minutes} minute${minutes > 1 ? 's' : ''} ago`;
         }
     }
-    console.log('repos', repos);
     if (isNewLayout) {
 
         const repoCards = repos.map((repo: RepoData, ix: number) => {
@@ -189,16 +189,18 @@ export default function Projects() {
                     </footer>
                     <Plus className="absolute top-[-3px] left-[-3px]" />
                     <Plus className="absolute top-[-3px] right-[-3px]" />
+                    <Plus className="absolute bottom-[-3px] left-[-3px]" />
+                    <Plus className="absolute bottom-[-3px] right-[-3px]" />
                 </section>
             )
         })
 
         return (
-            <div className="container relative border-2 border-romanBlack rounded-3xl bg-white pt-32 px-28 pb-28 my-28">
-                <div className="absolute top-10 left-0 right-0 text-center text-romanPrimary mb-16">{`~ ${currentRoute.pathname} `}</div>
+            <div className="container relative border-2 border-romanBlack lg:rounded-3xl bg-white px-10 pt-10 lg:pt-32 lg:px-28 pb-28 lg:my-28">
+                <div className="hidden lg:block absolute top-10 left-0 right-0 text-center text-romanPrimary mb-16">{`~ ${currentRoute.pathname} `}</div>
                 <RomanBytesLogo/>
-
-                <div className="flex flex-wrap mt-28 w-full lg:w-10/12">
+                <h1 className="text-romanBlack font-newMono font-bold text-2xl hidden lg:block">Projects</h1>
+                <div className="flex flex-wrap mt-10 lg:mt-28 w-full lg:w-10/12">
                     {repoCards}
                 </div>
             </div>

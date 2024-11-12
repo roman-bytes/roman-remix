@@ -26,7 +26,7 @@ function NewFooter() {
 
     if (currentRoute.pathname === '/') {
         return (
-            <ul className="flex flex-col items-end">
+            <ul className="flex flex-col lg:items-end mt-10 lg:mt-0 ">
                 {socialLinks.map(link => (
                     <a
                         key={link.social}

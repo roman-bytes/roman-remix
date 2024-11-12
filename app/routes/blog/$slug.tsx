@@ -26,21 +26,21 @@ function Slug() {
 
     return (
         <main
-            className="content container relative border-2 font-newMono border-romanBlack rounded-3xl my-28 bg-contain overflow-hidden"
+            className="content container relative border-2 font-newMono border-romanBlack lg:rounded-3xl lg:my-28 bg-contain overflow-hidden"
             style={{
                 backgroundImage: `url(${data.article.cover_image})`,
             }}
         >
-            <div className={`${hasCoverImage ? 'bg-white text-romanBlack' : 'bg-romanBlack text-romanPrimary'} absolute top-10 left-0 right-0 text-center mb-16 w-fit mx-auto z-10`}>{`~ ${currentRoute.pathname} `}</div>
-            <div className={`pt-48 px-28 pb-10 relative ${hasCoverImage ? 'bg-white bg-opacity-90' : 'bg-romanBlack'}`}>
+            <div className={`${hasCoverImage ? 'bg-white text-romanBlack' : 'bg-romanBlack text-romanPrimary'} absolute top-10 left-0 right-0 text-center mb-16 w-fit mx-auto hidden lg:block z-10`}>{`~ ${currentRoute.pathname} `}</div>
+            <div className={`pt-10 lg:pt-48 px-10 lg:px-28 pb-10 relative ${hasCoverImage ? 'bg-white bg-opacity-90' : 'bg-romanBlack'}`}>
                 <RomanBytesLogo/>
-                <Link className="absolute right-28 bottom-10" to="/blog">../ Back to blog</Link>
+                <Link className="hidden lg:block absolute right-28 bottom-10" to="/blog">../ Back to blog</Link>
                 <h2 className={`${hasCoverImage ? "" : 'text-romanPrimary'} font-extrabold text-5xl mt-20 w-3/4`}>{data.article.title}</h2>
             </div>
-            <div className="bg-white px-28 pb-24">
-                <div className="w-6/12">
+            <div className="bg-white px-10 lg:px-28 pb-24">
+                <div className="w-full lg:w-6/12">
                     <div className="text-romanPrimary font-bold pt-10">{formatTime(data.article.created_at)}</div>
-                    <div className="flex items-center">
+                    <div className="flex items-center flex-wrap">
                         {data.article.tags.map((tag) => <div key={tag} className="text-romanPrimary text-md mr-4">#{tag}</div>)}
                     </div>
                     <div className="mt-20" dangerouslySetInnerHTML={{__html: data.article.body_html}}/>

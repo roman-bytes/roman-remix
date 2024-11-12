@@ -5,7 +5,7 @@ function RomanBytesLogo() {
     return (
         <Link
             to="/"
-            className="mb-8 block w-fit"
+            className="mb-8 flex w-full lg:w-fit justify-center"
         >
             <svg width="30" height="38" viewBox="0 0 30 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
