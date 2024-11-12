@@ -658,6 +658,10 @@ video {
   z-index: -50;
 }
 
+.z-10{
+  z-index: 10;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -985,6 +989,10 @@ video {
   --tw-bg-opacity: 0.9;
 }
 
+.bg-opacity-80{
+  --tw-bg-opacity: 0.8;
+}
+
 .bg-contain{
   background-size: contain;
 }
@@ -1169,6 +1177,11 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-romanBlack{
+  --tw-text-opacity: 1;
+  color: rgb(31 36 43 / var(--tw-text-opacity));
 }
 
 .underline{
