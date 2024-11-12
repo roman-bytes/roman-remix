@@ -113,7 +113,7 @@ export const handlers = [
     http.get('https://api.github.com/repos/roman-bytes/pocket-ts/languages', () => {
        return HttpResponse.json({ CSS: 12334, TypeScript: 1, Javascript: 7, HTML: 77, Go: 69})
     }),
-    http.get('https://dev.to/api/articles', () => {
+    http.get('https://dev.to/api/artiiiiicles', () => {
        return HttpResponse.json(
            [
                {
@@ -139,8 +139,8 @@ export const handlers = [
                    "published_at": "2024-11-11T15:09:38Z",
                    "last_comment_at": "2024-11-11T15:09:38Z",
                    "reading_time_minutes": 2,
-                   "tag_list": "developer, firstpost, blog, helloworld",
-                   "tags": [
+                   "tags": "developer, firstpost, blog, helloworld",
+                   "tag_list": [
                        "developer",
                        "firstpost",
                        "blog",
@@ -182,10 +182,10 @@ export const handlers = [
                    "published_at": "2023-04-06T23:29:44Z",
                    "last_comment_at": "2023-04-06T23:29:44Z",
                    "reading_time_minutes": 1,
-                   "tags": [
+                   "tag_list": [
                        "NextJS", "react", "javascript", "monitoring"
                    ],
-                   "tag_list": "NextJS, react, javascript, monitoring",
+                   "tags": "NextJS, react, javascript, monitoring",
                    "user": {
                        "name": "Mock Roman",
                        "username": "mock roman",

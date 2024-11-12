@@ -6,8 +6,6 @@ import {useMatches} from "react-router";
 export default function NewIndex() {
     const matches = useMatches();
     const currentRoute = matches[1];
-    console.log('currentRoute', currentRoute);
-
   return (
          <div className="container relative border-2 border-romanBlack lg:rounded-3xl bg-white p-10 lg:pt-32 lg:px-28 lg:pb-28">
              <div className="hidden lg:block absolute top-10 left-0 right-0 text-center text-romanPrimary">{`~ ${currentRoute.pathname} `}</div>
