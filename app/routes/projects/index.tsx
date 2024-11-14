@@ -35,7 +35,7 @@ const getLangColors = async (langs: any): Promise<{ [key: string]: LangColorResu
     const colors: Colors = await fetch('https://raw.githubusercontent.com/ozh/github-colors/refs/heads/master/colors.json').then(res => res.json());
 
     // Grab colors and return new array
-    const langColors = langs.reduce((acc: { [key: string]: LangColorResult}, lang) => {
+    const langColors = langs.reduce((acc: { [key: string]: LangColorResult}, lang: string) => {
         if (colors[lang]) {
             acc[lang] = {
                 color: colors[lang].color,
@@ -58,7 +58,7 @@ export const loader = async () => {
         repo.topics.includes('portfolio')
     );
 
-    const setLangs = async (repo) => {
+    const setLangs = async (repo: RepoData) => {
         const githubLangs = await fetch(repo.languages_url).then((response) => response.json());
         const setLangs:{[p: string]: LangColorResult} = await getLangColors(Object.keys(githubLangs));
         return setLangs;
@@ -199,7 +199,7 @@ export default function Projects() {
             <div className="container relative border-2 border-romanBlack lg:rounded-3xl bg-white px-10 pt-10 lg:pt-32 lg:px-28 pb-28 lg:my-28">
                 <div className="hidden lg:block absolute top-10 left-0 right-0 text-center text-romanPrimary mb-16">{`~ ${currentRoute.pathname} `}</div>
                 <RomanBytesLogo/>
-                <h1 className="text-romanBlack font-newMono font-bold text-2xl hidden lg:block">Projects</h1>
+                <h1 className="text-romanBlack font-newMono font-bold text-2xl lg:hidden">Projects</h1>
                 <div className="flex flex-wrap mt-10 lg:mt-28 w-full lg:w-10/12">
                     {repoCards}
                 </div>
@@ -210,7 +210,7 @@ export default function Projects() {
 
     return (
         <div className="container flex flex-col items-center justify-center">
-            <h1 className="text-4xl text-white p-4 border-b border-white">
+            <h1 className="lg:hidden text-4xl text-white p-4 border-b border-white">
                 Projects
             </h1>
             <div className="flex flex-wrap p-4 xl:-mx-2 overflow-hidden lg:mt-4 text-white mb-20">

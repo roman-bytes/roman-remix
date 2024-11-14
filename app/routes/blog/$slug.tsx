@@ -41,7 +41,7 @@ function Slug() {
                 <div className="w-full lg:w-6/12">
                     <div className="text-romanPrimary font-bold pt-10">{formatTime(data.article.created_at)}</div>
                     <div className="flex items-center flex-wrap">
-                        {data.article.tags.map((tag) => <div key={tag} className="text-romanPrimary text-md mr-4">#{tag}</div>)}
+                        {data.article.tags.map((tag: string) => <div key={tag} className="text-romanPrimary text-md mr-4">#{tag}</div>)}
                     </div>
                     <div className="mt-20" dangerouslySetInnerHTML={{__html: data.article.body_html}}/>
                 </div>

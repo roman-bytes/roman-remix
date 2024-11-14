@@ -3,6 +3,7 @@ import type { EntryContext } from '@remix-run/node'
 import { Response } from '@remix-run/node'
 import { RemixServer } from '@remix-run/react'
 import { isbot } from 'isbot'
+/* @ts-ignore */
 import { renderToPipeableStream } from 'react-dom/server'
 import { server } from './mocks/node'
 
