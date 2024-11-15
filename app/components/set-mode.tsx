@@ -1,15 +1,16 @@
-import { useEffect } from 'react';
+import { useFetcher } from '@remix-run/react';
 
 type SetModeProps = {
     mode: string;
 }
 
 export default function SetMode ({ mode }: SetModeProps) {
+    const fetcher = useFetcher();
     const prefersDarkMQ = '(prefers-color-scheme: dark)';
     const getPreferredTheme = () => {
         if (typeof window !== 'object') {
             // Default to DARK
-            return 'DARKEST';
+            return 'DARK';
         }
         
         return window.matchMedia(prefersDarkMQ).matches ? "DARK" : "LIGHT";
@@ -33,17 +34,15 @@ export default function SetMode ({ mode }: SetModeProps) {
         }
     }
 
-    console.log('getPreferredTheme-after', getPreferredTheme());
 
     const currentMode = mode || getPreferredTheme();
-    console.log('currentMode', currentMode);
     return (    
-        <form method="post" className="w-8 h-8 rounded bg-white dark:bg-romanBlack absolute right-10 top-10">
+        <fetcher.Form method="post" className="w-8 h-8 rounded bg-white dark:bg-romanBlack absolute right-10 top-10">
             <input type='hidden' name="theme" value={currentMode === 'DARK' ? 'LIGHT' : 'DARK'} />
             <button type="submit" className="w-full">
                 {getIcon(currentMode)}
             </button>
-        </form>
+        </fetcher.Form>
     )
 
     

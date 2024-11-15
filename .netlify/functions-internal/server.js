@@ -500,7 +500,7 @@ __export(root_exports, {
   links: () => links,
   loader: () => loader
 });
-var import_react5 = require("@remix-run/react"), import_clsx = __toESM(require("clsx"));
+var import_react6 = require("@remix-run/react"), import_clsx = __toESM(require("clsx"));
 
 // app/components/layout.tsx
 var import_react3 = require("react"), import_classnames = __toESM(require("classnames")), import_react_terminal = require("react-terminal"), import_remix_utils = require("remix-utils"), import_react4 = require("@remix-run/react");
@@ -1064,49 +1064,48 @@ async function getThemeSession(request) {
 var tailwind_default = "/build/_assets/tailwind-OR6DCSDU.css";
 
 // app/components/set-mode.tsx
-var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime");
+var import_react5 = require("@remix-run/react"), import_jsx_dev_runtime10 = require("react/jsx-dev-runtime");
 function SetMode({ mode }) {
-  let prefersDarkMQ = "(prefers-color-scheme: dark)", getPreferredTheme = () => typeof window != "object" ? "DARKEST" : window.matchMedia(prefersDarkMQ).matches ? "DARK" : "LIGHT";
+  let fetcher = (0, import_react5.useFetcher)(), prefersDarkMQ = "(prefers-color-scheme: dark)", getPreferredTheme = () => typeof window != "object" || window.matchMedia(prefersDarkMQ).matches ? "DARK" : "LIGHT";
   function getIcon(mode2) {
     switch (mode2) {
       case "LIGHT":
         return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "currentColor", className: "fill-romanPrimary", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("path", { d: "M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" }, void 0, !1, {
           fileName: "app/components/set-mode.tsx",
-          lineNumber: 23,
+          lineNumber: 24,
           columnNumber: 25
         }, this) }, void 0, !1, {
           fileName: "app/components/set-mode.tsx",
-          lineNumber: 22,
+          lineNumber: 23,
           columnNumber: 21
         }, this);
       default:
         return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "currentColor", className: "fill-romanPrimary", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("path", { fillRule: "evenodd", d: "M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z", clipRule: "evenodd" }, void 0, !1, {
           fileName: "app/components/set-mode.tsx",
-          lineNumber: 30,
+          lineNumber: 31,
           columnNumber: 25
         }, this) }, void 0, !1, {
           fileName: "app/components/set-mode.tsx",
-          lineNumber: 29,
+          lineNumber: 30,
           columnNumber: 21
         }, this);
     }
   }
-  console.log("getPreferredTheme-after", getPreferredTheme());
   let currentMode = mode || getPreferredTheme();
-  return console.log("currentMode", currentMode), /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("form", { method: "post", className: "w-8 h-8 rounded bg-white dark:bg-romanBlack absolute right-10 top-10", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(fetcher.Form, { method: "post", className: "w-8 h-8 rounded bg-white dark:bg-romanBlack absolute right-10 top-10", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("input", { type: "hidden", name: "theme", value: currentMode === "DARK" ? "LIGHT" : "DARK" }, void 0, !1, {
       fileName: "app/components/set-mode.tsx",
-      lineNumber: 42,
+      lineNumber: 41,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("button", { type: "submit", className: "w-full", children: getIcon(currentMode) }, void 0, !1, {
       fileName: "app/components/set-mode.tsx",
-      lineNumber: 43,
+      lineNumber: 42,
       columnNumber: 13
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/set-mode.tsx",
-    lineNumber: 41,
+    lineNumber: 40,
     columnNumber: 9
   }, this);
 }
@@ -1134,7 +1133,7 @@ async function action({ request }) {
   );
 }
 function App() {
-  return (0, import_react5.useLoaderData)().ENV.FEATURE_NEW_BRAND === "true" ? /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(NewLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react5.Outlet, {}, void 0, !1, {
+  return (0, import_react6.useLoaderData)().ENV.FEATURE_NEW_BRAND === "true" ? /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(NewLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react6.Outlet, {}, void 0, !1, {
     fileName: "app/root.tsx",
     lineNumber: 76,
     columnNumber: 21
@@ -1146,7 +1145,7 @@ function App() {
     fileName: "app/root.tsx",
     lineNumber: 74,
     columnNumber: 7
-  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(layout_default, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react5.Outlet, {}, void 0, !1, {
+  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(layout_default, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react6.Outlet, {}, void 0, !1, {
     fileName: "app/root.tsx",
     lineNumber: 85,
     columnNumber: 17
@@ -1161,7 +1160,7 @@ function App() {
   }, this);
 }
 function ErrorBoundary({ error }) {
-  return console.error(error), "true" ? /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(NewLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react5.Outlet, {}, void 0, !1, {
+  return console.error(error), "true" ? /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Document, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(NewLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react6.Outlet, {}, void 0, !1, {
     fileName: "app/root.tsx",
     lineNumber: 100,
     columnNumber: 21
@@ -1209,7 +1208,7 @@ function ErrorBoundary({ error }) {
   }, this);
 }
 function CatchBoundary() {
-  let caught = (0, import_react5.useCatch)(), isNewLayout = "true", message;
+  let caught = (0, import_react6.useCatch)(), isNewLayout = "true", message;
   switch (caught.status) {
     case 401:
       message = /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { children: "Oops! Looks like you tried to visit a page that you do not have access to." }, void 0, !1, {
@@ -1275,14 +1274,14 @@ function Document({
   title
 }) {
   var _a;
-  let data = (0, import_react5.useLoaderData)(), actionData = (0, import_react5.useActionData)(), theme = (actionData == null ? void 0 : actionData.mode) || data.theme;
-  return console.log("theme", theme), /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("html", { lang: "en", className: (0, import_clsx.default)("w-full h-full font-mono", {
+  let data = (0, import_react6.useLoaderData)(), actionData = (0, import_react6.useActionData)(), theme = (actionData == null ? void 0 : actionData.mode) || (data == null ? void 0 : data.theme);
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("html", { lang: "en", className: (0, import_clsx.default)("w-full h-full font-mono", {
     dark: theme === "DARK"
   }), children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("meta", { charSet: "utf-8" }, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 197,
+        lineNumber: 195,
         columnNumber: 17
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
@@ -1295,61 +1294,61 @@ function Document({
         !1,
         {
           fileName: "app/root.tsx",
-          lineNumber: 198,
+          lineNumber: 196,
           columnNumber: 17
         },
         this
       ),
       title ? /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("title", { children: title }, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 202,
+        lineNumber: 200,
         columnNumber: 26
       }, this) : null,
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react5.Meta, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react6.Meta, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 203,
+        lineNumber: 201,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react5.Links, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react6.Links, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 204,
+        lineNumber: 202,
         columnNumber: 17
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.tsx",
-      lineNumber: 196,
+      lineNumber: 194,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("body", { className: `${((_a = data == null ? void 0 : data.ENV) == null ? void 0 : _a.FEATURE_NEW_BRAND) === "true" ? "bg-white dark:bg-romanBlack roman-grid" : "bg-romanBlack"} w-full h-full`, children: [
       children,
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react5.ScrollRestoration, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react6.ScrollRestoration, {}, void 0, !1, {
+        fileName: "app/root.tsx",
+        lineNumber: 206,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react6.Scripts, {}, void 0, !1, {
+        fileName: "app/root.tsx",
+        lineNumber: 207,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react6.LiveReload, {}, void 0, !1, {
         fileName: "app/root.tsx",
         lineNumber: 208,
-        columnNumber: 17
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react5.Scripts, {}, void 0, !1, {
-        fileName: "app/root.tsx",
-        lineNumber: 209,
-        columnNumber: 17
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_react5.LiveReload, {}, void 0, !1, {
-        fileName: "app/root.tsx",
-        lineNumber: 210,
         columnNumber: 60
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(SetMode, { mode: theme }, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 211,
+        lineNumber: 209,
         columnNumber: 17
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.tsx",
-      lineNumber: 206,
+      lineNumber: 204,
       columnNumber: 13
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.tsx",
-    lineNumber: 193,
+    lineNumber: 191,
     columnNumber: 5
   }, this);
 }
@@ -1361,7 +1360,7 @@ __export(name_exports, {
   loader: () => loader2
 });
 var import_node7 = require("@remix-run/node");
-var import_react_router2 = require("react-router"), import_react6 = require("@remix-run/react"), import_jsx_dev_runtime12 = require("react/jsx-dev-runtime"), loader2 = async ({ params }) => {
+var import_react_router2 = require("react-router"), import_react7 = require("@remix-run/react"), import_jsx_dev_runtime12 = require("react/jsx-dev-runtime"), loader2 = async ({ params }) => {
   let path = params;
   console.log(path);
   let currentRepo = await fetch(`https://api.github.com/repos/roman-bytes/${path.name}`).then((res) => res.json());
@@ -1370,7 +1369,7 @@ var import_react_router2 = require("react-router"), import_react6 = require("@re
   });
 };
 function Name() {
-  let currentRoute = (0, import_react_router2.useMatches)()[1], { repo } = (0, import_react6.useLoaderData)();
+  let currentRoute = (0, import_react_router2.useMatches)()[1], { repo } = (0, import_react7.useLoaderData)();
   return console.log("repo", repo), /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "container relative border-2 border-romanBlack rounded-3xl bg-white pt-32 px-28 pb-28 my-28", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "absolute top-10 left-0 right-0 text-center text-romanPrimary mb-16", children: `~ ${currentRoute.pathname} ` }, void 0, !1, {
       fileName: "app/routes/projects/$name.tsx",
@@ -1382,7 +1381,7 @@ function Name() {
       lineNumber: 29,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_react6.Link, { to: "/projects", children: "../ Back to projects" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_react7.Link, { to: "/projects", children: "../ Back to projects" }, void 0, !1, {
       fileName: "app/routes/projects/$name.tsx",
       lineNumber: 30,
       columnNumber: 13
@@ -1406,7 +1405,7 @@ __export(projects_exports, {
   default: () => Projects,
   loader: () => loader3
 });
-var import_react7 = require("@remix-run/react"), import_node8 = require("@remix-run/node");
+var import_react8 = require("@remix-run/react"), import_node8 = require("@remix-run/node");
 var import_react_router3 = require("react-router");
 
 // app/components/plus.tsx
@@ -1457,7 +1456,7 @@ var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime"), getLangColors =
   });
 };
 function Projects() {
-  let { repos, ENV } = (0, import_react7.useLoaderData)(), currentRoute = (0, import_react_router3.useMatches)()[1], isNewLayout = (ENV == null ? void 0 : ENV.FEATURE_NEW_BRAND) === "true", repoTiles = repos.map((repo) => /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+  let { repos, ENV } = (0, import_react8.useLoaderData)(), currentRoute = (0, import_react_router3.useMatches)()[1], isNewLayout = (ENV == null ? void 0 : ENV.FEATURE_NEW_BRAND) === "true", repoTiles = repos.map((repo) => /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
     "a",
     {
       href: repo.private ? "" : repo.html_url,
@@ -1764,14 +1763,14 @@ __export(slug_exports, {
   default: () => slug_default,
   loader: () => loader6
 });
-var import_react_router4 = require("react-router"), import_react8 = require("@remix-run/react"), import_node9 = require("@remix-run/node"), import_date_fns = require("date-fns"), import_jsx_dev_runtime15 = require("react/jsx-dev-runtime"), loader6 = async ({ params }) => {
+var import_react_router4 = require("react-router"), import_react9 = require("@remix-run/react"), import_node9 = require("@remix-run/node"), import_date_fns = require("date-fns"), import_jsx_dev_runtime15 = require("react/jsx-dev-runtime"), loader6 = async ({ params }) => {
   let currentDevToPost = await fetch(`https://dev.to/api/articles/${params.slug}`).then((res) => res.json());
   return (0, import_node9.json)({
     article: currentDevToPost
   });
 }, formatTime = (time) => (0, import_date_fns.format)((0, import_date_fns.parseISO)(time), "MMMM dd, yyyy");
 function Slug() {
-  let currentRoute = (0, import_react_router4.useMatches)()[1], data = (0, import_react8.useLoaderData)(), hasCoverImage = data.article.cover_image;
+  let currentRoute = (0, import_react_router4.useMatches)()[1], data = (0, import_react9.useLoaderData)(), hasCoverImage = data.article.cover_image;
   return /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
     "main",
     {
@@ -1791,7 +1790,7 @@ function Slug() {
             lineNumber: 36,
             columnNumber: 17
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_react8.Link, { className: "hidden lg:block absolute right-28 bottom-10", to: "/blog", children: "../ Back to blog" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_react9.Link, { className: "hidden lg:block absolute right-28 bottom-10", to: "/blog", children: "../ Back to blog" }, void 0, !1, {
             fileName: "app/routes/blog/$slug.tsx",
             lineNumber: 37,
             columnNumber: 17
@@ -1859,14 +1858,14 @@ __export(blog_exports, {
   loader: () => loader7
 });
 var import_react_router5 = require("react-router");
-var import_react9 = require("@remix-run/react"), import_node10 = require("@remix-run/node"), import_date_fns2 = require("date-fns"), import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), loader7 = async () => {
+var import_react10 = require("@remix-run/react"), import_node10 = require("@remix-run/node"), import_date_fns2 = require("date-fns"), import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), loader7 = async () => {
   let articles = await fetch("https://dev.to/api/articles?username=romanbytes").then((res) => res.json());
   return (0, import_node10.json)({
     posts: articles
   });
 }, formatTime2 = (time) => (0, import_date_fns2.format)((0, import_date_fns2.parseISO)(time), "MM/dd/yyyy");
 function Blog() {
-  let { posts } = (0, import_react9.useLoaderData)(), currentRoute = (0, import_react_router5.useMatches)()[1];
+  let { posts } = (0, import_react10.useLoaderData)(), currentRoute = (0, import_react_router5.useMatches)()[1];
   return /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("main", { className: "container relative border-2 border-romanBlack dark:border-romanPrimary lg:rounded-3xl bg-white dark:bg-romanBlack dark:text-white pt-10 lg:pt-32 px-10 lg:px-28 pb-10 lg:pb-28 lg:my-28", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "hidden lg:block absolute top-10 left-0 right-0 text-center text-romanPrimary mb-16", children: `~ ${currentRoute.pathname} ` }, void 0, !1, {
       fileName: "app/routes/blog/index.tsx",
@@ -1889,7 +1888,7 @@ function Blog() {
         lineNumber: 42,
         columnNumber: 25
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_react9.Link, { to: `/blog/${post.id}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { className: "text-lg lg:text-4xl flex my-4", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_react10.Link, { to: `/blog/${post.id}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { className: "text-lg lg:text-4xl flex my-4", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("span", { className: "hidden lg:block text-romanText mr-6", children: "//" }, void 0, !1, {
           fileName: "app/routes/blog/index.tsx",
           lineNumber: 45,
@@ -2044,7 +2043,7 @@ __export(routes_exports, {
   loader: () => loader8,
   meta: () => meta2
 });
-var import_node11 = require("@remix-run/node"), import_react11 = require("@remix-run/react");
+var import_node11 = require("@remix-run/node"), import_react12 = require("@remix-run/react");
 
 // app/components/terminal.tsx
 var import_react_terminal2 = require("react-terminal"), import_jsx_dev_runtime18 = require("react/jsx-dev-runtime"), RomanTerminal = () => /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "hidden lg:flex w-800 h-460", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
@@ -2241,7 +2240,7 @@ var import_react_terminal2 = require("react-terminal"), import_jsx_dev_runtime18
 }, this), terminal_default = RomanTerminal;
 
 // app/components/new-index.tsx
-var import_react10 = require("@remix-run/react");
+var import_react11 = require("@remix-run/react");
 
 // app/components/newFooter.tsx
 var import_react_router6 = require("react-router");
@@ -2356,7 +2355,7 @@ function NewIndex() {
         "I don\u2019t write much. I am looking to change that. You can see any future posts on ",
         " ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
-          import_react10.Link,
+          import_react11.Link,
           {
             to: "/blog",
             className: "text-romanPrimary underline",
@@ -2385,7 +2384,7 @@ function NewIndex() {
         "I have a number of side projects that I am currently working on. You can see ",
         " ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
-          import_react10.Link,
+          import_react11.Link,
           {
             to: "/projects",
             className: "text-romanPrimary underline",
@@ -2440,7 +2439,7 @@ async function loader8() {
   });
 }
 function Index2() {
-  return (0, import_react11.useLoaderData)().ENV.FEATURE_NEW_BRAND === "true" ? /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(NewLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(NewIndex, {}, void 0, !1, {
+  return (0, import_react12.useLoaderData)().ENV.FEATURE_NEW_BRAND === "true" ? /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(NewLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(NewIndex, {}, void 0, !1, {
     fileName: "app/routes/index.tsx",
     lineNumber: 41,
     columnNumber: 17
@@ -2493,7 +2492,7 @@ function test() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-4NOKWRMB.js", imports: ["/build/_shared/chunk-RIMKKIAQ.js", "/build/_shared/chunk-K5VTLWI2.js", "/build/_shared/chunk-CZ6D5A5Z.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-B53UEMMD.js", imports: ["/build/_shared/chunk-UNA6GW7B.js", "/build/_shared/chunk-77KIELIP.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/404": { id: "routes/404", parentId: "root", path: "404", index: void 0, caseSensitive: void 0, module: "/build/routes/404-YODO7E7I.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[robots.txt]": { id: "routes/[robots.txt]", parentId: "root", path: "robots.txt", index: void 0, caseSensitive: void 0, module: "/build/routes/[robots.txt]-KBLGU22A.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[sitemap.xml]": { id: "routes/[sitemap.xml]", parentId: "root", path: "sitemap.xml", index: void 0, caseSensitive: void 0, module: "/build/routes/[sitemap.xml]-YOANNW2S.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-7MCZS6HO.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/$slug": { id: "routes/blog/$slug", parentId: "root", path: "blog/:slug", index: void 0, caseSensitive: void 0, module: "/build/routes/blog/$slug-VU26RC6T.js", imports: ["/build/_shared/chunk-E7RQ6GJJ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/index": { id: "routes/blog/index", parentId: "root", path: "blog", index: !0, caseSensitive: void 0, module: "/build/routes/blog/index-ZJKDE7Y7.js", imports: ["/build/_shared/chunk-7JHC4DEH.js", "/build/_shared/chunk-E7RQ6GJJ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-X2USXGNE.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/$name": { id: "routes/projects/$name", parentId: "root", path: "projects/:name", index: void 0, caseSensitive: void 0, module: "/build/routes/projects/$name-AGSY4LNR.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/index": { id: "routes/projects/index", parentId: "root", path: "projects", index: !0, caseSensitive: void 0, module: "/build/routes/projects/index-K2I2PLCJ.js", imports: ["/build/_shared/chunk-7JHC4DEH.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "928cc4a6", hmr: void 0, url: "/build/manifest-928CC4A6.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-EZSPVNDB.js", imports: ["/build/_shared/chunk-VVWHR7QM.js", "/build/_shared/chunk-K5VTLWI2.js", "/build/_shared/chunk-CZ6D5A5Z.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-SSNBS7SW.js", imports: ["/build/_shared/chunk-UCRUBDCY.js", "/build/_shared/chunk-NYB5REXD.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/404": { id: "routes/404", parentId: "root", path: "404", index: void 0, caseSensitive: void 0, module: "/build/routes/404-YODO7E7I.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[robots.txt]": { id: "routes/[robots.txt]", parentId: "root", path: "robots.txt", index: void 0, caseSensitive: void 0, module: "/build/routes/[robots.txt]-KBLGU22A.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[sitemap.xml]": { id: "routes/[sitemap.xml]", parentId: "root", path: "sitemap.xml", index: void 0, caseSensitive: void 0, module: "/build/routes/[sitemap.xml]-YOANNW2S.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-7MCZS6HO.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/$slug": { id: "routes/blog/$slug", parentId: "root", path: "blog/:slug", index: void 0, caseSensitive: void 0, module: "/build/routes/blog/$slug-QG42A67P.js", imports: ["/build/_shared/chunk-E7RQ6GJJ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/blog/index": { id: "routes/blog/index", parentId: "root", path: "blog", index: !0, caseSensitive: void 0, module: "/build/routes/blog/index-OMK5AZRE.js", imports: ["/build/_shared/chunk-7JHC4DEH.js", "/build/_shared/chunk-E7RQ6GJJ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-Q4CIW6OM.js", imports: ["/build/_shared/chunk-K6M27BHM.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/$name": { id: "routes/projects/$name", parentId: "root", path: "projects/:name", index: void 0, caseSensitive: void 0, module: "/build/routes/projects/$name-EOUWE4CM.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/projects/index": { id: "routes/projects/index", parentId: "root", path: "projects", index: !0, caseSensitive: void 0, module: "/build/routes/projects/index-EANLLD67.js", imports: ["/build/_shared/chunk-7JHC4DEH.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "719b6ed0", hmr: void 0, url: "/build/manifest-719B6ED0.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

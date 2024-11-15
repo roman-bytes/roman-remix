@@ -185,9 +185,7 @@ function Document({
 }) {
     const data = useLoaderData<typeof loader>();
     const actionData = useActionData<typeof action>();
-    const theme = actionData?.mode || data.theme;
-    console.log('theme', theme);
-
+    const theme = actionData?.mode || data?.theme;
 
     return (
         <html lang="en" className={clsx('w-full h-full font-mono', {
