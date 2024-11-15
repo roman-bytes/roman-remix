@@ -626,6 +626,10 @@ video {
   left: 0px;
 }
 
+.left-10{
+  left: 2.5rem;
+}
+
 .left-2\.5{
   left: 2.5rem;
 }
@@ -664,6 +668,10 @@ video {
 
 .top-\[-3px\]{
   top: -3px;
+}
+
+.right-10{
+  right: 2.5rem;
 }
 
 .-z-50{
@@ -784,6 +792,10 @@ video {
   height: 28.75rem;
 }
 
+.h-8{
+  height: 2rem;
+}
+
 .h-auto{
   height: auto;
 }
@@ -819,6 +831,10 @@ video {
 
 .w-3\/4{
   width: 75%;
+}
+
+.w-8{
+  width: 2rem;
 }
 
 .w-800{
@@ -918,6 +934,10 @@ video {
   overflow: hidden;
 }
 
+.rounded{
+  border-radius: 0.25rem;
+}
+
 .rounded-3xl{
   border-radius: 1.5rem;
 }
@@ -991,6 +1011,14 @@ video {
 
 .fill-current{
   fill: currentColor;
+}
+
+.fill-romanBlack{
+  fill: #1F242B;
+}
+
+.fill-romanPrimary{
+  fill: #DBA861;
 }
 
 .p-10{
@@ -1191,7 +1219,7 @@ video {
 
 .roman-grid {
   --size: 45px;
-  --line: color-mix(in lch, canvasText, transparent 90%);
+  --line: color-mix(in lch, #000000 25%, transparent 95%);
   background: linear-gradient(
       90deg,
       var(--line) 1px,
@@ -1492,4 +1520,27 @@ div[data-testid="terminal"] {
   .xl\:pl-0{
     padding-left: 0px;
   }
+}
+
+.dark\:border-romanPrimary:where(.dark, .dark *){
+  --tw-border-opacity: 1;
+  border-color: rgb(219 168 97 / var(--tw-border-opacity));
+}
+
+.dark\:bg-romanBlack:where(.dark, .dark *){
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 36 43 / var(--tw-bg-opacity));
+}
+
+.dark\:bg-opacity-80:where(.dark, .dark *){
+  --tw-bg-opacity: 0.8;
+}
+
+.dark\:fill-white:where(.dark, .dark *){
+  fill: #fff;
+}
+
+.dark\:text-white:where(.dark, .dark *){
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }

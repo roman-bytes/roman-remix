@@ -159,7 +159,7 @@ export default function Projects() {
             return (
                 <section key={repo.id} className="w-full lg:w-1/2 max-w-[400] max-h-[225] min-w-[400] min-h-[225] border border-dashed hover:border-solid hover:border-romanPrimary border-romanText p-6 mt-[-1px] ml-0 lg:ml-[-1px] relative">
                     <p className="text-md text-romanPrimary">{getLastUpdated(repo.updated_at)}</p>
-                    <h2 className="text-xl">{repo.name}</h2>
+                    <h2 className="text-xl dark:text-white">{repo.name}</h2>
                     <p className="mt-8 text-md text-romanPrimary">{repo.description ? repo.description : 'No description'}</p>
                     <footer className="flex justify-between items-center mt-36">
                         <div className="flex flex-row">
@@ -196,7 +196,7 @@ export default function Projects() {
         })
 
         return (
-            <div className="container relative border-2 border-romanBlack lg:rounded-3xl bg-white px-10 pt-10 lg:pt-32 lg:px-28 pb-28 lg:my-28">
+            <div className="container relative border-2 border-romanBlack dark:border-romanPrimary lg:rounded-3xl bg-white dark:bg-romanBlack px-10 pt-10 lg:pt-32 lg:px-28 pb-28 lg:my-28">
                 <div className="hidden lg:block absolute top-10 left-0 right-0 text-center text-romanPrimary mb-16">{`~ ${currentRoute.pathname} `}</div>
                 <RomanBytesLogo/>
                 <h1 className="text-romanBlack font-newMono font-bold text-2xl lg:hidden">Projects</h1>

@@ -7,10 +7,10 @@ export default function NewIndex() {
     const matches = useMatches();
     const currentRoute = matches[1];
   return (
-         <div className="container relative border-2 border-romanBlack lg:rounded-3xl bg-white p-10 lg:pt-32 lg:px-28 lg:pb-28">
+         <div className="container relative border-2 border-romanBlack dark:border-romanPrimary lg:rounded-3xl bg-white dark:bg-romanBlack p-10 lg:pt-32 lg:px-28 lg:pb-28">
              <div className="hidden lg:block absolute top-10 left-0 right-0 text-center text-romanPrimary">{`~ ${currentRoute.pathname} `}</div>
              <RomanBytesLogo />
-             <div className="font-newMono mt-20 w-full lg:w-5/12">
+             <div className="font-newMono mt-20 w-full lg:w-5/12 dark:text-white">
                  <p>
                      I’m Jacob Roman, also known as Roman Bytes, a Senior Digital Engineer with over a decade of
                      experience leading multiple teams to build high-performance web applications. I love clean design,

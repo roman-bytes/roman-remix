@@ -1,4 +1,5 @@
 module.exports = {
+    darkMode: 'selector',
     content: ['./app/**/*.{js,ts,jsx,tsx}'],
     theme: {
         fontFamily: {

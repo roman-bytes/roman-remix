@@ -7,26 +7,53 @@ import {
     ScrollRestoration,
     useCatch,
     useLoaderData,
+    useActionData,
 } from '@remix-run/react';
+import clsx from 'clsx';
 import Layout from './components/layout';
 import type { LinksFunction } from '@remix-run/node';
-import { json } from '@remix-run/node';
+import { json, type ActionFunctionArgs, type LoaderFunctionArgs } from '@remix-run/node';
+import { getThemeSession } from './utils/theme.server';
 
 import tailwindUrl from './styles/tailwind.css';
 import NewLayout from "~/components/new-layout";
+import SetMode from "~/components/set-mode";
 
-// https://remix.run/api/app#links
 export let links: LinksFunction = () => {
     return [{ rel: 'stylesheet', href: tailwindUrl }];
 };
 
-export async function loader() {
+export async function loader({ request }: LoaderFunctionArgs) {
+    const themeSession = await getThemeSession(request);
+    const theme = themeSession.getTheme();
+
     return json({
         ENV: {
             FEATURE_NEW_BRAND: process.env.FEATURE_NEW_BRAND,
-        }
+        },
+        theme: theme || 'SYSTEM'
     })
 }
+
+export async function action({ request }: ActionFunctionArgs) {
+    const themeSession = await getThemeSession(request);
+    const formData = await request.formData();
+    const theme = formData.get("theme");
+
+    if (typeof theme === 'string') {
+        themeSession.setTheme(theme);
+    }
+
+    return json(
+        { mode: theme },
+        {
+            headers: {
+                "Set-Cookie": await themeSession.commit(),
+            }
+        }
+    )
+}
+
 
 // https://remix.run/api/conventions#default-export
 // https://remix.run/api/conventions#route-filenames
@@ -149,9 +176,14 @@ function Document({
     title?: string;
 }) {
     const data = useLoaderData<typeof loader>();
+    const actionData = useActionData<typeof action>();
+    const theme = actionData?.mode || data.theme;
+
 
     return (
-        <html lang="en" className="w-full h-full font-mono">
+        <html lang="en" className={clsx('w-full h-full font-mono', {
+            dark: theme === 'DARK',
+        })}>
             <head>
                 <meta charSet="utf-8" />
                 <meta
@@ -162,11 +194,12 @@ function Document({
                 <Meta />
                 <Links />
             </head>
-            <body className={`${data?.ENV?.FEATURE_NEW_BRAND === 'true' ? 'bg-white roman-grid' : 'bg-romanBlack'} w-full h-full`}>
+            <body className={`${data?.ENV?.FEATURE_NEW_BRAND === 'true' ? 'bg-white dark:bg-romanBlack roman-grid' : 'bg-romanBlack'} w-full h-full`}>
                 {children}
                 <ScrollRestoration />
                 <Scripts />
                 {process.env.NODE_ENV === 'development' && <LiveReload />}
+                <SetMode mode={theme} />
             </body>
         </html>
     );

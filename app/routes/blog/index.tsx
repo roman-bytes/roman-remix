@@ -31,7 +31,7 @@ export default function Blog() {
     const currentRoute = matches[1];
 
     return (
-        <main className="container relative border-2 border-romanBlack lg:rounded-3xl bg-white pt-10 lg:pt-32 px-10 lg:px-28 pb-10 lg:pb-28 lg:my-28">
+        <main className="container relative border-2 border-romanBlack dark:border-romanPrimary lg:rounded-3xl bg-white dark:bg-romanBlack dark:text-white pt-10 lg:pt-32 px-10 lg:px-28 pb-10 lg:pb-28 lg:my-28">
             <div className="hidden lg:block absolute top-10 left-0 right-0 text-center text-romanPrimary mb-16">{`~ ${currentRoute.pathname} `}</div>
             <RomanBytesLogo/>
             <h1 className="font-newMono text-romanBlack text-2xl font-bold hidden lg:hidden">Blog</h1>

@@ -10,13 +10,14 @@ async function prepareApp() {
     return Promise.resolve();
 }
 
-prepareApp().then(() => {
-    startTransition(() => {
-        hydrateRoot(
-            document,
-            <StrictMode>
-                <RemixBrowser />
-            </StrictMode>,
-        )
-    })
-})
+// Increase the listener limit
+if (typeof window !== 'undefined') {
+  window.process?.setMaxListeners(20);
+}
+
+hydrateRoot(
+    document,
+    <StrictMode>
+      <RemixBrowser />
+    </StrictMode>
+  );
