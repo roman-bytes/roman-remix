@@ -9,12 +9,11 @@ export default function SetMode ({ mode }: SetModeProps) {
     const getPreferredTheme = () => {
         if (typeof window !== 'object') {
             // Default to DARK
-            return 'DARK';
+            return 'DARKEST';
         }
         
         return window.matchMedia(prefersDarkMQ).matches ? "DARK" : "LIGHT";
     }
-
     
     function getIcon(mode: string) {
         switch (mode) {
@@ -34,8 +33,10 @@ export default function SetMode ({ mode }: SetModeProps) {
         }
     }
 
-    const currentMode = mode || getPreferredTheme();
+    console.log('getPreferredTheme-after', getPreferredTheme());
 
+    const currentMode = mode || getPreferredTheme();
+    console.log('currentMode', currentMode);
     return (    
         <form method="post" className="w-8 h-8 rounded bg-white dark:bg-romanBlack absolute right-10 top-10">
             <input type='hidden' name="theme" value={currentMode === 'DARK' ? 'LIGHT' : 'DARK'} />

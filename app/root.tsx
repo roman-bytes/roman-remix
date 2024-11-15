@@ -26,12 +26,20 @@ export let links: LinksFunction = () => {
 export async function loader({ request }: LoaderFunctionArgs) {
     const themeSession = await getThemeSession(request);
     const theme = themeSession.getTheme();
-
+    const prefersDarkMQ = '(prefers-color-scheme: dark)';
+    const getPreferredTheme = () => {
+        if (typeof window !== 'object') {
+            // Default to DARK
+            return 'DARK';
+        }
+        
+        return window.matchMedia(prefersDarkMQ).matches ? "DARK" : "LIGHT";
+    }
     return json({
         ENV: {
             FEATURE_NEW_BRAND: process.env.FEATURE_NEW_BRAND,
         },
-        theme: theme || 'SYSTEM'
+        theme: theme || getPreferredTheme()
     })
 }
 
@@ -178,6 +186,7 @@ function Document({
     const data = useLoaderData<typeof loader>();
     const actionData = useActionData<typeof action>();
     const theme = actionData?.mode || data.theme;
+    console.log('theme', theme);
 
 
     return (
